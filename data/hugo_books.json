@@ -1,0 +1,6681 @@
+{
+  "total_books": 355,
+  "books": [
+    {
+      "id": "44092",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=44092",
+      "title": "The Tainted Cup",
+      "series": "Shadow of the Leviathan",
+      "publisher": "Del Rey",
+      "author": "Robert Jackson Bennett",
+      "genres": [
+        "Fantasy",
+        "Weird (Fantasy)"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "45319",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=45319",
+      "title": "Alien Clay",
+      "series": false,
+      "publisher": "Tor UK",
+      "author": "Adrian Tchaikovsky",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Human Development",
+        "Colonization"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "45258",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=45258",
+      "title": "The Ministry of Time",
+      "series": false,
+      "publisher": "Simon & Schuster",
+      "author": "Kaliane Bradley",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Alternate/Parallel Universe",
+        "Climate Fiction (Cli-Fi)"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "45111",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=45111",
+      "title": "Service Model",
+      "series": "Service Model",
+      "publisher": "Tor.com Publishing",
+      "author": "Adrian Tchaikovsky",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Robots/Androids",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "45325",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=45325",
+      "title": "Someone You Can Build a Nest In",
+      "series": false,
+      "publisher": "DAW Books",
+      "author": "John Wiswell",
+      "genres": [
+        "Fantasy / Horror",
+        "Romantic Fantasy",
+        "Monsters",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "46242",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=46242",
+      "title": "A Sorceress Comes to Call",
+      "series": false,
+      "publisher": "Tor",
+      "author": "T. Kingfisher",
+      "genres": [
+        "Fantasy",
+        "Fairytale Fantasy",
+        "Dark Fantasy",
+        "Historical Fantasy"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "43591",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=43591",
+      "title": "Some Desperate Glory",
+      "series": false,
+      "publisher": "Tor.com Publishing",
+      "author": "Emily Tesh",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Alternate/Parallel Universe",
+        "Military SF"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "43319",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=43319",
+      "title": "The Adventures of Amina al-Sirafi",
+      "series": "Amina al-Sirafi",
+      "publisher": "HarperCollins/Voyager",
+      "author": "Shannon Chakraborty",
+      "genres": [
+        "Fantasy",
+        "Historical Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "43951",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=43951",
+      "title": "The Saint of Bright Doors",
+      "series": false,
+      "publisher": "Tor.com Publishing",
+      "author": "Vajra Chandrasekera",
+      "genres": [
+        "Fantasy",
+        "Magical Realism",
+        "Urban Fantasy",
+        "Weird (Fantasy)"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "43460",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=43460",
+      "title": "Translation State",
+      "series": "Ancillary Universe",
+      "publisher": "Orbit",
+      "author": "Ann Leckie",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Artificial Intelligence",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "44021",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=44021",
+      "title": "Starter Villain",
+      "series": false,
+      "publisher": "Tor",
+      "author": "John Scalzi",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Light/Humorous SF",
+        "Uplift"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "43317",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=43317",
+      "title": "Witch King",
+      "series": "The Rising World",
+      "publisher": "Tor.com Publishing",
+      "author": "Martha Wells",
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39443",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=39443",
+      "title": "Nettle & Bone",
+      "series": false,
+      "publisher": "Tor",
+      "author": "T. Kingfisher",
+      "genres": [
+        "Fantasy",
+        "Fairytale Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Heroic Fantasy"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "40785",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=40785",
+      "title": "Legends & Lattes",
+      "series": "Legends & Lattes",
+      "publisher": "Tor",
+      "author": "Travis Baldree",
+      "genres": [
+        "Fantasy",
+        "Romantic Fantasy",
+        "Heroic Fantasy",
+        "Fantasy of Manners"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "40097",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=40097",
+      "title": "The Spare Man",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Mary Robinette Kowal",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Mundane SF",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39769",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=39769",
+      "title": "The Daughter of Doctor Moreau",
+      "series": false,
+      "publisher": "Del Rey",
+      "author": "Silvia Moreno-Garcia",
+      "genres": [
+        "Fantasy",
+        "Historical Fantasy",
+        "Romantic Fantasy",
+        "Magical Realism"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39523",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=39523",
+      "title": "Nona the Ninth",
+      "series": "The Locked Tomb",
+      "publisher": "Tor.com Publishing",
+      "author": "Tamsyn Muir",
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy",
+        "Weird (Fantasy)"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39429",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=39429",
+      "title": "The Kaiju Preservation Society",
+      "series": false,
+      "publisher": "Tor",
+      "author": "John Scalzi",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "37075",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=37075",
+      "title": "A Desolation Called Peace",
+      "series": "Teixcalaan",
+      "publisher": "Tor",
+      "author": "Arkady Martine",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "First Contact",
+        "Human Development"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "38790",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=38790",
+      "title": "Light From Uncommon Stars",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Ryka Aoki",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "First Contact",
+        "Science-Fantasy",
+        "Contemporary Fantasy"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "37669",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=37669",
+      "title": "The Galaxy, and the Ground Within",
+      "series": "Wayfarers",
+      "publisher": "HarperCollins/Voyager",
+      "author": "Becky Chambers",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF",
+        "Space Opera",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "37904",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=37904",
+      "title": "A Master of Djinn",
+      "series": "Dead Djinn Universe",
+      "publisher": "Tor.com Publishing",
+      "author": "P. DjÃ¨lÃ­ Clark",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)",
+        "Mythic Fiction (Fantasy)",
+        "Urban Fantasy"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "38804",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=38804",
+      "title": "She Who Became the Sun",
+      "series": "The Radiant Emperor",
+      "publisher": "Tor",
+      "author": "Shelley Parker-Chan",
+      "genres": [
+        "Fantasy",
+        "Historical Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Alternate History (Fantasy)"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "37599",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=37599",
+      "title": "Project Hail Mary",
+      "series": false,
+      "publisher": "Ballantine Books",
+      "author": "Andy Weir",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Hard SF",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "35202",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=35202",
+      "title": "Network Effect",
+      "series": "The Murderbot Diaries",
+      "publisher": "Tor.com Publishing",
+      "author": "Martha Wells",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Robots/Androids",
+        "Colonization"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "37161",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=37161",
+      "title": "Piranesi",
+      "series": false,
+      "publisher": "Bloomsbury Publishing",
+      "author": "Susanna Clarke",
+      "genres": [
+        "Fantasy",
+        "Weird (Fantasy)",
+        "Magical Realism",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "35830",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=35830",
+      "title": "The City We Became",
+      "series": "The Great Cities",
+      "publisher": "Orbit",
+      "author": "N. K. Jemisin",
+      "genres": [
+        "Fantasy",
+        "Urban Fantasy",
+        "Contemporary Fantasy",
+        "Weird (Fantasy)"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "35617",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=35617",
+      "title": "The Relentless Moon",
+      "series": "Lady Astronaut",
+      "publisher": "Tor",
+      "author": "Mary Robinette Kowal",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Colonization",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "35828",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=35828",
+      "title": "Harrow the Ninth",
+      "series": "The Locked Tomb",
+      "publisher": "Tor.com Publishing",
+      "author": "Tamsyn Muir",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Dark Fantasy",
+        "Weird (SF)",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "36616",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=36616",
+      "title": "Black Sun",
+      "series": "Between Earth and Sky",
+      "publisher": "Saga Press",
+      "author": "Rebecca Roanhorse",
+      "genres": [
+        "Fantasy",
+        "Historical Fantasy",
+        "High Fantasy",
+        "Alternate History (Fantasy)"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "31743",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=31743",
+      "title": "A Memory Called Empire",
+      "series": "Teixcalaan",
+      "publisher": "Tor",
+      "author": "Arkady Martine",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Immortality"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "31550",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=31550",
+      "title": "The City in the Middle of the Night",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Charlie Jane Anders",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Human Development",
+        "First Contact"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "35008",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=35008",
+      "title": "The Ten Thousand Doors of January",
+      "series": false,
+      "publisher": "Orbit",
+      "author": "Alix E. Harrow",
+      "genres": [
+        "Fantasy",
+        "Historical Fantasy",
+        "Juvenile Fantasy",
+        "Fairytale Fantasy"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "32056",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=32056",
+      "title": "The Light Brigade",
+      "series": false,
+      "publisher": "Saga Press",
+      "author": "Kameron Hurley",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Time Travel",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "32364",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=32364",
+      "title": "Middlegame",
+      "series": "Alchemical Journeys",
+      "publisher": "Tor.com Publishing",
+      "author": "Seanan McGuire",
+      "genres": [
+        "Fantasy",
+        "Contemporary Fantasy",
+        "Urban Fantasy",
+        "Fairytale Fantasy"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "32369",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=32369",
+      "title": "Gideon the Ninth",
+      "series": "The Locked Tomb",
+      "publisher": "Tor.com Publishing",
+      "author": "Tamsyn Muir",
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy",
+        "Sword and Sorcery",
+        "Weird (Fantasy)"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "26742",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=26742",
+      "title": "The Calculating Stars",
+      "series": "Lady Astronaut",
+      "publisher": "Tor",
+      "author": "Mary Robinette Kowal",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Space Exploration",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 2019,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "27083",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=27083",
+      "title": "Record of a Spaceborn Few",
+      "series": "Wayfarers",
+      "publisher": "Hodder & Stoughton",
+      "author": "Becky Chambers",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Space Opera",
+        "Generation Ship"
+      ],
+      "award": {
+        "year": 2019,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "27403",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=27403",
+      "title": "Revenant Gun",
+      "series": "The Machineries of Empire",
+      "publisher": "Solaris",
+      "author": "Yoon Ha Lee",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Galactic Empire",
+        "Military SF"
+      ],
+      "award": {
+        "year": 2019,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "27336",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=27336",
+      "title": "Spinning Silver",
+      "series": false,
+      "publisher": "Del Rey",
+      "author": "Naomi Novik",
+      "genres": [
+        "Fantasy",
+        "Fairytale Fantasy",
+        "Dark Fantasy",
+        "Magical Realism"
+      ],
+      "award": {
+        "year": 2019,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "27462",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=27462",
+      "title": "Trail of Lightning",
+      "series": "The Sixth World",
+      "publisher": "Saga Press",
+      "author": "Rebecca Roanhorse",
+      "genres": [
+        "Fantasy",
+        "Urban Fantasy",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 2019,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "27066",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=27066",
+      "title": "Space Opera",
+      "series": "Space Opera",
+      "publisher": "Saga Press",
+      "author": "Catherynne M. Valente",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF",
+        "First Contact",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2019,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "21477",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=21477",
+      "title": "The Stone Sky",
+      "series": "The Broken Earth",
+      "publisher": "Orbit",
+      "author": "N. K. Jemisin",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Dying Earth",
+        "Apocalyptic/Post-Apocalyptic",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 2018,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "20768",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=20768",
+      "title": "Six Wakes",
+      "series": false,
+      "publisher": "Orbit",
+      "author": "Mur Lafferty",
+      "genres": [
+        "Science-Fiction",
+        "Generation Ship",
+        "Mind Uploading",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2018,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "23126",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=23126",
+      "title": "Provenance",
+      "series": "Ancillary Universe",
+      "publisher": "Orbit",
+      "author": "Ann Leckie",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 2018,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "21908",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=21908",
+      "title": "Raven Stratagem",
+      "series": "The Machineries of Empire",
+      "publisher": "Solaris",
+      "author": "Yoon Ha Lee",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Military SF",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 2018,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "21480",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=21480",
+      "title": "New York 2140",
+      "series": false,
+      "publisher": "Orbit",
+      "author": "Kim Stanley Robinson",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Climate Fiction (Cli-Fi)",
+        "Dying Earth"
+      ],
+      "award": {
+        "year": 2018,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "18730",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=18730",
+      "title": "The Collapsing Empire",
+      "series": "Interdependency",
+      "publisher": "Tor",
+      "author": "John Scalzi",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 2018,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "18338",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=18338",
+      "title": "The Obelisk Gate",
+      "series": "The Broken Earth",
+      "publisher": "Orbit",
+      "author": "N. K. Jemisin",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Apocalyptic/Post-Apocalyptic",
+        "Dying Earth",
+        "Human Development"
+      ],
+      "award": {
+        "year": 2017,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "15927",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=15927",
+      "title": "All the Birds in the Sky",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Charlie Jane Anders",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Science-Fantasy",
+        "Apocalyptic/Post-Apocalyptic",
+        "Contemporary Fantasy"
+      ],
+      "award": {
+        "year": 2017,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "19162",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=19162",
+      "title": "A Closed and Common Orbit",
+      "series": "Wayfarers",
+      "publisher": "HarperCollins/Voyager",
+      "author": "Becky Chambers",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Space Opera",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2017,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "15634",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=15634",
+      "title": "Death's End",
+      "series": "Remembrance of Earth's Past",
+      "publisher": "Tor",
+      "author": "Cixin Liu",
+      "genres": [
+        "Science-Fiction",
+        "Alien Invasion",
+        "Apocalyptic/Post-Apocalyptic",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 2017,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "18574",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=18574",
+      "title": "Ninefox Gambit",
+      "series": "The Machineries of Empire",
+      "publisher": "Solaris",
+      "author": "Yoon Ha Lee",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Space Opera",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2017,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "18590",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=18590",
+      "title": "Too Like the Lightning",
+      "series": "Terra Ignota",
+      "publisher": "Tor",
+      "author": "Ada Palmer",
+      "genres": [
+        "Science-Fiction",
+        "Theological",
+        "Utopia",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 2017,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "13976",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=13976",
+      "title": "The Fifth Season",
+      "series": "The Broken Earth",
+      "publisher": "Subterranean Press",
+      "author": "N. K. Jemisin",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Apocalyptic/Post-Apocalyptic",
+        "Dying Earth",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 2016,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "11656",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=11656",
+      "title": "Ancillary Mercy",
+      "series": "Ancillary Universe: Imperial Radch",
+      "publisher": "Orbit",
+      "author": "Ann Leckie",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Galactic Empire",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2016,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "13760",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=13760",
+      "title": "The Aeronaut's Windlass",
+      "series": "The Cinder Spires",
+      "publisher": "Orbit",
+      "author": "Jim Butcher",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy",
+        "Urban Fantasy"
+      ],
+      "award": {
+        "year": 2016,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "11036",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=11036",
+      "title": "Seveneves",
+      "series": false,
+      "publisher": "William Morrow & Co.",
+      "author": "Neal Stephenson",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Hard SF",
+        "Dying Earth"
+      ],
+      "award": {
+        "year": 2016,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "11671",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=11671",
+      "title": "Uprooted",
+      "series": false,
+      "publisher": "Del Rey",
+      "author": "Naomi Novik",
+      "genres": [
+        "Fantasy",
+        "Fairytale Fantasy",
+        "Dark Fantasy",
+        "Magical Realism"
+      ],
+      "award": {
+        "year": 2016,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "9501",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=9501",
+      "title": "The Three-Body Problem",
+      "series": "Remembrance of Earth's Past",
+      "publisher": "Head of Zeus",
+      "author": "Cixin Liu",
+      "genres": [
+        "Science-Fiction",
+        "Alien Invasion",
+        "First Contact",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 2015,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "6624",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=6624",
+      "title": "The Goblin Emperor",
+      "series": "The Goblin Emperor",
+      "publisher": "Tor",
+      "author": "Katherine Addison",
+      "genres": [
+        "Fantasy",
+        "Fantasy of Manners",
+        "Mythic Fiction (Fantasy)",
+        "Fairytale Fantasy"
+      ],
+      "award": {
+        "year": 2015,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "9533",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=9533",
+      "title": "Ancillary Sword",
+      "series": "Ancillary Universe: Imperial Radch",
+      "publisher": "Orbit",
+      "author": "Ann Leckie",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Artificial Intelligence",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2015,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "6083",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=6083",
+      "title": "Skin Game",
+      "series": "The Dresden Files",
+      "publisher": "Roc",
+      "author": "Jim Butcher",
+      "genres": [
+        "Fantasy",
+        "Urban Fantasy",
+        "Contemporary Fantasy",
+        "Magical Realism"
+      ],
+      "award": {
+        "year": 2015,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "7391",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=7391",
+      "title": "The Dark Between the Stars",
+      "series": "Saga of Shadows",
+      "publisher": "Tor",
+      "author": "Kevin J. Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Alien Invasion"
+      ],
+      "award": {
+        "year": 2015,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "5744",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=5744",
+      "title": "Ancillary Justice",
+      "series": "Ancillary Universe: Imperial Radch",
+      "publisher": "Orbit",
+      "author": "Ann Leckie",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2014,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "5616",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=5616",
+      "title": "Neptune's Brood",
+      "series": "Saturn's Children",
+      "publisher": "Ace Books",
+      "author": "Charles Stross",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Space Opera",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2014,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "5533",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=5533",
+      "title": "Parasite",
+      "series": "Parasitology",
+      "publisher": "Orbit",
+      "author": "Mira Grant",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Human Development",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 2014,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "6947",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=6947",
+      "title": "Warbound",
+      "series": "The Grimnoir Chronicles",
+      "publisher": "Baen",
+      "author": "Larry Correia",
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2014,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "4424",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=4424",
+      "title": "A Memory of Light",
+      "series": "The Wheel of Time",
+      "publisher": "Tor",
+      "author": "Robert Jordan & Brandon Sanderson",
+      "genres": [
+        "Fantasy",
+        "High Fantasy",
+        "Heroic Fantasy",
+        "Sword and Sorcery"
+      ],
+      "award": {
+        "year": 2014,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "4486",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=4486",
+      "title": "Redshirts: A Novel with Three Codas",
+      "series": false,
+      "publisher": "Tor",
+      "author": "John Scalzi",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF",
+        "Alternate/Parallel Universe",
+        "Time Travel"
+      ],
+      "award": {
+        "year": 2013,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "3883",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=3883",
+      "title": "2312",
+      "series": false,
+      "publisher": "Orbit",
+      "author": "Kim Stanley Robinson",
+      "genres": [
+        "Science-Fiction",
+        "Terraforming",
+        "Artificial Intelligence",
+        "Colonization"
+      ],
+      "award": {
+        "year": 2013,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "4801",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=4801",
+      "title": "Blackout",
+      "series": "Newsflesh",
+      "publisher": "Orbit",
+      "author": "Mira Grant",
+      "genres": [
+        "Horror",
+        "Zombies",
+        "Post-Apocalyptic Horror",
+        "Man-Made Horrors"
+      ],
+      "award": {
+        "year": 2013,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "5250",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=5250",
+      "title": "Captain Vorpatril's Alliance",
+      "series": "The Vorkosigan Saga",
+      "publisher": "Baen",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Light/Humorous SF",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2013,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "4525",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=4525",
+      "title": "Throne of the Crescent Moon",
+      "series": false,
+      "publisher": "DAW Books",
+      "author": "Saladin Ahmed",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2013,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "3872",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=3872",
+      "title": "Among Others",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Jo Walton",
+      "genres": [
+        "Fantasy",
+        "Contemporary Fantasy",
+        "Magical Realism",
+        "Fairytale Fantasy"
+      ],
+      "award": {
+        "year": 2012,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "2999",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2999",
+      "title": "A Dance with Dragons",
+      "series": "A Song of Ice and Fire",
+      "publisher": "Bantam Dell Publishing Group",
+      "author": "George R. R. Martin",
+      "genres": [
+        "Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Historical Fantasy",
+        "Low Fantasy"
+      ],
+      "award": {
+        "year": 2012,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "3025",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=3025",
+      "title": "Deadline",
+      "series": "Newsflesh",
+      "publisher": "Orbit",
+      "author": "Mira Grant",
+      "genres": [
+        "Horror",
+        "Zombies",
+        "Post-Apocalyptic Horror",
+        "Man-Made Horrors"
+      ],
+      "award": {
+        "year": 2012,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "2534",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2534",
+      "title": "Embassytown",
+      "series": false,
+      "publisher": "Del Rey",
+      "author": "China MiÃ©ville",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "First Contact",
+        "Human Development"
+      ],
+      "award": {
+        "year": 2012,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "2988",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2988",
+      "title": "Leviathan Wakes",
+      "series": "The Expanse",
+      "publisher": "Orbit",
+      "author": "James S. A. Corey",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "First Contact",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 2012,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "2531",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2531",
+      "title": "Blackout",
+      "series": "Oxford Time Travel",
+      "publisher": "Spectra",
+      "author": "Connie Willis",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Alternate History (SF)",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2011,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "2173",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2173",
+      "title": "Cryoburn",
+      "series": "The Vorkosigan Saga",
+      "publisher": "Baen",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Immortality"
+      ],
+      "award": {
+        "year": 2011,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "2074",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2074",
+      "title": "The Dervish House",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Ian McDonald",
+      "genres": [
+        "Science-Fiction",
+        "Nanotechnology",
+        "Near-Future",
+        "Cyberpunk"
+      ],
+      "award": {
+        "year": 2011,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "2609",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2609",
+      "title": "Feed",
+      "series": "Newsflesh",
+      "publisher": "Orbit",
+      "author": "Mira Grant",
+      "genres": [
+        "Horror",
+        "Zombies",
+        "Post-Apocalyptic Horror",
+        "Man-Made Horrors"
+      ],
+      "award": {
+        "year": 2011,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "2321",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=2321",
+      "title": "The Hundred Thousand Kingdoms",
+      "series": "The Inheritance Trilogy",
+      "publisher": "Orbit",
+      "author": "N. K. Jemisin",
+      "genres": [
+        "Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Romantic Fantasy",
+        "High Fantasy"
+      ],
+      "award": {
+        "year": 2011,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1674",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1674",
+      "title": "The City & the City",
+      "series": false,
+      "publisher": "Del Rey",
+      "author": "China MiÃ©ville",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Dystopia",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2010,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1737",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1737",
+      "title": "The Windup Girl",
+      "series": "The Windup Universe",
+      "publisher": "Night Shade Books",
+      "author": "Paolo Bacigalupi",
+      "genres": [
+        "Science-Fiction",
+        "Dystopia",
+        "Apocalyptic/Post-Apocalyptic",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2010,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1707",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1707",
+      "title": "Boneshaker",
+      "series": "Clockwork Century",
+      "publisher": "Tor",
+      "author": "Cherie Priest",
+      "genres": [
+        "Science-Fiction",
+        "Steampunk",
+        "Alternate History (SF)",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 2010,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1711",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1711",
+      "title": "Julian Comstock: A Story of 22nd-Century America",
+      "series": "Julian Comstock",
+      "publisher": "Tor",
+      "author": "Robert Charles Wilson",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Dying Earth",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 2010,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1723",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1723",
+      "title": "Palimpsest",
+      "series": false,
+      "publisher": "Bantam Spectra",
+      "author": "Catherynne M. Valente",
+      "genres": [
+        "Fantasy",
+        "Contemporary Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Magical Realism"
+      ],
+      "award": {
+        "year": 2010,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1260",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1260",
+      "title": "WWW: Wake",
+      "series": "The WWW Trilogy",
+      "publisher": "Ace Books",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Hard SF",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2010,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1228",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1228",
+      "title": "The Graveyard Book",
+      "series": false,
+      "publisher": "Bloomsbury Publishing",
+      "author": "Neil Gaiman",
+      "genres": [
+        "Fantasy / Horror",
+        "Juvenile Fantasy",
+        "Contemporary Fantasy",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2009,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1216",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1216",
+      "title": "Anathem",
+      "series": false,
+      "publisher": "Atlantic Monthly Press",
+      "author": "Neal Stephenson",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Theological",
+        "Alien Invasion"
+      ],
+      "award": {
+        "year": 2009,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1219",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1219",
+      "title": "Little Brother",
+      "series": "Little Brother",
+      "publisher": "Tor",
+      "author": "Cory Doctorow",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Cyberpunk",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 2009,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1229",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1229",
+      "title": "Saturn's Children",
+      "series": "Saturn's Children",
+      "publisher": "Ace Books",
+      "author": "Charles Stross",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Robots/Androids",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 2009,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1230",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1230",
+      "title": "Zoe's Tale",
+      "series": "Old Man's War",
+      "publisher": "Tor",
+      "author": "John Scalzi",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Colonization",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2009,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1026",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1026",
+      "title": "The Yiddish Policemen's Union",
+      "series": false,
+      "publisher": "HarperCollins",
+      "author": "Michael Chabon",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)",
+        "Urban Fantasy",
+        "Historical Fantasy"
+      ],
+      "award": {
+        "year": 2008,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1036",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1036",
+      "title": "Brasyl",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Ian McDonald",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Near-Future",
+        "Human Development"
+      ],
+      "award": {
+        "year": 2008,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1037",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1037",
+      "title": "Rollback",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Near-Future",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 2008,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1038",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1038",
+      "title": "The Last Colony",
+      "series": "Old Man's War",
+      "publisher": "Tor",
+      "author": "John Scalzi",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Colonization",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2008,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1039",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1039",
+      "title": "Halting State",
+      "series": "Halting State",
+      "publisher": "Ace Books",
+      "author": "Charles Stross",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Hard SF",
+        "Cyberpunk"
+      ],
+      "award": {
+        "year": 2008,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1007",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1007",
+      "title": "Rainbows End",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Vernor Vinge",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Virtual Reality",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2007,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1003",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1003",
+      "title": "Blindsight",
+      "series": "Blindsight",
+      "publisher": "Tor",
+      "author": "Peter Watts",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Hard SF",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2007,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1004",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1004",
+      "title": "Eifelheim",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Michael Flynn",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Alternate History (SF)",
+        "Theological"
+      ],
+      "award": {
+        "year": 2007,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1005",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1005",
+      "title": "Glasshouse",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "Charles Stross",
+      "genres": [
+        "Science-Fiction",
+        "Singularity",
+        "Mind Uploading",
+        "Virtual Reality"
+      ],
+      "award": {
+        "year": 2007,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1006",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1006",
+      "title": "His Majesty's Dragon",
+      "series": "Temeraire",
+      "publisher": "Del Rey / Ballantine",
+      "author": "Naomi Novik",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)",
+        "Historical Fantasy",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 2007,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "812",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=812",
+      "title": "Spin",
+      "series": "The Spin Sequence",
+      "publisher": "Tor",
+      "author": "Robert Charles Wilson",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Dying Earth",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 2006,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "808",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=808",
+      "title": "Accelerando",
+      "series": "Macx Family",
+      "publisher": "Ace Books",
+      "author": "Charles Stross",
+      "genres": [
+        "Science-Fiction",
+        "Singularity",
+        "Hard SF",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2006,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "809",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=809",
+      "title": "A Feast for Crows",
+      "series": "A Song of Ice and Fire",
+      "publisher": "Bantam Spectra",
+      "author": "George R. R. Martin",
+      "genres": [
+        "Fantasy",
+        "High Fantasy",
+        "Historical Fantasy",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2006,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "810",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=810",
+      "title": "Learning the World",
+      "series": false,
+      "publisher": "Orbit",
+      "author": "Ken MacLeod",
+      "genres": [
+        "Science-Fiction",
+        "Generation Ship",
+        "First Contact",
+        "Colonization"
+      ],
+      "award": {
+        "year": 2006,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "811",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=811",
+      "title": "Old Man's War",
+      "series": "Old Man's War",
+      "publisher": "Tor",
+      "author": "John Scalzi",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Hard SF",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 2006,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "662",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=662",
+      "title": "Jonathan Strange & Mr. Norrell",
+      "series": false,
+      "publisher": "Bloomsbury Publishing",
+      "author": "Susanna Clarke",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)",
+        "Historical Fantasy",
+        "Fairytale Fantasy"
+      ],
+      "award": {
+        "year": 2005,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "663",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=663",
+      "title": "The Algebraist",
+      "series": false,
+      "publisher": "Orbit",
+      "author": "Iain M. Banks",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Galactic Empire",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2005,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "572",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=572",
+      "title": "Iron Council",
+      "series": "New Crobuzon",
+      "publisher": "Del Rey",
+      "author": "China MiÃ©ville",
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy",
+        "Weird (Fantasy)",
+        "Magical Realism"
+      ],
+      "award": {
+        "year": 2005,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "665",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=665",
+      "title": "Iron Sunrise",
+      "series": "Eschaton Series",
+      "publisher": "Ace Books",
+      "author": "Charles Stross",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Singularity",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 2005,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "573",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=573",
+      "title": "River of Gods",
+      "series": "India 2047",
+      "publisher": "Pyr",
+      "author": "Ian McDonald",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Near-Future",
+        "Cyberpunk"
+      ],
+      "award": {
+        "year": 2005,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "51",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=51",
+      "title": "Paladin of Souls",
+      "series": "The World of the Five Gods: Chalion",
+      "publisher": "Eos",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Fantasy",
+        "High Fantasy",
+        "Heroic Fantasy",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 2004,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "55",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=55",
+      "title": "Humans",
+      "series": "The Neanderthal Parallax",
+      "publisher": "Tor",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Human Development",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 2004,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "56",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=56",
+      "title": "Ilium",
+      "series": "The Ilium / Olympos Duology",
+      "publisher": "Eos",
+      "author": "Dan Simmons",
+      "genres": [
+        "Science-Fiction",
+        "Mythic Fiction (SF)",
+        "Artificial Intelligence",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 2004,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "54",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=54",
+      "title": "Blind Lake",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Robert Charles Wilson",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Near-Future",
+        "First Contact"
+      ],
+      "award": {
+        "year": 2004,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "57",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=57",
+      "title": "Singularity Sky",
+      "series": "Eschaton Series",
+      "publisher": "Ace Books",
+      "author": "Charles Stross",
+      "genres": [
+        "Science-Fiction",
+        "Singularity",
+        "Hard SF",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2004,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "50",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=50",
+      "title": "Hominids",
+      "series": "The Neanderthal Parallax",
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Human Development",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2003,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "58",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=58",
+      "title": "Bones of the Earth",
+      "series": false,
+      "publisher": "Eos",
+      "author": "Michael Swanwick",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2003,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "59",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=59",
+      "title": "Kiln People",
+      "series": false,
+      "publisher": "Tor",
+      "author": "David Brin",
+      "genres": [
+        "Science-Fiction",
+        "Mind Uploading",
+        "Robots/Androids",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2003,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "60",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=60",
+      "title": "The Scar",
+      "series": "New Crobuzon",
+      "publisher": "Del Rey",
+      "author": "China MiÃ©ville",
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy",
+        "Weird (Fantasy)",
+        "Contemporary Fantasy"
+      ],
+      "award": {
+        "year": 2003,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "61",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=61",
+      "title": "The Years of Rice and Salt",
+      "series": false,
+      "publisher": "Bantam UK",
+      "author": "Kim Stanley Robinson",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Alternate/Parallel Universe",
+        "Theological"
+      ],
+      "award": {
+        "year": 2003,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "49",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=49",
+      "title": "American Gods",
+      "series": "American Gods",
+      "publisher": "William Morrow & Co.",
+      "author": "Neil Gaiman",
+      "genres": [
+        "Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Contemporary Fantasy",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2002,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "62",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=62",
+      "title": "The Chronoliths",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Robert Charles Wilson",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Near-Future",
+        "Alternate/Parallel Universe"
+      ],
+      "award": {
+        "year": 2002,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "63",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=63",
+      "title": "Cosmonaut Keep",
+      "series": "The Engines of Light Trilogy",
+      "publisher": "Orbit",
+      "author": "Ken MacLeod",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Near-Future",
+        "First Contact"
+      ],
+      "award": {
+        "year": 2002,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "64",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=64",
+      "title": "The Curse of Chalion",
+      "series": "The World of the Five Gods: Chalion",
+      "publisher": "Eos",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Fantasy",
+        "High Fantasy",
+        "Heroic Fantasy",
+        "Historical Fantasy"
+      ],
+      "award": {
+        "year": 2002,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "65",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=65",
+      "title": "Passage",
+      "series": false,
+      "publisher": "Bantam UK",
+      "author": "Connie Willis",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Theological",
+        "Virtual Reality"
+      ],
+      "award": {
+        "year": 2002,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "66",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=66",
+      "title": "Perdido Street Station",
+      "series": "New Crobuzon",
+      "publisher": "Del Rey",
+      "author": "China MiÃ©ville",
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy",
+        "Weird (Fantasy)",
+        "Contemporary Fantasy"
+      ],
+      "award": {
+        "year": 2002,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "48",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=48",
+      "title": "Harry Potter and the Goblet of Fire",
+      "series": "Harry Potter",
+      "publisher": "Bloomsbury Publishing",
+      "author": "J. K. Rowling",
+      "genres": [
+        "Fantasy",
+        "Juvenile Fantasy",
+        "Contemporary Fantasy",
+        "Heroic Fantasy"
+      ],
+      "award": {
+        "year": 2001,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "67",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=67",
+      "title": "Calculating God",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Theological",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 2001,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "68",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=68",
+      "title": "Midnight Robber",
+      "series": false,
+      "publisher": "Warner Aspect",
+      "author": "Nalo Hopkinson",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Mythic Fiction (SF)",
+        "Nanotechnology"
+      ],
+      "award": {
+        "year": 2001,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "378",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=378",
+      "title": "The Sky Road",
+      "series": "The Fall Revolution",
+      "publisher": "Orbit",
+      "author": "Ken MacLeod",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Artificial Intelligence",
+        "Nanotechnology"
+      ],
+      "award": {
+        "year": 2001,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "138",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=138",
+      "title": "A Storm of Swords",
+      "series": "A Song of Ice and Fire",
+      "publisher": "Bantam Spectra",
+      "author": "George R. R. Martin",
+      "genres": [
+        "Fantasy",
+        "High Fantasy",
+        "Dark Fantasy",
+        "Historical Fantasy"
+      ],
+      "award": {
+        "year": 2001,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "47",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=47",
+      "title": "A Deepness in the Sky",
+      "series": "Zones of Thought",
+      "publisher": "Gollancz",
+      "author": "Vernor Vinge",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Hard SF",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 2000,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "70",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=70",
+      "title": "A Civil Campaign",
+      "series": "The Vorkosigan Saga",
+      "publisher": "Baen",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Light/Humorous SF",
+        "Military SF"
+      ],
+      "award": {
+        "year": 2000,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "71",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=71",
+      "title": "Cryptonomicon",
+      "series": false,
+      "publisher": "Avon",
+      "author": "Neal Stephenson",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Near-Future",
+        "Cyberpunk"
+      ],
+      "award": {
+        "year": 2000,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "72",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=72",
+      "title": "Darwin's Radio",
+      "series": "Darwin",
+      "publisher": "Ballantine Books",
+      "author": "Greg Bear",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Near-Future",
+        "Mutants"
+      ],
+      "award": {
+        "year": 2000,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "73",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=73",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "series": "Harry Potter",
+      "publisher": "Bloomsbury Publishing",
+      "author": "J. K. Rowling",
+      "genres": [
+        "Fantasy",
+        "Juvenile Fantasy",
+        "Contemporary Fantasy",
+        "Heroic Fantasy"
+      ],
+      "award": {
+        "year": 2000,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "46",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=46",
+      "title": "To Say Nothing of the Dog",
+      "series": "Oxford Time Travel",
+      "publisher": "Gollancz",
+      "author": "Connie Willis",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Light/Humorous SF",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1999,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "74",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=74",
+      "title": "Children of God",
+      "series": "Sparrow Series",
+      "publisher": "Black Swan",
+      "author": "Mary Doria Russell",
+      "genres": [
+        "Science-Fiction",
+        "Theological",
+        "First Contact",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1999,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "377",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=377",
+      "title": "Darwinia",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Robert Charles Wilson",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Alternate/Parallel Universe",
+        "Virtual Reality"
+      ],
+      "award": {
+        "year": 1999,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "75",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=75",
+      "title": "Distraction",
+      "series": false,
+      "publisher": "Bantam Spectra",
+      "author": "Bruce Sterling",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Near-Future",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1999,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "76",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=76",
+      "title": "Factoring Humanity",
+      "series": false,
+      "publisher": "Orb Books",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Artificial Intelligence",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1999,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "45",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=45",
+      "title": "Forever Peace",
+      "series": "Forever War",
+      "publisher": "Ace Books",
+      "author": "Joe Haldeman",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Dystopia",
+        "Cyberpunk"
+      ],
+      "award": {
+        "year": 1998,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "156",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=156",
+      "title": "City on Fire",
+      "series": "Metropolitan Series",
+      "publisher": "HarperPrism",
+      "author": "Walter Jon Williams",
+      "genres": [
+        "Science-Fiction"
+      ],
+      "award": {
+        "year": 1998,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "78",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=78",
+      "title": "Frameshift",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Near-Future",
+        "Mundane SF"
+      ],
+      "award": {
+        "year": 1998,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "79",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=79",
+      "title": "Jack Faust",
+      "series": false,
+      "publisher": "Avon",
+      "author": "Michael Swanwick",
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 1998,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "80",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=80",
+      "title": "The Rise of Endymion",
+      "series": "The Hyperion Cantos",
+      "publisher": "Bantam Spectra",
+      "author": "Dan Simmons",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Artificial Intelligence",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1998,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "44",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=44",
+      "title": "Blue Mars",
+      "series": "Mars Trilogy",
+      "publisher": "Bantam Spectra",
+      "author": "Kim Stanley Robinson",
+      "genres": [
+        "Science-Fiction",
+        "Terraforming",
+        "Colonization",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1997,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "81",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=81",
+      "title": "Holy Fire",
+      "series": false,
+      "publisher": "Orion Books",
+      "author": "Bruce Sterling",
+      "genres": [
+        "Science-Fiction",
+        "Immortality",
+        "Human Development",
+        "Cyberpunk"
+      ],
+      "award": {
+        "year": 1997,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "82",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=82",
+      "title": "Memory",
+      "series": "The Vorkosigan Saga",
+      "publisher": "Baen",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Galactic Empire",
+        "Military SF"
+      ],
+      "award": {
+        "year": 1997,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "83",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=83",
+      "title": "Remnant Population",
+      "series": false,
+      "publisher": "Simon & Schuster",
+      "author": "Elizabeth Moon",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Colonization",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1997,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "84",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=84",
+      "title": "Starplex",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "First Contact",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1997,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "43",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=43",
+      "title": "The Diamond Age",
+      "series": false,
+      "publisher": "Bantam Spectra",
+      "author": "Neal Stephenson",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Nanotechnology",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1996,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "85",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=85",
+      "title": "Brightness Reef",
+      "series": "The Uplift Trilogy",
+      "publisher": "Bantam Spectra",
+      "author": "David Brin",
+      "genres": [
+        "Science-Fiction",
+        "Uplift",
+        "Galactic Empire",
+        "Colonization"
+      ],
+      "award": {
+        "year": 1996,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "86",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=86",
+      "title": "Remake",
+      "series": false,
+      "publisher": "Bantam Spectra",
+      "author": "Connie Willis",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1996,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "163",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=163",
+      "title": "The Terminal Experiment",
+      "series": false,
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Robert J. Sawyer",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Artificial Intelligence",
+        "Mind Uploading"
+      ],
+      "award": {
+        "year": 1996,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "88",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=88",
+      "title": "The Time Ships",
+      "series": "Wells Sequels",
+      "publisher": "HarperCollins UK",
+      "author": "Stephen Baxter",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Hard SF",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1996,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "42",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=42",
+      "title": "Mirror Dance",
+      "series": "The Vorkosigan Saga",
+      "publisher": "Baen",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Galactic Empire",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1995,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "164",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=164",
+      "title": "Beggars and Choosers",
+      "series": "The Sleepless",
+      "publisher": "Tor",
+      "author": "Nancy Kress",
+      "genres": [
+        "Science-Fiction",
+        "Nanotechnology",
+        "Human Development",
+        "Immortality"
+      ],
+      "award": {
+        "year": 1995,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "90",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=90",
+      "title": "Brittle Innings",
+      "series": false,
+      "publisher": "Bantam UK",
+      "author": "Michael Bishop",
+      "genres": [
+        "Fantasy",
+        "Contemporary Fantasy",
+        "Historical Fantasy"
+      ],
+      "award": {
+        "year": 1995,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "91",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=91",
+      "title": "Mother of Storms",
+      "series": false,
+      "publisher": "Tor",
+      "author": "John Barnes",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Artificial Intelligence",
+        "Mind Uploading"
+      ],
+      "award": {
+        "year": 1995,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "92",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=92",
+      "title": "Towing Jehovah",
+      "series": "The Godhead Trilogy",
+      "publisher": "Harcourt, Brace & World",
+      "author": "James Morrow",
+      "genres": [
+        "Fantasy",
+        "Contemporary Fantasy",
+        "Comic Fantasy",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 1995,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "41",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=41",
+      "title": "Green Mars",
+      "series": "Mars Trilogy",
+      "publisher": "HarperCollins UK",
+      "author": "Kim Stanley Robinson",
+      "genres": [
+        "Science-Fiction",
+        "Terraforming",
+        "Colonization",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1994,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "93",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=93",
+      "title": "Beggars In Spain",
+      "series": "The Sleepless",
+      "publisher": "Morrow AvoNova",
+      "author": "Nancy Kress",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Near-Future",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1994,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "94",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=94",
+      "title": "Glory Season",
+      "series": false,
+      "publisher": "Orbit",
+      "author": "David Brin",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1994,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "95",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=95",
+      "title": "Moving Mars",
+      "series": "Queen of Angels",
+      "publisher": "Tor",
+      "author": "Greg Bear",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Colonization",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1994,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "96",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=96",
+      "title": "Virtual Light",
+      "series": "The Bridge Trilogy",
+      "publisher": "Bantam Spectra",
+      "author": "William Gibson",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Near-Future",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1994,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "40",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=40",
+      "title": "A Fire Upon the Deep",
+      "series": "Zones of Thought",
+      "publisher": "Gollancz",
+      "author": "Vernor Vinge",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Hard SF",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 1993,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "52",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=52",
+      "title": "Doomsday Book",
+      "series": "Oxford Time Travel",
+      "publisher": "Gollancz",
+      "author": "Connie Willis",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Near-Future",
+        "Alternate History (SF)"
+      ],
+      "award": {
+        "year": 1993,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "177",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=177",
+      "title": "China Mountain Zhang",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Maureen F. McHugh",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Near-Future",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1993,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "98",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=98",
+      "title": "Red Mars",
+      "series": "Mars Trilogy",
+      "publisher": "HarperCollins UK",
+      "author": "Kim Stanley Robinson",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Terraforming",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1993,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "99",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=99",
+      "title": "Steel Beach",
+      "series": "Eight Worlds",
+      "publisher": "Ace/Putnam",
+      "author": "John Varley",
+      "genres": [
+        "Science-Fiction",
+        "Science-Fantasy",
+        "Artificial Intelligence",
+        "Nanotechnology"
+      ],
+      "award": {
+        "year": 1993,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=39",
+      "title": "Barrayar",
+      "series": "Cordelia Vorkosigan (The Vorkosigan Saga)",
+      "publisher": "Baen",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Space Opera",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 1992,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "100",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=100",
+      "title": "All the Weyrs of Pern",
+      "series": "Pern",
+      "publisher": "Corgi Books",
+      "author": "Anne McCaffrey",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)"
+      ],
+      "award": {
+        "year": 1992,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "101",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=101",
+      "title": "Bone Dance",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "Emma Bull",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1992,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "102",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=102",
+      "title": "Stations of the Tide",
+      "series": false,
+      "publisher": "Asimov's Science Fiction",
+      "author": "Michael Swanwick",
+      "genres": [
+        "Science-Fiction",
+        "Science-Fantasy",
+        "Artificial Intelligence",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 1992,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "103",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=103",
+      "title": "The Summer Queen",
+      "series": "The Snow Queen Cycle",
+      "publisher": "Warner Questar",
+      "author": "Joan D. Vinge",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Mythic Fiction (SF)",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1992,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "104",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=104",
+      "title": "Xenocide",
+      "series": "Ender's Universe: Ender Wiggin",
+      "publisher": "Tor",
+      "author": "Orson Scott Card",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Human Development",
+        "Alien Invasion"
+      ],
+      "award": {
+        "year": 1992,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "38",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=38",
+      "title": "The Vor Game",
+      "series": "The Vorkosigan Saga",
+      "publisher": "Baen",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Space Opera",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 1991,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "105",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=105",
+      "title": "Earth",
+      "series": false,
+      "publisher": "Bantam Spectra",
+      "author": "David Brin",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Apocalyptic/Post-Apocalyptic",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1991,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "106",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=106",
+      "title": "The Fall of Hyperion",
+      "series": "The Hyperion Cantos",
+      "publisher": "Gollancz",
+      "author": "Dan Simmons",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Galactic Empire",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 1991,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "107",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=107",
+      "title": "Queen of Angels",
+      "series": "Queen of Angels",
+      "publisher": "Warner Questar",
+      "author": "Greg Bear",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Hard SF",
+        "Mind Uploading"
+      ],
+      "award": {
+        "year": 1991,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "108",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=108",
+      "title": "The Quiet Pools",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "Michael P. Kube-McDowell",
+      "genres": [
+        "Science-Fiction",
+        "Generation Ship"
+      ],
+      "award": {
+        "year": 1991,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "37",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=37",
+      "title": "Hyperion",
+      "series": "The Hyperion Cantos",
+      "publisher": "Gollancz",
+      "author": "Dan Simmons",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Galactic Empire",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1990,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "109",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=109",
+      "title": "The Boat of a Million Years",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Poul Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Immortality",
+        "Utopia",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1990,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "110",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=110",
+      "title": "A Fire in the Sun",
+      "series": "Budayeen: MarÃ®d Audran",
+      "publisher": "Doubleday Foundation",
+      "author": "George Alec Effinger",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1990,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "111",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=111",
+      "title": "Grass",
+      "series": "The Arbai Trilogy",
+      "publisher": "Gollancz",
+      "author": "Sheri S. Tepper",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Dystopia",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1990,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "112",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=112",
+      "title": "Prentice Alvin",
+      "series": "The Tales of Alvin Maker",
+      "publisher": "Tor",
+      "author": "Orson Scott Card",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)",
+        "Historical Fantasy",
+        "Heroic Fantasy"
+      ],
+      "award": {
+        "year": 1990,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "36",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=36",
+      "title": "Cyteen",
+      "series": "Alliance-Union: Unionside",
+      "publisher": "Warner Books",
+      "author": "C. J. Cherryh",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Immortality",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1989,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "113",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=113",
+      "title": "Falling Free",
+      "series": "Quaddies (The Vorkosigan Saga)",
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Lois McMaster Bujold",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Human Development",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1989,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "115",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=115",
+      "title": "Islands in the Net",
+      "series": false,
+      "publisher": "Morrow/Arbor House",
+      "author": "Bruce Sterling",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Near-Future",
+        "Military SF"
+      ],
+      "award": {
+        "year": 1989,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "116",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=116",
+      "title": "Mona Lisa Overdrive",
+      "series": "The Sprawl Trilogy",
+      "publisher": "Gollancz",
+      "author": "William Gibson",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Artificial Intelligence",
+        "Mind Uploading"
+      ],
+      "award": {
+        "year": 1989,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "117",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=117",
+      "title": "Red Prophet",
+      "series": "The Tales of Alvin Maker",
+      "publisher": "Tor",
+      "author": "Orson Scott Card",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)",
+        "Historical Fantasy",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 1989,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "35",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=35",
+      "title": "The Uplift War",
+      "series": "The Uplift Saga",
+      "publisher": "Phantasia Press",
+      "author": "David Brin",
+      "genres": [
+        "Science-Fiction",
+        "Uplift",
+        "Galactic Empire",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1988,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "118",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=118",
+      "title": "The Forge of God",
+      "series": "Forge of God",
+      "publisher": "Tor",
+      "author": "Greg Bear",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Apocalyptic/Post-Apocalyptic",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1988,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "119",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=119",
+      "title": "Seventh Son",
+      "series": "The Tales of Alvin Maker",
+      "publisher": "Tor",
+      "author": "Orson Scott Card",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)",
+        "Mythic Fiction (Fantasy)",
+        "Juvenile Fantasy"
+      ],
+      "award": {
+        "year": 1988,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "195",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=195",
+      "title": "The Urth of the New Sun",
+      "series": "The Book of the New Sun",
+      "publisher": "Tor",
+      "author": "Gene Wolfe",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Dying Earth",
+        "Science-Fantasy",
+        "Time Travel"
+      ],
+      "award": {
+        "year": 1988,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "121",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=121",
+      "title": "When Gravity Fails",
+      "series": "Budayeen: MarÃ®d Audran",
+      "publisher": "Arbor House",
+      "author": "George Alec Effinger",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Dystopia",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1988,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "34",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=34",
+      "title": "Speaker for the Dead",
+      "series": "Ender's Universe: Ender Wiggin",
+      "publisher": "Tor",
+      "author": "Orson Scott Card",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "First Contact",
+        "Alien Invasion"
+      ],
+      "award": {
+        "year": 1987,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "199",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=199",
+      "title": "Count Zero",
+      "series": "The Sprawl Trilogy",
+      "publisher": "Arbor House",
+      "author": "William Gibson",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Artificial Intelligence",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1987,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "375",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=375",
+      "title": "Marooned in Realtime",
+      "series": "Across Realtime",
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Vernor Vinge",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Apocalyptic/Post-Apocalyptic",
+        "Singularity"
+      ],
+      "award": {
+        "year": 1987,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "376",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=376",
+      "title": "The Ragged Astronauts",
+      "series": "Land and Overland",
+      "publisher": "Baen",
+      "author": "Bob Shaw",
+      "genres": [
+        "Science-Fiction",
+        "Steampunk"
+      ],
+      "award": {
+        "year": 1987,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "33",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=33",
+      "title": "Ender's Game",
+      "series": "Ender's Universe: Ender Wiggin",
+      "publisher": "Tor",
+      "author": "Orson Scott Card",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Alien Invasion",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1986,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "204",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=204",
+      "title": "Blood Music",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Greg Bear",
+      "genres": [
+        "Science-Fiction",
+        "Nanotechnology",
+        "Hard SF",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 1986,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "372",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=372",
+      "title": "Cuckoo's Egg",
+      "series": "Alliance-Union: Age of Exploration",
+      "publisher": "Phantasia Press",
+      "author": "C. J. Cherryh",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "First Contact",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1986,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "373",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=373",
+      "title": "Footfall",
+      "series": false,
+      "publisher": "Del Rey / Ballantine",
+      "author": "Larry Niven & Jerry Pournelle",
+      "genres": [
+        "Science-Fiction",
+        "Alien Invasion",
+        "Apocalyptic/Post-Apocalyptic",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1986,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "207",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=207",
+      "title": "The Postman",
+      "series": false,
+      "publisher": "Bantam Spectra",
+      "author": "David Brin",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Near-Future",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1986,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "32",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=32",
+      "title": "Neuromancer",
+      "series": "The Sprawl Trilogy",
+      "publisher": "Gollancz",
+      "author": "William Gibson",
+      "genres": [
+        "Science-Fiction",
+        "Cyberpunk",
+        "Artificial Intelligence",
+        "Virtual Reality"
+      ],
+      "award": {
+        "year": 1985,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "370",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=370",
+      "title": "Emergence",
+      "series": false,
+      "publisher": "New English Library",
+      "author": "David R. Palmer",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Near-Future",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1985,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "211",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=211",
+      "title": "The Integral Trees",
+      "series": "The State",
+      "publisher": "Del Rey / Ballantine",
+      "author": "Larry Niven",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Hard SF",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1985,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "212",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=212",
+      "title": "Job: A Comedy of Justice",
+      "series": false,
+      "publisher": "Del Rey / Ballantine",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Theological",
+        "Light/Humorous SF",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1985,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "371",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=371",
+      "title": "The Peace War",
+      "series": "Across Realtime",
+      "publisher": "Bluejay Books",
+      "author": "Vernor Vinge",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Hard SF",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 1985,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "31",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=31",
+      "title": "Startide Rising",
+      "series": "The Uplift Saga",
+      "publisher": "Bantam UK",
+      "author": "David Brin",
+      "genres": [
+        "Science-Fiction",
+        "Uplift",
+        "Space Exploration",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1984,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "369",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=369",
+      "title": "The Robots of Dawn",
+      "series": "Elijah Bailey / R. Daneel Olivaw",
+      "publisher": "Doubleday",
+      "author": "Isaac Asimov",
+      "genres": [
+        "Science-Fiction",
+        "Robots/Androids",
+        "Artificial Intelligence",
+        "Colonization"
+      ],
+      "award": {
+        "year": 1984,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "367",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=367",
+      "title": "Millennium",
+      "series": false,
+      "publisher": "Berkley Publishing Group",
+      "author": "John Varley",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Dying Earth",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1984,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "368",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=368",
+      "title": "Moreta: Dragonlady of Pern",
+      "series": "Pern",
+      "publisher": "Del Rey / Ballantine",
+      "author": "Anne McCaffrey",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 1984,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "218",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=218",
+      "title": "Tea with the Black Dragon",
+      "series": "Black Dragon",
+      "publisher": "Bantam UK",
+      "author": "R. A. MacAvoy",
+      "genres": [
+        "Fantasy",
+        "Contemporary Fantasy",
+        "Urban Fantasy",
+        "Mythic Fiction (Fantasy)"
+      ],
+      "award": {
+        "year": 1984,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "30",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=30",
+      "title": "Foundation's Edge",
+      "series": "The Foundation Series",
+      "publisher": "Doubleday",
+      "author": "Isaac Asimov",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Human Development",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1983,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "364",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=364",
+      "title": "2010: Odyssey Two",
+      "series": "Space Odyssey",
+      "publisher": "Ballantine Books",
+      "author": "Arthur C. Clarke",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "First Contact",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 1983,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "365",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=365",
+      "title": "Courtship Rite",
+      "series": "Courtship Rite",
+      "publisher": "Timescape Books",
+      "author": "Donald Kingsbury",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Colonization",
+        "Theological"
+      ],
+      "award": {
+        "year": 1983,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "221",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=221",
+      "title": "Friday",
+      "series": false,
+      "publisher": "Holt, Rinehart & Winston",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF",
+        "Human Development",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1983,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "366",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=366",
+      "title": "The Pride of Chanur",
+      "series": "Alliance-Union: The Chanur Series",
+      "publisher": "Phantasia Press",
+      "author": "C. J. Cherryh",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Space Opera",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 1983,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "223",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=223",
+      "title": "The Sword of the Lictor",
+      "series": "The Book of the New Sun",
+      "publisher": "Timescape Books",
+      "author": "Gene Wolfe",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Dying Earth",
+        "Science-Fantasy",
+        "Heroic Fantasy"
+      ],
+      "award": {
+        "year": 1983,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "29",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=29",
+      "title": "Downbelow Station",
+      "series": "Alliance-Union: Company Wars",
+      "publisher": "DAW Books",
+      "author": "C. J. Cherryh",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Space Exploration",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1982,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "225",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=225",
+      "title": "The Claw of the Conciliator",
+      "series": "The Book of the New Sun",
+      "publisher": "Timescape Books",
+      "author": "Gene Wolfe",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Dying Earth",
+        "Science-Fantasy",
+        "Mythic Fiction (SF)"
+      ],
+      "award": {
+        "year": 1982,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "226",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=226",
+      "title": "Little, Big",
+      "series": false,
+      "publisher": "Bantam UK",
+      "author": "John Crowley",
+      "genres": [
+        "Fantasy",
+        "Mythic Fiction (Fantasy)",
+        "Fairytale Fantasy",
+        "Urban Fantasy"
+      ],
+      "award": {
+        "year": 1982,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "227",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=227",
+      "title": "The Many-Colored Land",
+      "series": "The Saga of Pliocene Exile",
+      "publisher": "Houghton Mifflin",
+      "author": "Julian May",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Time Travel",
+        "Science-Fantasy",
+        "Mythic Fiction (SF)"
+      ],
+      "award": {
+        "year": 1982,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "363",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=363",
+      "title": "Project Pope",
+      "series": false,
+      "publisher": "Open Road Integrated Media",
+      "author": "Clifford D. Simak",
+      "genres": [
+        "Science-Fiction"
+      ],
+      "award": {
+        "year": 1982,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "28",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=28",
+      "title": "The Snow Queen",
+      "series": "The Snow Queen Cycle",
+      "publisher": "Dial Press",
+      "author": "Joan D. Vinge",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Colonization",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 1981,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "232",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=232",
+      "title": "Beyond the Blue Event Horizon",
+      "series": "The Heechee Saga",
+      "publisher": "Del Rey / Ballantine",
+      "author": "Frederik Pohl",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Hard SF",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1981,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "360",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=360",
+      "title": "Lord Valentine's Castle",
+      "series": "The Majipoor Cycle",
+      "publisher": "Harper & Row",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy",
+        "Romantic Fantasy"
+      ],
+      "award": {
+        "year": 1981,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "361",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=361",
+      "title": "The Ringworld Engineers",
+      "series": "Known Space: Ringworld",
+      "publisher": "Phantasia Press",
+      "author": "Larry Niven",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Mutants",
+        "Immortality"
+      ],
+      "award": {
+        "year": 1981,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "362",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=362",
+      "title": "Wizard",
+      "series": "The Gaean Trilogy",
+      "publisher": "Berkley/Putnam",
+      "author": "John Varley",
+      "genres": [
+        "Science-Fiction",
+        "Science-Fantasy",
+        "First Contact",
+        "Mythic Fiction (SF)"
+      ],
+      "award": {
+        "year": 1981,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "27",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=27",
+      "title": "The Fountains of Paradise",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Arthur C. Clarke",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Near-Future",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1980,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "359",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=359",
+      "title": "Harpist in the Wind",
+      "series": "The Riddle-Master Trilogy",
+      "publisher": "Atheneum",
+      "author": "Patricia A. McKillip",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy",
+        "High Fantasy",
+        "Sword and Sorcery"
+      ],
+      "award": {
+        "year": 1980,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "235",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=235",
+      "title": "Jem: The Making of a Utopia",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Frederik Pohl",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "First Contact",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1980,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "237",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=237",
+      "title": "On Wings of Song",
+      "series": "Masters of Science Fiction",
+      "publisher": "Carroll & Graf",
+      "author": "Thomas M. Disch",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Near-Future",
+        "Slipstream"
+      ],
+      "award": {
+        "year": 1980,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "239",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=239",
+      "title": "Titan",
+      "series": "The Gaean Trilogy",
+      "publisher": "Berkley/Putnam",
+      "author": "John Varley",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Science-Fantasy",
+        "Mythic Fiction (SF)"
+      ],
+      "award": {
+        "year": 1980,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "26",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=26",
+      "title": "Dreamsnake",
+      "series": "Snake",
+      "publisher": "Houghton Mifflin",
+      "author": "Vonda N. McIntyre",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Science-Fantasy",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1979,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "240",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=240",
+      "title": "Blind Voices",
+      "series": false,
+      "publisher": "Valancourt Books",
+      "author": "Tom Reamy",
+      "genres": [
+        "Fantasy / Horror",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1979,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "241",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=241",
+      "title": "The Faded Sun: Kesrith",
+      "series": "Alliance-Union: The Faded Sun Trilogy",
+      "publisher": "Galaxy Science Fiction",
+      "author": "C. J. Cherryh",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Military SF",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1979,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "358",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=358",
+      "title": "The White Dragon",
+      "series": "The Dragonriders of Pern Trilogy",
+      "publisher": "Del Rey / Ballantine",
+      "author": "Anne McCaffrey",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy",
+        "High Fantasy",
+        "Juvenile Fantasy"
+      ],
+      "award": {
+        "year": 1979,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "25",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=25",
+      "title": "Gateway",
+      "series": "The Heechee Saga",
+      "publisher": "Gollancz",
+      "author": "Frederik Pohl",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Hard SF",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1978,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "353",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=353",
+      "title": "Dying of the Light",
+      "series": "Thousand Worlds",
+      "publisher": "Gollancz",
+      "author": "George R. R. Martin",
+      "genres": [
+        "Science-Fiction",
+        "Dying Earth",
+        "Galactic Empire",
+        "Terraforming"
+      ],
+      "award": {
+        "year": 1978,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "354",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=354",
+      "title": "The Forbidden Tower",
+      "series": "The Darkover Series",
+      "publisher": "DAW Books",
+      "author": "Marion Zimmer Bradley",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Science-Fantasy",
+        "Pulp"
+      ],
+      "award": {
+        "year": 1978,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "355",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=355",
+      "title": "Lucifer's Hammer",
+      "series": false,
+      "publisher": "Playboy Press",
+      "author": "Larry Niven & Jerry Pournelle",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Hard SF",
+        "Dying Earth"
+      ],
+      "award": {
+        "year": 1978,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "356",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=356",
+      "title": "Time Storm",
+      "series": false,
+      "publisher": "St. Martin's Press",
+      "author": "Gordon R. Dickson",
+      "genres": [
+        "Science-Fiction"
+      ],
+      "award": {
+        "year": 1978,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "24",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=24",
+      "title": "Where Late the Sweet Birds Sang",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Kate Wilhelm",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Human Development",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1977,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "351",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=351",
+      "title": "Children of Dune",
+      "series": "Dune Chronicles",
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Frank Herbert",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Theological"
+      ],
+      "award": {
+        "year": 1977,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "248",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=248",
+      "title": "Man Plus",
+      "series": "Man Plus",
+      "publisher": "Gollancz",
+      "author": "Frederik Pohl",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Human Development",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1977,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "352",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=352",
+      "title": "Mindbridge",
+      "series": false,
+      "publisher": "St. Martin's Press",
+      "author": "Joe Haldeman",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Space Exploration",
+        "Uplift"
+      ],
+      "award": {
+        "year": 1977,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "251",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=251",
+      "title": "Shadrach in the Furnace",
+      "series": "Frontiers of Imagination",
+      "publisher": "Bison Books",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction",
+        "Dystopia",
+        "Human Development",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1977,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "23",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=23",
+      "title": "The Forever War",
+      "series": "Forever War",
+      "publisher": "Gollancz",
+      "author": "Joe Haldeman",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Hard SF",
+        "Time Travel"
+      ],
+      "award": {
+        "year": 1976,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "255",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=255",
+      "title": "The Computer Connection",
+      "series": false,
+      "publisher": "Berkley/Putnam",
+      "author": "Alfred Bester",
+      "genres": [
+        "Science-Fiction",
+        "Immortality",
+        "Mind Uploading",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 1976,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "257",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=257",
+      "title": "Doorways in the Sand",
+      "series": false,
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Roger Zelazny",
+      "genres": [
+        "Science-Fiction",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1976,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "249",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=249",
+      "title": "Inferno",
+      "series": "Inferno",
+      "publisher": "Pocket Books",
+      "author": "Larry Niven & Jerry Pournelle",
+      "genres": [
+        "Science-Fiction",
+        "Theological",
+        "Dystopia",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 1976,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "269",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=269",
+      "title": "The Stochastic Man",
+      "series": false,
+      "publisher": "Harper & Row",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction",
+        "Near-Future",
+        "Dystopia",
+        "Alternate/Parallel Universe"
+      ],
+      "award": {
+        "year": 1976,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "22",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=22",
+      "title": "The Dispossessed: An Ambiguous Utopia",
+      "series": "Hainish Cycle",
+      "publisher": "Gollancz",
+      "author": "Ursula K. Le Guin",
+      "genres": [
+        "Science-Fiction",
+        "Utopia",
+        "Dystopia",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1975,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "349",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=349",
+      "title": "Fire Time",
+      "series": "Gunnar Heim",
+      "publisher": "Doubleday",
+      "author": "Poul Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Space Exploration",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1975,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "271",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=271",
+      "title": "Flow My Tears, the Policeman Said",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Philip K. Dick",
+      "genres": [
+        "Science-Fiction",
+        "Dystopia",
+        "Alternate/Parallel Universe",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1975,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "350",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=350",
+      "title": "The Inverted World",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Christopher Priest",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Dystopia",
+        "Dying Earth"
+      ],
+      "award": {
+        "year": 1975,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "267",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=267",
+      "title": "The Mote in God's Eye",
+      "series": "The Moties",
+      "publisher": "Simon & Schuster",
+      "author": "Larry Niven & Jerry Pournelle",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Space Exploration",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1975,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "21",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=21",
+      "title": "Rendezvous with Rama",
+      "series": "Rama Series",
+      "publisher": "Gollancz",
+      "author": "Arthur C. Clarke",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Hard SF",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1974,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "274",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=274",
+      "title": "The Man Who Folded Himself",
+      "series": false,
+      "publisher": "Benbella Books",
+      "author": "David Gerrold",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Alternate/Parallel Universe",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1974,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "275",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=275",
+      "title": "The People of the Wind",
+      "series": "Technic Civilization: Avalon",
+      "publisher": "Signet",
+      "author": "Poul Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Hard SF",
+        "Military SF"
+      ],
+      "award": {
+        "year": 1974,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "348",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=348",
+      "title": "Protector",
+      "series": "Known Space",
+      "publisher": "Ballantine Books",
+      "author": "Larry Niven",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Alien Invasion",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1974,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "276",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=276",
+      "title": "Time Enough for Love",
+      "series": false,
+      "publisher": "G. P. Putnam's Sons",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Immortality",
+        "Time Travel",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1974,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "20",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=20",
+      "title": "The Gods Themselves",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Isaac Asimov",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "First Contact",
+        "Alternate/Parallel Universe"
+      ],
+      "award": {
+        "year": 1973,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "277",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=277",
+      "title": "The Book of Skulls",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction / Fantasy / Horror",
+        "Immortality",
+        "Occult",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 1973,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "346",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=346",
+      "title": "A Choice of Gods",
+      "series": false,
+      "publisher": "G. P. Putnam's Sons",
+      "author": "Clifford D. Simak",
+      "genres": [
+        "Science-Fiction",
+        "Robots/Androids",
+        "Theological",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 1973,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "278",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=278",
+      "title": "Dying Inside",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Soft SF",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1973,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "347",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=347",
+      "title": "There Will Be Time",
+      "series": "Maurai",
+      "publisher": "Signet",
+      "author": "Poul Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Apocalyptic/Post-Apocalyptic",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1973,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "282",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=282",
+      "title": "When Harlie Was One",
+      "series": false,
+      "publisher": "Ballantine Books",
+      "author": "David Gerrold",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Singularity",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1973,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "19",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=19",
+      "title": "To Your Scattered Bodies Go",
+      "series": "The Riverworld Saga",
+      "publisher": "G. P. Putnam's Sons",
+      "author": "Philip JosÃ© Farmer",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Theological",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1972,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "343",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=343",
+      "title": "Dragonquest",
+      "series": "The Dragonriders of Pern Trilogy",
+      "publisher": "Ballantine Books",
+      "author": "Anne McCaffrey",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy",
+        "High Fantasy",
+        "Juvenile Fantasy"
+      ],
+      "award": {
+        "year": 1972,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "344",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=344",
+      "title": "Jack of Shadows",
+      "series": false,
+      "publisher": "Signet",
+      "author": "Roger Zelazny",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Dark Fantasy",
+        "Heroic Fantasy",
+        "Dying Earth"
+      ],
+      "award": {
+        "year": 1972,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "287",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=287",
+      "title": "The Lathe of Heaven",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Ursula K. Le Guin",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Human Development",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1972,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "283",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=283",
+      "title": "A Time of Changes",
+      "series": false,
+      "publisher": "Galaxy Science Fiction",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction",
+        "Soft SF",
+        "Human Development",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1972,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "18",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=18",
+      "title": "Ringworld",
+      "series": "Known Space: Ringworld",
+      "publisher": "Gollancz",
+      "author": "Larry Niven",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Hard SF",
+        "Terraforming"
+      ],
+      "award": {
+        "year": 1971,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "341",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=341",
+      "title": "Star Light",
+      "series": "Mesklin",
+      "publisher": "Ballantine Books",
+      "author": "Hal Clement",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Colonization",
+        "Uplift"
+      ],
+      "award": {
+        "year": 1971,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "342",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=342",
+      "title": "Tau Zero",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Poul Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Space Exploration",
+        "Singularity"
+      ],
+      "award": {
+        "year": 1971,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "292",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=292",
+      "title": "Tower of Glass",
+      "series": false,
+      "publisher": "Galaxy Science Fiction",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction",
+        "Robots/Androids",
+        "First Contact",
+        "Theological"
+      ],
+      "award": {
+        "year": 1971,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "293",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=293",
+      "title": "The Year of the Quiet Sun",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "Wilson Tucker",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Time Travel",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1971,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "17",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=17",
+      "title": "The Left Hand of Darkness",
+      "series": "Hainish Cycle",
+      "publisher": "Gollancz",
+      "author": "Ursula K. Le Guin",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Human Development",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1970,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "337",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=337",
+      "title": "Bug Jack Barron",
+      "series": false,
+      "publisher": "Avon",
+      "author": "Norman Spinrad",
+      "genres": [
+        "Science-Fiction",
+        "Immortality",
+        "Dystopia",
+        "Pulp"
+      ],
+      "award": {
+        "year": 1970,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "338",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=338",
+      "title": "Macroscope",
+      "series": false,
+      "publisher": "Avon",
+      "author": "Piers Anthony",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Science-Fantasy",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1970,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "339",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=339",
+      "title": "Slaughterhouse-Five: or The Children's Crusade: A Duty-Dance with Death",
+      "series": false,
+      "publisher": "Dell Publishing",
+      "author": "Kurt Vonnegut",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Slipstream",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1970,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "340",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=340",
+      "title": "Up the Line",
+      "series": false,
+      "publisher": "Ballantine Books",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Alternate History (SF)",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1970,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "16",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=16",
+      "title": "Stand on Zanzibar",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "John Brunner",
+      "genres": [
+        "Science-Fiction",
+        "Dystopia",
+        "Dying Earth",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1969,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "333",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=333",
+      "title": "The Goblin Reservation",
+      "series": "Masters of Science Fiction",
+      "publisher": "Open Road Integrated Media",
+      "author": "Clifford D. Simak",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF",
+        "Science-Fantasy",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1969,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "334",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=334",
+      "title": "Nova",
+      "series": "Gregg Press Science Fiction Series",
+      "publisher": "Gollancz",
+      "author": "Samuel R. Delany",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1969,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "335",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=335",
+      "title": "Past Master",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "R. A. Lafferty",
+      "genres": [
+        "Science-Fiction",
+        "Dystopia",
+        "Time Travel"
+      ],
+      "award": {
+        "year": 1969,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "336",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=336",
+      "title": "Rite of Passage",
+      "series": "Gregg Press Science Fiction Series",
+      "publisher": "Gregg Press",
+      "author": "Alexei Panshin",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Human Development",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1969,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "15",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=15",
+      "title": "Lord of Light",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Roger Zelazny",
+      "genres": [
+        "Science-Fiction",
+        "Mythic Fiction (SF)",
+        "Immortality",
+        "Theological"
+      ],
+      "award": {
+        "year": 1968,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "329",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=329",
+      "title": "The Butterfly Kid",
+      "series": false,
+      "publisher": "Pyramid Books",
+      "author": "Chester Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Alien Invasion",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1968,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "330",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=330",
+      "title": "Chthon",
+      "series": "Aton",
+      "publisher": "Ballantine Books",
+      "author": "Piers Anthony",
+      "genres": [
+        "Science-Fiction",
+        "Science-Fantasy",
+        "Mythic Fiction (SF)",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1968,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "331",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=331",
+      "title": "The Einstein Intersection",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "Samuel R. Delany",
+      "genres": [
+        "Science-Fiction",
+        "Mythic Fiction (SF)",
+        "Science-Fantasy",
+        "Apocalyptic/Post-Apocalyptic"
+      ],
+      "award": {
+        "year": 1968,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "332",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=332",
+      "title": "Thorns",
+      "series": false,
+      "publisher": "Ballantine Books",
+      "author": "Robert Silverberg",
+      "genres": [
+        "Science-Fiction",
+        "Soft SF",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1968,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "14",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=14",
+      "title": "The Moon is a Harsh Mistress",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Artificial Intelligence",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1967,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "324",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=324",
+      "title": "Babel-17",
+      "series": "Gregg Press Science Fiction Series",
+      "publisher": "Gollancz",
+      "author": "Samuel R. Delany",
+      "genres": [
+        "Science-Fiction",
+        "Space Opera",
+        "Military SF",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1967,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "325",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=325",
+      "title": "Day of the Minotaur",
+      "series": "The Minotaur Trilogy",
+      "publisher": "Ace Books",
+      "author": "Thomas Burnett Swann",
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 1967,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "326",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=326",
+      "title": "Flowers for Algernon",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Daniel Keyes",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Uplift",
+        "Artificial Intelligence"
+      ],
+      "award": {
+        "year": 1967,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "327",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=327",
+      "title": "Too Many Magicians",
+      "series": "Lord Darcy",
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Randall Garrett",
+      "genres": [
+        "Fantasy",
+        "Alternate History (Fantasy)"
+      ],
+      "award": {
+        "year": 1967,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "328",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=328",
+      "title": "The Witches of Karres",
+      "series": "Karres",
+      "publisher": "Baen",
+      "author": "James H. Schmitz",
+      "genres": [
+        "Science-Fiction",
+        "Science-Fantasy",
+        "Space Opera",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1967,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "13",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=13",
+      "title": "Dune",
+      "series": "Dune Chronicles",
+      "publisher": "Gollancz",
+      "author": "Frank Herbert",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1966,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "12",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=12",
+      "title": "This Immortal",
+      "series": false,
+      "publisher": "Ace Books",
+      "author": "Roger Zelazny",
+      "genres": [
+        "Science-Fiction",
+        "Immortality",
+        "Apocalyptic/Post-Apocalyptic",
+        "Dying Earth"
+      ],
+      "award": {
+        "year": 1966,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "14",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=14",
+      "title": "The Moon is a Harsh Mistress",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Artificial Intelligence",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1967,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "322",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=322",
+      "title": "Skylark DuQuesne",
+      "series": "Skylark Series",
+      "publisher": "If",
+      "author": "E. E. \"Doc\" Smith",
+      "genres": [
+        "Science-Fiction",
+        "Pulp",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1966,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "323",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=323",
+      "title": "The Squares of the City",
+      "series": false,
+      "publisher": "Ballantine Books",
+      "author": "John Brunner",
+      "genres": [
+        "Science-Fiction",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1966,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "11",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=11",
+      "title": "The Wanderer",
+      "series": false,
+      "publisher": "Ballantine Books",
+      "author": "Fritz Leiber",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "First Contact",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1965,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "319",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=319",
+      "title": "Davy",
+      "series": "Tales of a Darkening World",
+      "publisher": "St. Martin's Press",
+      "author": "Edgar Pangborn",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Light/Humorous SF",
+        "Theological"
+      ],
+      "award": {
+        "year": 1965,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "320",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=320",
+      "title": "The Planet Buyer",
+      "series": "The Instrumentality of Mankind: Rod McBan",
+      "publisher": "Pyramid Books",
+      "author": "Cordwainer Smith",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF",
+        "Dystopia",
+        "Uplift"
+      ],
+      "award": {
+        "year": 1965,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "321",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=321",
+      "title": "The Whole Man",
+      "series": false,
+      "publisher": "Ballantine Books",
+      "author": "John Brunner",
+      "genres": [
+        "Science-Fiction",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1965,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "10",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=10",
+      "title": "Way Station",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Clifford D. Simak",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Immortality",
+        "Alternate History (SF)"
+      ],
+      "award": {
+        "year": 1964,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "315",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=315",
+      "title": "Cat's Cradle",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Kurt Vonnegut",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Light/Humorous SF",
+        "Theological"
+      ],
+      "award": {
+        "year": 1964,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "316",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=316",
+      "title": "Dune: Dune World & The Prophet of Dune",
+      "series": "Dune Chronicles",
+      "publisher": "Analog Science Fiction and Fact",
+      "author": "Frank Herbert",
+      "genres": [
+        "Science-Fiction",
+        "Galactic Empire",
+        "Space Opera",
+        "Military SF"
+      ],
+      "award": {
+        "year": 1964,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "317",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=317",
+      "title": "Glory Road",
+      "series": false,
+      "publisher": "G. P. Putnam's Sons",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Alternate/Parallel Universe",
+        "Science-Fantasy",
+        "Pulp"
+      ],
+      "award": {
+        "year": 1964,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "318",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=318",
+      "title": "Witch World",
+      "series": "Witch World: Estcarp Cycle",
+      "publisher": "Ace Books",
+      "author": "Andre Norton",
+      "genres": [
+        "Fantasy",
+        "Heroic Fantasy"
+      ],
+      "award": {
+        "year": 1964,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "9",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=9",
+      "title": "The Man in the High Castle",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Philip K. Dick",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Dystopia",
+        "Military SF"
+      ],
+      "award": {
+        "year": 1963,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "311",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=311",
+      "title": "A Fall of Moondust",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Arthur C. Clarke",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Colonization",
+        "Space Exploration"
+      ],
+      "award": {
+        "year": 1963,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "312",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=312",
+      "title": "Little Fuzzy",
+      "series": "Fuzzy Series",
+      "publisher": "Avon",
+      "author": "H. Beam Piper",
+      "genres": [
+        "Science-Fiction",
+        "First Contact",
+        "Colonization",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1963,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "313",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=313",
+      "title": "The Sword of Aldones",
+      "series": "The Darkover Series",
+      "publisher": "Ace Books",
+      "author": "Marion Zimmer Bradley",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1963,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "314",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=314",
+      "title": "Sylva",
+      "series": false,
+      "publisher": "G. P. Putnam's Sons",
+      "author": "Vercors",
+      "genres": [
+        "Science-Fiction",
+        "Human Development"
+      ],
+      "award": {
+        "year": 1963,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "8",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=8",
+      "title": "Stranger in a Strange Land",
+      "series": false,
+      "publisher": "G. P. Putnam's Sons",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Theological",
+        "Human Development",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1962,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "307",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=307",
+      "title": "Dark Universe",
+      "series": "Gregg Press Science Fiction Series",
+      "publisher": "Gregg Press",
+      "author": "Daniel F. Galouye",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Human Development",
+        "Mutants"
+      ],
+      "award": {
+        "year": 1962,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "308",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=308",
+      "title": "Time Is the Simplest Thing",
+      "series": false,
+      "publisher": "Open Road Integrated Media",
+      "author": "Clifford D. Simak",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Human Development",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1962,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "309",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=309",
+      "title": "Second Ending",
+      "series": false,
+      "publisher": "Fantastic",
+      "author": "James White",
+      "genres": [
+        "Science-Fiction"
+      ],
+      "award": {
+        "year": 1962,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "310",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=310",
+      "title": "Planet of the Damned",
+      "series": "Brion Brandd",
+      "publisher": "Bantam Books",
+      "author": "Harry Harrison",
+      "genres": [
+        "Science-Fiction",
+        "Mutants",
+        "Pulp",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1962,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "7",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=7",
+      "title": "A Canticle for Leibowitz",
+      "series": "Leibowitz",
+      "publisher": "Gollancz",
+      "author": "Walter M. Miller, Jr.",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Theological",
+        "Dystopia"
+      ],
+      "award": {
+        "year": 1961,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "303",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=303",
+      "title": "Deathworld 1",
+      "series": "Deathworld",
+      "publisher": "Benbella Books",
+      "author": "Harry Harrison",
+      "genres": [
+        "Science-Fiction",
+        "Colonization",
+        "Space Exploration",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1961,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "304",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=304",
+      "title": "The High Crusade",
+      "series": false,
+      "publisher": "Astounding Science Fiction (Analog)",
+      "author": "Poul Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF",
+        "Military SF",
+        "Colonization"
+      ],
+      "award": {
+        "year": 1961,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "305",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=305",
+      "title": "Rogue Moon",
+      "series": "SF Rediscovery",
+      "publisher": "Gollancz",
+      "author": "Algis Budrys",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Hard SF",
+        "First Contact"
+      ],
+      "award": {
+        "year": 1961,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "306",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=306",
+      "title": "Venus Plus X",
+      "series": "Gregg Press Science Fiction Series",
+      "publisher": "Gregg Press",
+      "author": "Theodore Sturgeon",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Utopia",
+        "Time Travel"
+      ],
+      "award": {
+        "year": 1961,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "6",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=6",
+      "title": "Starship Troopers",
+      "series": "Heinlein Juveniles",
+      "publisher": "Gollancz",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Alien Invasion",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1960,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "299",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=299",
+      "title": "Dorsai!",
+      "series": "The Dorsai / Childe Cycle",
+      "publisher": "Doubleday",
+      "author": "Gordon R. Dickson",
+      "genres": [
+        "Science-Fiction",
+        "Military SF",
+        "Human Development",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 1960,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "300",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=300",
+      "title": "The Pirates of Zan",
+      "series": false,
+      "publisher": "Wildside Press",
+      "author": "Murray Leinster",
+      "genres": [
+        "Science-Fiction",
+        "Pulp",
+        "Space Opera",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1960,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "301",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=301",
+      "title": "The Sirens of Titan",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Kurt Vonnegut",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Slipstream",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1960,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "302",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=302",
+      "title": "Brain Twister",
+      "series": "Psi-Power",
+      "publisher": "Carroll & Graf",
+      "author": "Mark Phillips",
+      "genres": [
+        "Science-Fiction",
+        "Pulp",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1960,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "5",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=5",
+      "title": "A Case of Conscience",
+      "series": "After Such Knowledge",
+      "publisher": "Gollancz",
+      "author": "James Blish",
+      "genres": [
+        "Science-Fiction",
+        "Theological",
+        "First Contact",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1959,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "295",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=295",
+      "title": "Have Space Suit - Will Travel",
+      "series": "Heinlein Juveniles",
+      "publisher": "Scribner",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Space Exploration",
+        "Hard SF",
+        "Science-Fantasy"
+      ],
+      "award": {
+        "year": 1959,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "296",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=296",
+      "title": "Immortality, Inc.",
+      "series": false,
+      "publisher": "Galaxy Science Fiction",
+      "author": "Robert Sheckley",
+      "genres": [
+        "Science-Fiction",
+        "Immortality",
+        "Light/Humorous SF",
+        "Cyberpunk"
+      ],
+      "award": {
+        "year": 1959,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "297",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=297",
+      "title": "The Enemy Stars",
+      "series": "David Ryerson",
+      "publisher": "Astounding Science Fiction (Analog)",
+      "author": "Poul Anderson",
+      "genres": [
+        "Science-Fiction",
+        "Hard SF",
+        "Space Exploration",
+        "Colonization"
+      ],
+      "award": {
+        "year": 1959,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "298",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=298",
+      "title": "Who?",
+      "series": false,
+      "publisher": "Pyramid Books",
+      "author": "Algis Budrys",
+      "genres": [
+        "Science-Fiction",
+        "Alternate History (SF)",
+        "Soft SF",
+        "Military SF"
+      ],
+      "award": {
+        "year": 1959,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "4",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=4",
+      "title": "The Big Time",
+      "series": "Gregg Press Science Fiction Series",
+      "publisher": "Gregg Press",
+      "author": "Fritz Leiber",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Alternate/Parallel Universe",
+        "Immortality"
+      ],
+      "award": {
+        "year": 1958,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "294",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=294",
+      "title": "Double Star",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Robert A. Heinlein",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Light/Humorous SF",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1956,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "14667",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=14667",
+      "title": "Three to Conquer",
+      "series": false,
+      "publisher": "Corgi Books",
+      "author": "Eric Frank Russell",
+      "genres": [
+        "Science-Fiction",
+        "Alien Invasion"
+      ],
+      "award": {
+        "year": 1956,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1979",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1979",
+      "title": "The End of Eternity",
+      "series": false,
+      "publisher": "Tor",
+      "author": "Isaac Asimov",
+      "genres": [
+        "Science-Fiction",
+        "Time Travel",
+        "Hard SF",
+        "Galactic Empire"
+      ],
+      "award": {
+        "year": 1956,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "8437",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=8437",
+      "title": "Not This August",
+      "series": false,
+      "publisher": "Doubleday",
+      "author": "C. M. Kornbluth",
+      "genres": [
+        "Science-Fiction"
+      ],
+      "award": {
+        "year": 1956,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1987",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1987",
+      "title": "The Long Tomorrow",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Leigh Brackett",
+      "genres": [
+        "Science-Fiction",
+        "Apocalyptic/Post-Apocalyptic",
+        "Near-Future",
+        "Soft SF"
+      ],
+      "award": {
+        "year": 1956,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "3",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=3",
+      "title": "The Forever Machine",
+      "series": "Masters of Science Fiction",
+      "publisher": "Carroll & Graf",
+      "author": "Frank Riley & Mark Clifton",
+      "genres": [
+        "Science-Fiction",
+        "Artificial Intelligence",
+        "Immortality",
+        "Hard SF"
+      ],
+      "award": {
+        "year": 1955,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=1",
+      "title": "The Demolished Man",
+      "series": false,
+      "publisher": "Gollancz",
+      "author": "Alfred Bester",
+      "genres": [
+        "Science-Fiction",
+        "Human Development",
+        "Hard SF",
+        "Near-Future"
+      ],
+      "award": {
+        "year": 1953,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    }
+  ],
+  "scraped_date": "2025-10-28",
+  "metadata": {
+    "url": "https://www.worldswithoutend.com/books_hugo_index.asp?emulate=&navi=&Page=1&PageLength=100",
+    "data_source": "https://www.worldswithoutend.com"
+  }
+}

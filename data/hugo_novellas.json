@@ -1,0 +1,447 @@
+{
+  "total_books": 30,
+  "books": [
+    {
+      "id": 1001,
+      "title": "The Deep",
+      "author": "Rivers Solomon, Daveed Diggs, William Hutson & Jonathan Snipes",
+      "publisher": "Saga Press",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1002",
+      "title": "The Haunting of Tram Car 015",
+      "author": "P. Djèlí Clark",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1003,
+      "title": "In an Absent Dream",
+      "author": "Seanan McGuire",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1004",
+      "title": "To Be Taught, if Fortunate",
+      "author": "Becky Chambers",
+      "publisher": "Harper Voyager",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1005,
+      "title": "The Empress of Salt and Fortune",
+      "author": "Nghi Vo",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1006",
+      "title": "Finna",
+      "author": "Nino Cipri",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1007,
+      "title": "Ring Shout",
+      "author": "P. Djèlí Clark",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1008",
+      "title": "Come Tumbling Down",
+      "author": "Seanan McGuire",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1009,
+      "title": "Riot Baby",
+      "author": "Tochi Onyebuchi",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1010",
+      "title": "Upright Women Wanted",
+      "author": "Sarah Gailey",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1011,
+      "title": "A Psalm for the Wild-Built",
+      "author": "Becky Chambers",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1012",
+      "title": "Across the Green Grass Fields",
+      "author": "Seanan McGuire",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1013,
+      "title": "Elder Race",
+      "author": "Adrian Tchaikovsky",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1014",
+      "title": "Fireheart Tiger",
+      "author": "Aliette de Bodard",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1015,
+      "title": "The Past Is Red",
+      "author": "Catherynne M. Valente",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1016",
+      "title": "A Spindle Splintered",
+      "author": "Alix E. Harrow",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1017,
+      "title": "Where the Drowned Girls Go",
+      "author": "Seanan McGuire",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1018",
+      "title": "Even Though I Knew the End",
+      "author": "C. L. Polk",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1019,
+      "title": "Into the Riverlands",
+      "author": "Nghi Vo",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1020",
+      "title": "A Mirror Mended",
+      "author": "Alix E. Harrow",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1021,
+      "title": "Ogres",
+      "author": "Adrian Tchaikovsky",
+      "publisher": "Solaris Books",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1022",
+      "title": "What Moves the Dead",
+      "author": "T. Kingfisher",
+      "publisher": "Tor Nightfire",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1023,
+      "title": "Thornhedge",
+      "author": "T. Kingfisher",
+      "publisher": "Tor Books/Titan Books",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1024",
+      "title": "Life Does Not Allow Us to Meet",
+      "author": "He Xi",
+      "publisher": "Flame Tree Press",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1025,
+      "title": "Mammoths at the Gates",
+      "author": "Nghi Vo",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1026",
+      "title": "The Mimicking of Known Successes",
+      "author": "Malka Older",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1027,
+      "title": "Rose/House",
+      "author": "Arkady Martine",
+      "publisher": "Subterranean Press",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1028",
+      "title": "Seeds of Mercury",
+      "author": "Wang Jinkang",
+      "publisher": "Flame Tree Press",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1029,
+      "title": "The Tusks of Extinction",
+      "author": "Ray Nayler",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "1030",
+      "title": "The Brides of High Hill",
+      "author": "Nghi Vo",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1031,
+      "title": "The Butcher of the Forest",
+      "author": "Premee Mohamed",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1032",
+      "title": "Navigational Entanglements",
+      "author": "Aliette de Bodard",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 1033,
+      "title": "The Practice, the Horizon, and the Chain",
+      "author": "Sofia Samatar",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "1034",
+      "title": "What Feasts at Night",
+      "author": "T. Kingfisher",
+      "publisher": "Nightfire",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    }
+  ]
+}
