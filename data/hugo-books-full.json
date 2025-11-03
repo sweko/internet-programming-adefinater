@@ -1,5 +1,5 @@
 {
-  "total_books": 355,
+  "total_books": 400,
   "books": [
     {
       "id": "44092",
@@ -6761,11 +6761,762 @@
         "category": "Best Novel",
         "is_winner": true
       }
+    },
+    {
+      "id": 35693,
+      "title": "The Deep",
+      "author": "Rivers Solomon, Daveed Diggs, William Hutson & Jonathan Snipes",
+      "publisher": "Saga Press",
+      "series": false,
+      "genres": [
+        "Science Fiction",
+        "Afrofuturism"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "36086",
+      "title": "The Haunting of Tram Car 015",
+      "author": "P. Djèlí Clark",
+      "publisher": "Tor.com Publishing",
+      "series": "Dead Djinn Universe",
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 34880,
+      "title": "In an Absent Dream",
+      "author": "Seanan McGuire",
+      "publisher": "Tor.com Publishing",
+      "series": {
+        "name": "Wayward Children",
+        "order": 4
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "35758",
+      "title": "To Be Taught, if Fortunate",
+      "author": "Becky Chambers",
+      "publisher": "Harper Voyager",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 36353,
+      "title": "The Empress of Salt and Fortune",
+      "author": "Nghi Vo",
+      "publisher": "Tor.com Publishing",
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 1
+      },
+      "genres": [
+        "Fantasy",
+        "Historical Fantasy"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "36704",
+      "title": "Finna",
+      "author": "Nino Cipri",
+      "publisher": "Tor.com Publishing",
+      "series": {
+        "name": "LitenVerse",
+        "order": 1
+      },
+      "genres": [
+        "Science Fiction",
+        "Satire"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 36710,
+      "title": "Ring Shout",
+      "author": "P. Djèlí Clark",
+      "publisher": "Tor.com Publishing",
+      "series": "Ring Shout",
+      "genres": [
+        "Horror",
+        "Historical Fantasy"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "36494",
+      "title": "Come Tumbling Down",
+      "author": "Seanan McGuire",
+      "publisher": "Tor.com Publishing",
+      "series": {
+        "name": "Wayward Children",
+        "order": 5
+      },
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 36408,
+      "title": "Riot Baby",
+      "author": "Tochi Onyebuchi",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "36078",
+      "title": "Upright Women Wanted",
+      "author": "Sarah Gailey",
+      "publisher": "Tor.com Publishing",
+      "series": false,
+      "genres": [
+        "Science Fiction",
+        "Western"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 37900,
+      "title": "A Psalm for the Wild-Built",
+      "author": "Becky Chambers",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Monk & Robot",
+        "order": 1
+      },
+      "genres": [
+        "Science Fiction",
+        "Solarpunk"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "37490",
+      "title": "Across the Green Grass Fields",
+      "author": "Seanan McGuire",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Wayward Children",
+        "order": 6
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 38217,
+      "title": "Elder Race",
+      "author": "Adrian Tchaikovsky",
+      "publisher": "Tordotcom",
+      "series": "Elder Race Universe",
+      "genres": [
+        "Science Fiction",
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "37327",
+      "title": "Fireheart Tiger",
+      "author": "Aliette de Bodard",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Fantasy",
+        "Romance"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 37483,
+      "title": "The Past Is Red",
+      "author": "Catherynne M. Valente",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "37899",
+      "title": "A Spindle Splintered",
+      "author": "Alix E. Harrow",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Fractured Fables",
+        "order": 1
+      },
+      "genres": [
+        "Fantasy",
+        "Fairy Tale Retelling"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 39302,
+      "title": "Where the Drowned Girls Go",
+      "author": "Seanan McGuire",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Wayward Children",
+        "order": 7
+      },
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "40659",
+      "title": "Even Though I Knew the End",
+      "author": "C. L. Polk",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 43170,
+      "title": "Into the Riverlands",
+      "author": "Nghi Vo",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 3
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39163",
+      "title": "A Mirror Mended",
+      "author": "Alix E. Harrow",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Fractured Fables",
+        "order": 2
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 39260,
+      "title": "Ogres",
+      "author": "Adrian Tchaikovsky",
+      "publisher": "Solaris Books",
+      "series": "Ogres",
+      "genres": [
+        "Horror",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39319",
+      "title": "What Moves the Dead",
+      "author": "T. Kingfisher",
+      "publisher": "Tor Nightfire",
+      "series": "Sworn Soldier",
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2023,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 43589,
+      "title": "Thornhedge",
+      "author": "T. Kingfisher",
+      "publisher": "Tor Books/Titan Books",
+      "series": "Thornhedge",
+      "genres": [
+        "Fantasy",
+        "Fairy Tale Retelling"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "42726",
+      "title": "Life Does Not Allow Us to Meet",
+      "author": "He Xi",
+      "publisher": "Flame Tree Press",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 42925,
+      "title": "Mammoths at the Gates",
+      "author": "Nghi Vo",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 4
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "39286",
+      "title": "The Mimicking of Known Successes",
+      "author": "Malka Older",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 40815,
+      "title": "Rose/House",
+      "author": "Arkady Martine",
+      "publisher": "Subterranean Press",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "42784",
+      "title": "Seeds of Mercury",
+      "author": "Wang Jinkang",
+      "publisher": "Flame Tree Press",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 44301,
+      "title": "The Tusks of Extinction",
+      "author": "Ray Nayler",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Science Fiction",
+        "Climate Fiction"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "43752",
+      "title": "The Brides of High Hill",
+      "author": "Nghi Vo",
+      "publisher": "Tordotcom",
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 5
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 42738,
+      "title": "The Butcher of the Forest",
+      "author": "Premee Mohamed",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "42813",
+      "title": "Navigational Entanglements",
+      "author": "Aliette de Bodard",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 43090,
+      "title": "The Practice, the Horizon, and the Chain",
+      "author": "Sofia Samatar",
+      "publisher": "Tordotcom",
+      "series": false,
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "42718",
+      "title": "What Feasts at Night",
+      "author": "T. Kingfisher",
+      "publisher": "Nightfire",
+      "series": "Sworn Soldier",
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novella",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100001",
+      "title": "The \"Quoted\" Title: A Book with Special Characters & Symbols (Part 1)",
+      "author": "O'Brien & Associates",
+      "publisher": "Test & Co.",
+      "series": false,
+      "genres": [
+        "Science-Fiction",
+        "Weird (SF)"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 999999,
+      "title": "Very Large ID Number Book",
+      "author": "Number Tester",
+      "publisher": "Big Numbers Press",
+      "series": {
+        "name": "The Test Series",
+        "order": 1
+      },
+      "genres": [
+        "Science-Fiction"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "100003",
+      "title": "Empty Genres Array",
+      "author": "Empty Tester",
+      "publisher": "No Genre Press",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100004",
+      "title": "Maximum Genres Stress Test",
+      "author": "Genre Collector",
+      "publisher": "All Genres Publishing House & Associates Ltd.",
+      "series": "The Comprehensive Series of Many Books That Test Long Names",
+      "genres": [
+        "Science-Fiction",
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Thriller",
+        "Romance",
+        "Adventure",
+        "Drama",
+        "Comedy",
+        "Historical Fiction",
+        "Cyberpunk",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": 42,
+      "title": "The Answer to Life, Universe & Everything",
+      "author": "Douglas Adams (Tribute)",
+      "publisher": "Pan Books",
+      "series": {
+        "name": "Hitchhiker's Guide",
+        "order": 42
+      },
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1985,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100006",
+      "title": "A Book With Extremely Long Title That Tests Table Cell Overflow and Responsive Design Considerations When Displaying Data in Constrained Spaces Like Mobile Devices or Small Browser Windows",
+      "author": "Verbose Writer",
+      "publisher": "Wordy Press",
+      "series": false,
+      "genres": [
+        "Fantasy",
+        "Epic Fantasy"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100007",
+      "title": "Unicode Test: Café, Señor, Māori, 日本語, العربية",
+      "author": "Ångström & François O'Neill-Müller",
+      "publisher": "International Publishing Société",
+      "series": "The Polyglot Series: 世界文学",
+      "genres": [
+        "Science-Fiction",
+        "Linguistic SF"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 0,
+      "title": "Zero ID Edge Case",
+      "author": "Edge Case Author",
+      "publisher": "Edge Press",
+      "series": {
+        "name": "Numbered Series",
+        "order": 0
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": -1,
+      "title": "Negative ID Book",
+      "author": "Negative Tester",
+      "publisher": "Negative Press",
+      "series": {
+        "name": "Edge Cases",
+        "order": -1
+      },
+      "genres": [
+        "Horror",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100011",
+      "title": "Book/With/Slashes",
+      "author": "Slash/Author",
+      "publisher": "Forward/Slash Publishing",
+      "series": "Series/Name",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Slipstream"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100012",
+      "title": "Series Object with High Order Number",
+      "author": "Series Tester",
+      "publisher": "Long Series Press",
+      "series": {
+        "name": "The Infinite Series",
+        "order": 999
+      },
+      "genres": [
+        "Science-Fiction",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
     }
-  ],
-  "scraped_date": "2025-10-28",
-  "metadata": {
-    "url": "https://www.worldswithoutend.com/books_hugo_index.asp?emulate=&navi=&Page=1&PageLength=100",
-    "data_source": "https://www.worldswithoutend.com"
-  }
+  ]
 }

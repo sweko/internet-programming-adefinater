@@ -1,0 +1,201 @@
+{
+  "total_books": 15,
+  "books": [
+    {
+      "id": "100001",
+      "title": "The \"Quoted\" Title: A Book with Special Characters & Symbols (Part 1)",
+      "author": "O'Brien & Associates",
+      "publisher": "Test & Co.",
+      "series": false,
+      "genres": [
+        "Science-Fiction",
+        "Weird (SF)"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 999999,
+      "title": "Very Large ID Number Book",
+      "author": "Number Tester",
+      "publisher": "Big Numbers Press",
+      "series": {
+        "name": "The Test Series",
+        "order": 1
+      },
+      "genres": [
+        "Science-Fiction"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": "100003",
+      "title": "Empty Genres Array",
+      "author": "Empty Tester",
+      "publisher": "No Genre Press",
+      "series": false,
+      "genres": [],
+      "award": {
+        "year": 2023,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100004",
+      "title": "Maximum Genres Stress Test",
+      "author": "Genre Collector",
+      "publisher": "All Genres Publishing House & Associates Ltd.",
+      "series": "The Comprehensive Series of Many Books That Test Long Names",
+      "genres": [
+        "Science-Fiction",
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Thriller",
+        "Romance",
+        "Adventure",
+        "Drama",
+        "Comedy",
+        "Historical Fiction",
+        "Cyberpunk",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": true
+      }
+    },
+    {
+      "id": 42,
+      "title": "The Answer to Life, Universe & Everything",
+      "author": "Douglas Adams (Tribute)",
+      "publisher": "Pan Books",
+      "series": {
+        "name": "Hitchhiker's Guide",
+        "order": 42
+      },
+      "genres": [
+        "Science-Fiction",
+        "Light/Humorous SF"
+      ],
+      "award": {
+        "year": 1985,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100006",
+      "title": "A Book With Extremely Long Title That Tests Table Cell Overflow and Responsive Design Considerations When Displaying Data in Constrained Spaces Like Mobile Devices or Small Browser Windows",
+      "author": "Verbose Writer",
+      "publisher": "Wordy Press",
+      "series": false,
+      "genres": [
+        "Fantasy",
+        "Epic Fantasy"
+      ],
+      "award": {
+        "year": 2022,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100007",
+      "title": "Unicode Test: Café, Señor, Māori, 日本語, العربية",
+      "author": "Ångström & François O'Neill-Müller",
+      "publisher": "International Publishing Société",
+      "series": "The Polyglot Series: 世界文学",
+      "genres": [
+        "Science-Fiction",
+        "Linguistic SF"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": 0,
+      "title": "Zero ID Edge Case",
+      "author": "Edge Case Author",
+      "publisher": "Edge Press",
+      "series": {
+        "name": "Numbered Series",
+        "order": 0
+      },
+      "genres": [
+        "Fantasy"
+      ],
+      "award": {
+        "year": 2020,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": -1,
+      "title": "Negative ID Book",
+      "author": "Negative Tester",
+      "publisher": "Negative Press",
+      "series": {
+        "name": "Edge Cases",
+        "order": -1
+      },
+      "genres": [
+        "Horror",
+        "Dark Fantasy"
+      ],
+      "award": {
+        "year": 2021,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100011",
+      "title": "Book/With/Slashes",
+      "author": "Slash/Author",
+      "publisher": "Forward/Slash Publishing",
+      "series": "Series/Name",
+      "genres": [
+        "Science-Fiction / Fantasy",
+        "Slipstream"
+      ],
+      "award": {
+        "year": 2025,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    },
+    {
+      "id": "100012",
+      "title": "Series Object with High Order Number",
+      "author": "Series Tester",
+      "publisher": "Long Series Press",
+      "series": {
+        "name": "The Infinite Series",
+        "order": 999
+      },
+      "genres": [
+        "Science-Fiction",
+        "Space Opera"
+      ],
+      "award": {
+        "year": 2024,
+        "category": "Best Novel",
+        "is_winner": false
+      }
+    }
+  ]
+}

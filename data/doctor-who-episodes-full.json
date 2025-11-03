@@ -1,6 +1,30 @@
 {
   "episodes": [
     {
+      "rank": -7,
+      "title": "The Negative Zone",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Rachel Talalay",
+      "writer": "Pete McTighe",
+      "plot": "Everything in the universe starts going backwards",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "John Hurt",
+          "character": "The Scientist"
+        }
+      ]
+    },
+    {
       "rank": 1,
       "title": "Blink",
       "series": 3,
@@ -33,6 +57,30 @@
         {
           "actor": "Lucy Gaskell",
           "character": "Kathy Nightingale"
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "title": "Duplicate Rank",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Jamie Magnus Stone",
+      "writer": "Russell T Davies",
+      "plot": "The Doctor meets another version of themselves",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Matt Smith",
+          "character": "The Other Doctor"
         }
       ]
     },
@@ -1581,6 +1629,439 @@
         {
           "actor": "Edward Brayshaw",
           "character": "War Chief"
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "title": "The Lonely Planet",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Sarah Smith",
+      "writer": "Chris Chibnall",
+      "plot": "The Doctor visits a seemingly empty planet",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": null,
+      "cast": [
+        {
+          "actor": "David Warner",
+          "character": "The Caretaker"
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "title": "The Empty Show",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Jamie Magnus Stone",
+      "writer": "Chris Chibnall",
+      "plot": "A mysterious force empties London",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": []
+    },
+    {
+      "rank": 53,
+      "title": "The Writers' Room",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Rachel Talalay",
+      "writer": "Russell T Davies & Steven Moffat and Chris Chibnall",
+      "plot": "Three showrunners must work together to save the show",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Russell T Davies",
+          "character": "Himself"
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "title": "Time Zones",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "25/12/2024",
+      "director": "Julie Anne Robinson",
+      "writer": "Pete McTighe",
+      "plot": "The TARDIS keeps jumping between different time periods",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Peter Capaldi",
+          "character": "Museum Curator"
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "title": "The Doctor's \"Final\" Test (Part 1/3)",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "December 25 2024",
+      "director": "Rachel Talalay",
+      "writer": "Russell T Davies",
+      "plot": "The Doctor faces their greatest challenge yet",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "David Tennant",
+          "character": "The Curator"
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "title": "Tomorrow's Promise",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2026-01-01",
+      "director": "Jamie Magnus Stone",
+      "writer": "Chris Chibnall",
+      "plot": "The Doctor travels to a future version of Earth",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Sophie Aldred",
+          "character": "Ace"
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Rachel Talalay",
+      "writer": "Russell T Davies",
+      "plot": "Episode with no title",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Catherine Tate",
+          "character": "Donna Noble"
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "title": "The Gathering",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Jamie Magnus Stone",
+      "writer": "Russell T Davies",
+      "plot": "Every companion the Doctor has ever had returns",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "William Russell",
+          "character": "Ian Chesterton"
+        },
+        {
+          "actor": "Carole Ann Ford",
+          "character": "Susan Foreman"
+        },
+        {
+          "actor": "Maureen O'Brien",
+          "character": "Vicki"
+        },
+        {
+          "actor": "Peter Purves",
+          "character": "Steven Taylor"
+        },
+        {
+          "actor": "Jackie Lane",
+          "character": "Dodo Chaplet"
+        },
+        {
+          "actor": "Anneke Wills",
+          "character": "Polly"
+        },
+        {
+          "actor": "Michael Craze",
+          "character": "Ben Jackson"
+        },
+        {
+          "actor": "Frazer Hines",
+          "character": "Jamie McCrimmon"
+        },
+        {
+          "actor": "Deborah Watling",
+          "character": "Victoria Waterfield"
+        },
+        {
+          "actor": "Wendy Padbury",
+          "character": "Zoe Heriot"
+        },
+        {
+          "actor": "Caroline John",
+          "character": "Liz Shaw"
+        },
+        {
+          "actor": "Katy Manning",
+          "character": "Jo Grant"
+        },
+        {
+          "actor": "Elisabeth Sladen",
+          "character": "Sarah Jane Smith"
+        },
+        {
+          "actor": "Louise Jameson",
+          "character": "Leela"
+        },
+        {
+          "actor": "Mary Tamm",
+          "character": "Romana I"
+        },
+        {
+          "actor": "Lalla Ward",
+          "character": "Romana II"
+        },
+        {
+          "actor": "Matthew Waterhouse",
+          "character": "Adric"
+        },
+        {
+          "actor": "Sarah Sutton",
+          "character": "Nyssa"
+        },
+        {
+          "actor": "Janet Fielding",
+          "character": "Tegan Jovanka"
+        },
+        {
+          "actor": "Mark Strickson",
+          "character": "Vislor Turlough"
+        },
+        {
+          "actor": "Nicola Bryant",
+          "character": "Peri Brown"
+        },
+        {
+          "actor": "Bonnie Langford",
+          "character": "Mel Bush"
+        },
+        {
+          "actor": "Sophie Aldred",
+          "character": "Ace"
+        },
+        {
+          "actor": "Daphne Ashbrook",
+          "character": "Grace Holloway"
+        },
+        {
+          "actor": "Billie Piper",
+          "character": "Rose Tyler"
+        },
+        {
+          "actor": "John Barrowman",
+          "character": "Captain Jack Harkness"
+        },
+        {
+          "actor": "Freema Agyeman",
+          "character": "Martha Jones"
+        },
+        {
+          "actor": "Catherine Tate",
+          "character": "Donna Noble"
+        },
+        {
+          "actor": "Karen Gillan",
+          "character": "Amy Pond"
+        },
+        {
+          "actor": "Arthur Darvill",
+          "character": "Rory Williams"
+        },
+        {
+          "actor": "Jenna Coleman",
+          "character": "Clara Oswald"
+        },
+        {
+          "actor": "Pearl Mackie",
+          "character": "Bill Potts"
+        },
+        {
+          "actor": "Mandip Gill",
+          "character": "Yasmin Khan"
+        },
+        {
+          "actor": "Tosin Cole",
+          "character": "Ryan Sinclair"
+        },
+        {
+          "actor": "Bradley Walsh",
+          "character": "Graham O'Brien"
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "title": "The <Doctor> & the HTML Monster",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Rachel Talalay",
+      "writer": "Russell T Davies",
+      "plot": "The Doctor faces a creature made of living code",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Tim Berners-Lee",
+          "character": "Himself"
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "title": "The Emoji Invasion",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Jamie Magnus Stone",
+      "writer": "Pete McTighe",
+      "plot": "Strange symbols start appearing everywhere",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson 👩",
+        "character": "Ruby Sunday 🌞"
+      },
+      "cast": [
+        {
+          "actor": "John Smith 🎭",
+          "character": "The Emoji Master 😈"
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "title": "The Invisible Cast",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024",
+      "director": "Rachel Talalay",
+      "writer": "Russell T Davies",
+      "plot": "Everyone disappears from Earth",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": null
+    },
+    {
+      "rank": 64,
+      "title": "The Time Contradiction",
+      "series": -42,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Jamie Magnus Stone",
+      "writer": "Pete McTighe",
+      "plot": "The Doctor visits a negative series number",
+      "doctor": {
+        "actor": "Ncuti Gatwa",
+        "incarnation": "Fifteenth Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Paul McGann",
+          "character": "The Eighth Doctor"
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "title": "The Broken Data",
+      "series": 13,
+      "era": "Recent",
+      "broadcast_date": "2024-12-25",
+      "director": "Rachel Talalay",
+      "writer": "Russell T Davies",
+      "plot": "Reality starts breaking down",
+      "doctor": {
+        "incarnation": "Unknown Doctor"
+      },
+      "companion": {
+        "actor": "Millie Gibson",
+        "character": "Ruby Sunday"
+      },
+      "cast": [
+        {
+          "actor": "Tom Baker",
+          "character": "The Curator"
         }
       ]
     }
