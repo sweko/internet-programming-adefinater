@@ -7,7 +7,10 @@
       "author": "Rivers Solomon, Daveed Diggs, William Hutson & Jonathan Snipes",
       "publisher": "Saga Press",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Science Fiction",
+        "Afrofuturism"
+      ],
       "award": {
         "year": 2020,
         "category": "Best Novella",
@@ -19,8 +22,10 @@
       "title": "The Haunting of Tram Car 015",
       "author": "P. Djèlí Clark",
       "publisher": "Tor.com Publishing",
-      "series": false,
-      "genres": [],
+      "series": "Dead Djinn Universe",
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2020,
         "category": "Best Novella",
@@ -32,8 +37,13 @@
       "title": "In an Absent Dream",
       "author": "Seanan McGuire",
       "publisher": "Tor.com Publishing",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Wayward Children",
+        "order": 4
+      },
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2020,
         "category": "Best Novella",
@@ -46,7 +56,9 @@
       "author": "Becky Chambers",
       "publisher": "Harper Voyager",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2020,
         "category": "Best Novella",
@@ -58,8 +70,14 @@
       "title": "The Empress of Salt and Fortune",
       "author": "Nghi Vo",
       "publisher": "Tor.com Publishing",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 1
+      },
+      "genres": [
+        "Fantasy",
+        "Historical Fantasy"
+      ],
       "award": {
         "year": 2021,
         "category": "Best Novella",
@@ -71,8 +89,14 @@
       "title": "Finna",
       "author": "Nino Cipri",
       "publisher": "Tor.com Publishing",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "LitenVerse",
+        "order": 1
+      },
+      "genres": [
+        "Science Fiction",
+        "Satire"
+      ],
       "award": {
         "year": 2021,
         "category": "Best Novella",
@@ -84,8 +108,11 @@
       "title": "Ring Shout",
       "author": "P. Djèlí Clark",
       "publisher": "Tor.com Publishing",
-      "series": false,
-      "genres": [],
+      "series": "Ring Shout",
+      "genres": [
+        "Horror",
+        "Historical Fantasy"
+      ],
       "award": {
         "year": 2021,
         "category": "Best Novella",
@@ -97,8 +124,14 @@
       "title": "Come Tumbling Down",
       "author": "Seanan McGuire",
       "publisher": "Tor.com Publishing",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Wayward Children",
+        "order": 5
+      },
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy"
+      ],
       "award": {
         "year": 2021,
         "category": "Best Novella",
@@ -111,7 +144,9 @@
       "author": "Tochi Onyebuchi",
       "publisher": "Tor.com Publishing",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2021,
         "category": "Best Novella",
@@ -124,7 +159,10 @@
       "author": "Sarah Gailey",
       "publisher": "Tor.com Publishing",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Science Fiction",
+        "Western"
+      ],
       "award": {
         "year": 2021,
         "category": "Best Novella",
@@ -136,8 +174,14 @@
       "title": "A Psalm for the Wild-Built",
       "author": "Becky Chambers",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Monk & Robot",
+        "order": 1
+      },
+      "genres": [
+        "Science Fiction",
+        "Solarpunk"
+      ],
       "award": {
         "year": 2022,
         "category": "Best Novella",
@@ -149,8 +193,13 @@
       "title": "Across the Green Grass Fields",
       "author": "Seanan McGuire",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Wayward Children",
+        "order": 6
+      },
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2022,
         "category": "Best Novella",
@@ -162,8 +211,11 @@
       "title": "Elder Race",
       "author": "Adrian Tchaikovsky",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": "Elder Race Universe",
+      "genres": [
+        "Science Fiction",
+        "Fantasy"
+      ],
       "award": {
         "year": 2022,
         "category": "Best Novella",
@@ -176,7 +228,10 @@
       "author": "Aliette de Bodard",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy",
+        "Romance"
+      ],
       "award": {
         "year": 2022,
         "category": "Best Novella",
@@ -189,7 +244,9 @@
       "author": "Catherynne M. Valente",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2022,
         "category": "Best Novella",
@@ -201,8 +258,14 @@
       "title": "A Spindle Splintered",
       "author": "Alix E. Harrow",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Fractured Fables",
+        "order": 1
+      },
+      "genres": [
+        "Fantasy",
+        "Fairy Tale Retelling"
+      ],
       "award": {
         "year": 2022,
         "category": "Best Novella",
@@ -214,8 +277,14 @@
       "title": "Where the Drowned Girls Go",
       "author": "Seanan McGuire",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Wayward Children",
+        "order": 7
+      },
+      "genres": [
+        "Fantasy",
+        "Dark Fantasy"
+      ],
       "award": {
         "year": 2023,
         "category": "Best Novella",
@@ -228,7 +297,9 @@
       "author": "C. L. Polk",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2023,
         "category": "Best Novella",
@@ -240,8 +311,13 @@
       "title": "Into the Riverlands",
       "author": "Nghi Vo",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 3
+      },
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2023,
         "category": "Best Novella",
@@ -253,8 +329,13 @@
       "title": "A Mirror Mended",
       "author": "Alix E. Harrow",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Fractured Fables",
+        "order": 2
+      },
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2023,
         "category": "Best Novella",
@@ -266,8 +347,11 @@
       "title": "Ogres",
       "author": "Adrian Tchaikovsky",
       "publisher": "Solaris Books",
-      "series": false,
-      "genres": [],
+      "series": "Ogres",
+      "genres": [
+        "Horror",
+        "Dark Fantasy"
+      ],
       "award": {
         "year": 2023,
         "category": "Best Novella",
@@ -279,8 +363,10 @@
       "title": "What Moves the Dead",
       "author": "T. Kingfisher",
       "publisher": "Tor Nightfire",
-      "series": false,
-      "genres": [],
+      "series": "Sworn Soldier",
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2023,
         "category": "Best Novella",
@@ -292,8 +378,11 @@
       "title": "Thornhedge",
       "author": "T. Kingfisher",
       "publisher": "Tor Books/Titan Books",
-      "series": false,
-      "genres": [],
+      "series": "Thornhedge",
+      "genres": [
+        "Fantasy",
+        "Fairy Tale Retelling"
+      ],
       "award": {
         "year": 2024,
         "category": "Best Novella",
@@ -306,7 +395,9 @@
       "author": "He Xi",
       "publisher": "Flame Tree Press",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2024,
         "category": "Best Novella",
@@ -318,8 +409,13 @@
       "title": "Mammoths at the Gates",
       "author": "Nghi Vo",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 4
+      },
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2024,
         "category": "Best Novella",
@@ -332,7 +428,9 @@
       "author": "Malka Older",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2024,
         "category": "Best Novella",
@@ -345,7 +443,9 @@
       "author": "Arkady Martine",
       "publisher": "Subterranean Press",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2024,
         "category": "Best Novella",
@@ -358,7 +458,9 @@
       "author": "Wang Jinkang",
       "publisher": "Flame Tree Press",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2024,
         "category": "Best Novella",
@@ -371,7 +473,10 @@
       "author": "Ray Nayler",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Science Fiction",
+        "Climate Fiction"
+      ],
       "award": {
         "year": 2025,
         "category": "Best Novella",
@@ -383,8 +488,13 @@
       "title": "The Brides of High Hill",
       "author": "Nghi Vo",
       "publisher": "Tordotcom",
-      "series": false,
-      "genres": [],
+      "series": {
+        "name": "Singing Hills Cycle",
+        "order": 5
+      },
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2025,
         "category": "Best Novella",
@@ -397,7 +507,9 @@
       "author": "Premee Mohamed",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2025,
         "category": "Best Novella",
@@ -410,7 +522,9 @@
       "author": "Aliette de Bodard",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2025,
         "category": "Best Novella",
@@ -423,7 +537,9 @@
       "author": "Sofia Samatar",
       "publisher": "Tordotcom",
       "series": false,
-      "genres": [],
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2025,
         "category": "Best Novella",
@@ -435,8 +551,10 @@
       "title": "What Feasts at Night",
       "author": "T. Kingfisher",
       "publisher": "Nightfire",
-      "series": false,
-      "genres": [],
+      "series": "Sworn Soldier",
+      "genres": [
+        "Fantasy"
+      ],
       "award": {
         "year": 2025,
         "category": "Best Novella",
