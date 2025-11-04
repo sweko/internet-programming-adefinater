@@ -10,10 +10,13 @@
 <div class="container">
     <header>
         <h1>Doctor Who Episodes Explorer</h1>
+        <!-- Controls Section -->
         <div class="controls">
+            <!-- Search Input -->
             <div class="search-container">
                 <input type="text" id="search" placeholder="Search episodes...">
             </div>
+            <!-- Filter Dropdowns -->
             <div class="filter-container">
                 <select id="era-filter">
                     <option value="">All Eras</option>
@@ -23,35 +26,44 @@
                 </select>
                 <select id="doctor-filter">
                     <option value="">All Doctors</option>
+                    <!-- Doctor options will be populated dynamically -->
                 </select>
                 <select id="companion-filter">
                     <option value="">All Companions</option>
+                    <!-- Companion options will be populated dynamically -->
                 </select>
             </div>
+            <!-- Export Functionality -->
             <div class="export-container">
                 <button id="export-btn">Export CSV</button>
             </div>
         </div>
+        <!-- Statistics Display -->
         <div class="stats">
             <span id="episode-count">Loading episodes...</span>
             <span id="warning-count" class="warning-badge hidden">0 warnings</span>
         </div>
     </header>
 
+    <!-- Loading State -->
     <div class="loading" id="loading">
         <div class="spinner"></div>
         <p>Loading Doctor Who episodes...</p>
     </div>
 
+    <!-- Error Display -->
     <div class="error hidden" id="error">
         <p>Failed to load episode data. Please try again later.</p>
     </div>
 
+    <!-- Main Content Area -->
     <main class="hidden" id="main-content">
         <div class="table-container">
+            <!-- Episodes Table -->
             <table id="episodes-table">
                 <thead>
                 <tr>
+                    <!-- Sortable table headers with keyboard accessibility -->
                     <th data-sort="rank" tabindex="0">Rank <span class="sort-indicator"></span></th>
                     <th data-sort="title" tabindex="0">Title <span class="sort-indicator"></span></th>
                     <th data-sort="series" tabindex="0">Series <span class="sort-indicator"></span></th>
@@ -65,6 +77,7 @@
                 </tr>
                 </thead>
                 <tbody id="episodes-body">
+                <!-- Episode rows will be inserted here by JavaScript -->
                 </tbody>
             </table>
         </div>
