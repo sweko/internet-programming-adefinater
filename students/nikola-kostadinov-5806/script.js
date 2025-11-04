@@ -177,6 +177,9 @@ function clearRowSelection() {
 function populateFilterOptions() {
     // Era filter (static options from CONFIG)
     const eraSelect = document.getElementById('era-filter');
+    if (!eraSelect) return;
+    // Reset to default option
+    eraSelect.innerHTML = '<option value="">All Eras</option>';
     CONFIG.ERA_ORDER.forEach(era => {
         const option = document.createElement('option');
         option.value = era;
@@ -295,10 +298,13 @@ async function loadEpisodes() {
         }
 
         // Initialize filtered episodes with all episodes
-        state.filtered = [...state.episodes];
-        
-        // Display the episodes and reset keyboard navigation
-        displayEpisodes(state.filtered);
+    state.filtered = [...state.episodes];
+
+    // Populate filter dropdowns (era, etc.)
+    try { populateFilterOptions(); } catch (err) { console.warn('populateFilterOptions failed', err); }
+
+    // Display the episodes and reset keyboard navigation
+    displayEpisodes(state.filtered);
         state.keyboard.selectedRowIndex = -1;
         state.keyboard.selectedColumn = null;
         
