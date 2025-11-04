@@ -39,42 +39,36 @@ async function init() {
 
 // Event Listeners Setup
 function setupEventListeners() {
-    // Name filter input
     const nameFilter = document.getElementById('name-filter');
     nameFilter.addEventListener('input', (e) => {
         state.filters.name = e.target.value.toLowerCase();
         filterEpisodes();
     });
 
-    // Era filter
     const eraFilter = document.getElementById('era-filter');
     eraFilter.addEventListener('change', (e) => {
         state.filters.era = e.target.value;
         filterEpisodes();
     });
 
-    // Doctor filter
     const doctorFilter = document.getElementById('doctor-filter');
     doctorFilter.addEventListener('change', (e) => {
         state.filters.doctor = e.target.value;
         filterEpisodes();
     });
 
-    // Companion filter
     const companionFilter = document.getElementById('companion-filter');
     companionFilter.addEventListener('change', (e) => {
         state.filters.companion = e.target.value;
         filterEpisodes();
     });
 
-    // View toggle
     const viewToggle = document.getElementById('view-toggle');
     viewToggle.addEventListener('change', (e) => {
         state.currentView = e.target.value;
         displayCurrentView();
     });
 
-    // Column header clicks for sorting
     const table = document.getElementById('episodes-table');
     table.addEventListener('click', (e) => {
         if (e.target.hasAttribute('data-sort')) {
@@ -84,7 +78,6 @@ function setupEventListeners() {
     });
 }
 
-// Data Loading
 async function loadEpisodes() {
     try {
         showLoading(true);
@@ -96,7 +89,6 @@ async function loadEpisodes() {
         
         const data = await response.json();
         
-        // Handle different data structures
         let episodes;
         if (Array.isArray(data)) {
             episodes = data;
@@ -111,16 +103,12 @@ async function loadEpisodes() {
         
         state.episodes = episodes;
         
-        // Validate data and collect warnings
         validateData(episodes);
         
-        // Initialize filtered episodes
         state.filtered = [...state.episodes];
         
-        // Populate filter dropdowns
         populateFilterDropdowns();
         
-        // Sort by rank initially
         sortEpisodes('rank');
         
         showLoading(false);
@@ -139,7 +127,6 @@ function validateData(episodes) {
     const currentYear = new Date().getFullYear();
     
     episodes.forEach((episode, index) => {
-        // Check for missing required fields
         if (!episode.title || episode.title.trim() === '') {
             state.warnings.push(`Episode ${index + 1}: Missing title`);
         }
@@ -147,23 +134,19 @@ function validateData(episodes) {
             state.warnings.push(`Episode ${index + 1}: Missing rank`);
         }
         
-        // Check for duplicate ranks
         if (episode.rank && seenRanks.has(episode.rank)) {
             state.warnings.push(`Episode ${index + 1}: Duplicate rank ${episode.rank}`);
         }
         seenRanks.add(episode.rank);
         
-        // Check for invalid ranks
         if (episode.rank && episode.rank <= 0) {
             state.warnings.push(`Episode ${index + 1}: Invalid rank ${episode.rank}`);
         }
         
-        // Check for negative series numbers
         if (episode.series && episode.series < 0) {
             state.warnings.push(`Episode ${index + 1}: Negative series number ${episode.series}`);
         }
         
-        // Check for future dates
         const broadcastYear = extractYear(episode.broadcast_date);
         if (broadcastYear && broadcastYear > currentYear) {
             state.warnings.push(`Episode ${index + 1}: Future broadcast date ${episode.broadcast_date}`);
@@ -173,11 +156,9 @@ function validateData(episodes) {
     // Log warnings to console
     state.warnings.forEach(warning => console.warn(warning));
     
-    // Display warning count in UI
     displayWarnings();
 }
 
-// Display Functions
 function displayEpisodes(episodes) {
     const tbody = document.getElementById('episodes-body');
     const table = document.getElementById('episodes-table');
@@ -241,27 +222,22 @@ function displayEpisodes(episodes) {
         dateCell.textContent = formatFullDate(episode.broadcast_date);
         row.appendChild(dateCell);
         
-        // Director
         const directorCell = document.createElement('td');
         directorCell.textContent = episode.director || 'Unknown';
         row.appendChild(directorCell);
         
-        // Writer(s) - Handle multiple writers
         const writerCell = document.createElement('td');
         writerCell.textContent = formatWriters(episode.writer);
         row.appendChild(writerCell);
         
-        // Doctor
         const doctorCell = document.createElement('td');
         doctorCell.textContent = formatDoctor(episode.doctor);
         row.appendChild(doctorCell);
         
-        // Companion - Handle null/missing companions
         const companionCell = document.createElement('td');
         companionCell.textContent = formatCompanion(episode.companion);
         row.appendChild(companionCell);
         
-        // Cast Count - Handle empty arrays and make clickable
         const castCell = document.createElement('td');
         const castCount = episode.cast && Array.isArray(episode.cast) ? episode.cast.length : 0;
         const castSpan = document.createElement('span');
@@ -270,7 +246,6 @@ function displayEpisodes(episodes) {
         castSpan.style.cursor = 'pointer';
         castSpan.title = 'Click to see cast members';
         
-        // Add click handler to show cast details
         castSpan.addEventListener('click', () => {
             showCastDetails(episode.cast, episode.title);
         });
@@ -282,9 +257,7 @@ function displayEpisodes(episodes) {
     });
 }
 
-// Sorting Functions
 function sortEpisodes(field) {
-    // Update sort state
     if (state.sort.field === field) {
         state.sort.ascending = !state.sort.ascending;
     } else {
@@ -292,16 +265,13 @@ function sortEpisodes(field) {
         state.sort.ascending = true;
     }
     
-    // Apply smart relevance sort if filtering is active
     if (state.filters.name && field !== 'relevance') {
         applySortWithRelevance();
     } else {
-        // Regular sorting
         state.filtered.sort((a, b) => {
             let aVal = getFieldValue(a, field);
             let bVal = getFieldValue(b, field);
             
-            // Handle different data types
             if (field === 'rank' || field === 'series' || field === 'cast') {
                 aVal = Number(aVal) || 0;
                 bVal = Number(bVal) || 0;
@@ -322,27 +292,22 @@ function sortEpisodes(field) {
         });
     }
     
-    // Update sort indicators
     updateSortIndicators();
     
-    // Display sorted episodes
     displayCurrentView();
 }
 
-// Smart Relevance Sort (Tier 3 Feature)
 function applySortWithRelevance() {
     const searchTerm = state.filters.name;
     
     state.filtered.sort((a, b) => {
-        // Calculate relevance scores
         const scoreA = calculateRelevance(a, searchTerm);
         const scoreB = calculateRelevance(b, searchTerm);
         
         if (scoreA !== scoreB) {
-            return scoreB - scoreA; // Higher score first
+            return scoreB - scoreA; 
         }
         
-        // If same relevance, sort by rank
         return (a.rank || 0) - (b.rank || 0);
     });
 }
@@ -350,28 +315,21 @@ function applySortWithRelevance() {
 function calculateRelevance(episode, searchTerm) {
     const title = (episode.title || '').toLowerCase();
     
-    // Since name filter only searches titles now, all relevance is based on title matching
-    // Exact title match
     if (title === searchTerm) return 4;
     
-    // Title contains search term at the beginning
     if (title.startsWith(searchTerm)) return 3;
     
-    // Title contains search term anywhere
     if (title.includes(searchTerm)) return 2;
     
-    return 1; // Default relevance (shouldn't reach here since filtering already happened)
+    return 1;
 }
 
-// Filtering Functions - Updated 2025-11-04
 function filterEpisodes() {
     state.filtered = state.episodes.filter(episode => {
-        // Name filter (searches ONLY in title)
         if (state.filters.name) {
             const searchTerm = state.filters.name;
             const title = (episode.title || '').toLowerCase();
             
-            // Debug: log what we're searching
             console.log(`Searching for "${searchTerm}" in title: "${title}"`);
             
             if (!title.includes(searchTerm)) {
@@ -379,12 +337,10 @@ function filterEpisodes() {
             }
         }
         
-        // Era filter
         if (state.filters.era && episode.era !== state.filters.era) {
             return false;
         }
         
-        // Doctor filter
         if (state.filters.doctor) {
             const doctorName = episode.doctor?.actor || '';
             if (!doctorName.includes(state.filters.doctor)) {
@@ -392,7 +348,6 @@ function filterEpisodes() {
             }
         }
         
-        // Companion filter
         if (state.filters.companion) {
             const companionName = episode.companion?.actor || '';
             if (!companionName.includes(state.filters.companion)) {
@@ -403,11 +358,9 @@ function filterEpisodes() {
         return true;
     });
     
-    // Re-apply current sort
     sortEpisodes(state.sort.field);
 }
 
-// Display Control Functions
 function displayCurrentView() {
     if (state.currentView === 'decades') {
         displayDecadeGroups();
@@ -416,7 +369,6 @@ function displayCurrentView() {
     }
 }
 
-// Decade Grouping Display
 function displayDecadeGroups() {
     const table = document.getElementById('episodes-table');
     const decadesView = document.getElementById('decades-view');
@@ -433,7 +385,6 @@ function displayDecadeGroups() {
     decadesView.style.display = 'block';
     noResults.style.display = 'none';
     
-    // Group episodes by decade
     const decades = {};
     state.filtered.forEach(episode => {
         const year = extractYear(episode.broadcast_date);
@@ -446,16 +397,13 @@ function displayDecadeGroups() {
         }
     });
     
-    // Clear existing content
     decadesView.innerHTML = '';
     
-    // Sort decades
     const sortedDecades = Object.keys(decades).sort((a, b) => parseInt(a) - parseInt(b));
     
     sortedDecades.forEach(decade => {
         const episodes = decades[decade];
         
-        // Sort episodes within each decade by rank
         episodes.sort((a, b) => {
             const rankA = parseInt(a.rank) || 999999;
             const rankB = parseInt(b.rank) || 999999;
@@ -465,11 +413,9 @@ function displayDecadeGroups() {
         const decadeGroup = document.createElement('div');
         decadeGroup.className = 'decade-group';
         
-        // Create header with more info
         const header = document.createElement('div');
         header.className = 'decade-header';
         
-        // Calculate era distribution for this decade
         const eraCount = {};
         episodes.forEach(ep => {
             const era = ep.era || 'Unknown';
@@ -488,7 +434,6 @@ function displayDecadeGroups() {
             <span class="decade-toggle">▼</span>
         `;
         
-        // Create content
         const content = document.createElement('div');
         content.className = 'decade-content';
         
@@ -496,7 +441,6 @@ function displayDecadeGroups() {
             const card = document.createElement('div');
             card.className = 'episode-card';
             
-            // Organize the details into logical groups
             const basicInfo = [
                 `<strong>Rank:</strong> ${episode.rank || 'N/A'}`,
                 `<strong>Series:</strong> ${episode.series || 'N/A'}`,
@@ -527,7 +471,6 @@ function displayDecadeGroups() {
             content.appendChild(card);
         });
         
-        // Add click handler for collapsing
         header.addEventListener('click', () => {
             decadeGroup.classList.toggle('collapsed');
         });
@@ -538,7 +481,6 @@ function displayDecadeGroups() {
     });
 }
 
-// Populate filter dropdowns
 function populateFilterDropdowns() {
     populateDoctorFilter();
     populateCompanionFilter();
@@ -554,10 +496,8 @@ function populateDoctorFilter() {
         }
     });
     
-    // Clear existing options (except "All Doctors")
     doctorFilter.innerHTML = '<option value="">All Doctors</option>';
     
-    // Add sorted doctor options
     Array.from(doctors).sort().forEach(doctor => {
         const option = document.createElement('option');
         option.value = doctor;
@@ -576,10 +516,8 @@ function populateCompanionFilter() {
         }
     });
     
-    // Clear existing options (except "All Companions")
     companionFilter.innerHTML = '<option value="">All Companions</option>';
     
-    // Add sorted companion options
     Array.from(companions).sort().forEach(companion => {
         const option = document.createElement('option');
         option.value = companion;
@@ -588,7 +526,6 @@ function populateCompanionFilter() {
     });
 }
 
-// Utility Functions
 function formatDate(dateStr) {
     return formatFullDate(dateStr);
 }
@@ -598,16 +535,13 @@ function formatFullDate(dateStr) {
     
     const dateString = String(dateStr);
     
-    // Try to parse different date formats and convert to YYYY-MM-DD format
     let parsedDate = null;
     
-    // ISO format: YYYY-MM-DD (already in correct format)
     const isoMatch = dateString.match(/^(\d{4})-(\d{2})-(\d{2})$/);
     if (isoMatch) {
-        return dateString; // Already in YYYY-MM-DD format
+        return dateString; 
     }
     
-    // UK format: DD/MM/YYYY
     const ukMatch = dateString.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
     if (ukMatch) {
         const [, day, month, year] = ukMatch;
@@ -616,7 +550,6 @@ function formatFullDate(dateStr) {
         return `${year}-${paddedMonth}-${paddedDay}`;
     }
     
-    // Long format: Month DD, YYYY (e.g., "January 15, 2007")
     const longMatch = dateString.match(/^(\w+)\s+(\d{1,2}),\s+(\d{4})$/);
     if (longMatch) {
         const [, monthName, day, year] = longMatch;
@@ -630,38 +563,22 @@ function formatFullDate(dateStr) {
         }
     }
     
-    // Year only: YYYY
-    const yearMatch = dateString.match(/^(\d{4})$/);
-    if (yearMatch) {
-        const year = yearMatch[1];
-        return `${year}-01-01`; // January 1st of that year
-    }
+   
     
-    // If we couldn't parse it, return the original string or Unknown
     return dateString || 'Unknown';
 }
 
 function extractYear(dateStr) {
     if (!dateStr) return null;
     
-    // Handle different date formats
     const dateString = String(dateStr);
     
-    // ISO format: YYYY-MM-DD
     const isoMatch = dateString.match(/^(\d{4})-\d{2}-\d{2}$/);
     if (isoMatch) return parseInt(isoMatch[1]);
     
-    // UK format: DD/MM/YYYY
-    const ukMatch = dateString.match(/^\d{1,2}\/\d{1,2}\/(\d{4})$/);
-    if (ukMatch) return parseInt(ukMatch[1]);
     
-    // Long format: Month DD, YYYY
-    const longMatch = dateString.match(/\b(\d{4})\b/);
-    if (longMatch) return parseInt(longMatch[1]);
     
-    // Year only: YYYY
-    const yearMatch = dateString.match(/^(\d{4})$/);
-    if (yearMatch) return parseInt(yearMatch[1]);
+    
     
     return null;
 }
@@ -687,7 +604,6 @@ function formatDoctor(doctor) {
 }
 
 function formatCompanion(companion) {
-    // Handle null/missing companions gracefully
     if (!companion || !companion.actor) return '—';
     
     const actor = companion.actor;
@@ -713,12 +629,10 @@ function getFieldValue(episode, field) {
 }
 
 function updateSortIndicators() {
-    // Remove existing sort indicators
     document.querySelectorAll('th').forEach(th => {
         th.classList.remove('sort-asc', 'sort-desc');
     });
     
-    // Add indicator to current sort column
     const currentHeader = document.querySelector(`th[data-sort="${state.sort.field}"]`);
     if (currentHeader) {
         currentHeader.classList.add(state.sort.ascending ? 'sort-asc' : 'sort-desc');
@@ -737,23 +651,19 @@ function showPlotDetails(plot, episodeTitle) {
     const modalTitle = document.getElementById('plot-modal-title');
     const modalBody = document.getElementById('plot-modal-body');
     
-    // Set the title
     modalTitle.textContent = `Plot: "${episodeTitle}"`;
     
-    // Clear previous content
     modalBody.innerHTML = '';
     
     if (!plot || plot.trim() === '') {
         modalBody.innerHTML = '<div class="empty-plot">No plot information available for this episode.</div>';
     } else {
-        // Create plot text div
         const plotDiv = document.createElement('div');
         plotDiv.className = 'plot-text';
         plotDiv.textContent = plot;
         modalBody.appendChild(plotDiv);
     }
     
-    // Show the modal
     modal.style.display = 'block';
 }
 
@@ -762,16 +672,13 @@ function showCastDetails(cast, episodeTitle) {
     const modalTitle = document.getElementById('cast-modal-title');
     const modalBody = document.getElementById('cast-modal-body');
     
-    // Set the title
     modalTitle.textContent = `Cast for "${episodeTitle}"`;
     
-    // Clear previous content
     modalBody.innerHTML = '';
     
     if (!cast || !Array.isArray(cast) || cast.length === 0) {
         modalBody.innerHTML = '<div class="empty-cast">No cast information available for this episode.</div>';
     } else {
-        // Create cast list
         cast.forEach(member => {
             const castDiv = document.createElement('div');
             castDiv.className = 'cast-member';
@@ -789,17 +696,14 @@ function showCastDetails(cast, episodeTitle) {
         });
     }
     
-    // Show the modal
     modal.style.display = 'block';
 }
 
-// Initialize modal event listeners
 function initializeModal() {
     const castModal = document.getElementById('cast-modal');
     const plotModal = document.getElementById('plot-modal');
     const closeButtons = document.querySelectorAll('.modal-close');
     
-    // Close modal when clicking the X for any modal
     closeButtons.forEach(closeBtn => {
         closeBtn.addEventListener('click', (event) => {
             const modal = event.target.closest('.modal');
@@ -807,7 +711,6 @@ function initializeModal() {
         });
     });
     
-    // Close modal when clicking outside of it
     window.addEventListener('click', (event) => {
         if (event.target === castModal) {
             castModal.style.display = 'none';
@@ -817,7 +720,6 @@ function initializeModal() {
         }
     });
     
-    // Close modal with Escape key
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
             if (castModal.style.display === 'block') {
