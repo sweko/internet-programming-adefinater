@@ -33,6 +33,18 @@ header h1 {
     margin-bottom: 10px;
 }
 
+/* Warning badge shown in header when data validation finds issues */
+#warning-count {
+    display: inline-block;
+    background: #fff4e5;
+    color: #8a6d3b;
+    border: 1px solid #f0c36d;
+    padding: 4px 8px;
+    border-radius: 12px;
+    margin-left: 8px;
+    font-size: 0.95em;
+}
+
 /* Filter Section */
 .filters {
     margin-bottom: 20px;
@@ -84,6 +96,18 @@ th:hover {
     background: #1e3c72;
 }
 
+/* Small numeric badge to indicate multi-column sort priority */
+.sort-level {
+    display: inline-block;
+    margin-left: 6px;
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    vertical-align: middle;
+}
+
 /* Sort Indicators */
 th.sort-asc::after {
     content: ' ↑';
@@ -111,6 +135,46 @@ th.sort-desc::after {
     border: 1px solid #f5c6cb;
     border-radius: 4px;
     color: #721c24;
+}
+
+/* Structured error box */
+.error-title {
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #58121a;
+}
+.error-message {
+    margin-bottom: 8px;
+}
+.error-details summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #58121a;
+}
+.error-details pre {
+    white-space: pre-wrap;
+    max-height: 220px;
+    overflow: auto;
+    background: #fff1f2;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #f5c6cb;
+    color: #501217;
+}
+
+/* Retry button in error box */
+.error .retry-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #2a5298;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.error .retry-btn:hover {
+    background: #1e3c72;
 }
 
 /* Empty State */
@@ -170,4 +234,80 @@ td:first-child {
 
 .loading {
     animation: pulse 1.5s infinite;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+.pagination .pagination-info {
+    font-size: 0.95em;
+    color: #333;
+}
+.pagination .page-size-select,
+.pagination .page-input {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.pagination button {
+    padding: 6px 10px;
+    background: #2a5298;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+/* Visual feedback for focused table headers and rows */
+th:focus,
+th.row-focused,
+th:focus-visible {
+    outline: 3px solid rgba(42,82,152,0.25);
+    outline-offset: -3px;
+}
+
+tbody tr:focus,
+tbody tr.row-focused {
+    background: #eef6ff;
+    outline: 2px solid rgba(42,82,152,0.25);
+}
+
+/* Ensure focus styles are visible when navigating with keyboard */
+:focus {
+    outline-offset: 2px;
+}
+
+/* Decade grouping styles */
+.decade-header td {
+    background: #eef3fb;
+    color: #10345a;
+    font-weight: 700;
+    padding: 10px 12px;
+    border-top: 1px solid #d6e4fb;
+}
+.decade-toggle {
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: inherit;
+    cursor: pointer;
+    padding: 6px 8px;
+}
+.decade-toggle:focus {
+    outline: 2px solid rgba(42,82,152,0.25);
+    border-radius: 4px;
+}
+.decade-section.collapsed tr.ep-row {
+    display: none;
+}
+.decade-section .ep-row td {
+    background: white;
 }
