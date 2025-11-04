@@ -17,8 +17,23 @@
         <section class="filters">
             <div class="filter-group">
                 <label for="name-filter">Episode Name:</label>
-                <input type="text" id="name-filter" placeholder="Search episodes...">
-            </div>
+            <input type="text" id="name-filter" placeholder="Filter by episode title">
+
+    <select id="era-filter">
+        <option value="">All Eras</option>
+        <option value="Classic">Classic</option>
+        <option value="Modern">Modern</option>
+        <option value="Recent">Recent</option>
+    </select>
+
+    <select id="doctor-filter">
+        <option value="">All Doctors</option>
+    </select>
+
+    <select id="companion-filter">
+        <option value="">All Companions</option>
+    </select>
+    </div>
             <!-- Add more filters as needed -->
         </section>
 
@@ -34,20 +49,24 @@
                 <!-- Error messages will be inserted here -->
             </div>
 
+            <div id="warnings">
+              Warnings: <span id="warning-count">0</span>
+            </div>
+
             <!-- Episodes Table -->
             <table id="episodes-table" style="display: none;">
                 <thead>
                     <tr>
-                        <th data-sort="rank">Rank</th>
-                        <th data-sort="title">Title</th>
-                        <th data-sort="series">Series</th>
-                        <th data-sort="era">Era</th>
-                        <th data-sort="broadcast_date">Year</th>
-                        <th data-sort="director">Director</th>
-                        <th data-sort="writer">Writer</th>
-                        <th data-sort="doctor">Doctor</th>
-                        <th data-sort="companion">Companion</th>
-                        <th data-sort="cast">Cast</th>
+                        <th data-sort="rank"  tabindex="0">Rank</th>
+                        <th data-sort="title" tabindex="0">Title</th>
+                        <th data-sort="series" tabindex="0">Series</th>
+                        <th data-sort="era" tabindex="0">Era</th>
+                        <th data-sort="broadcast_date" tabindex="0">Year</th>
+                        <th data-sort="director" tabindex="0">Director</th>
+                        <th data-sort="writer" tabindex="0">Writer</th>
+                        <th data-sort="doctor" tabindex="0">Doctor</th>
+                        <th data-sort="companion" tabindex="0">Companion</th>
+                        <th data-sort="cast" tabindex="0">Cast</th>
                     </tr>
                 </thead>
                 <tbody id="episodes-body">
@@ -59,6 +78,8 @@
             <div id="no-results" class="no-results" style="display: none;">
                 No episodes match your search criteria.
             </div>
+            <div id="loading" style="display:none;">Loading...</div>
+            <div id="error" style="display:none;color:red;"></div>
         </main>
     </div>
 
