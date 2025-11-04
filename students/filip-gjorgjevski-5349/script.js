@@ -15,7 +15,8 @@ let state = {
     episodes: [],
     filtered: [],
     sort: { field: 'rank', ascending: true },
-    filters: { name: '' }
+    filters: { name: '' },
+    focusedRowIndex: -1 // -1 means no row is focused
 };
 
 // Initialize Application
@@ -43,6 +44,9 @@ function setupEventListeners() {
             applyFiltersAndSort();
         });
     });
+
+    // Main listener for all keyboard navigation
+    document.addEventListener('keydown', handleKeyboardNavigation);
 }
 
 // Data Loading
@@ -53,9 +57,7 @@ async function loadEpisodes() {
         const responses = await Promise.all(promises);
 
         for (const response of responses) {
-            if (!response.ok) {
-                throw new Error(`Failed to fetch from ${response.url} (${response.statusText})`);
-            }
+            if (!response.ok) throw new Error(`Failed to fetch from ${response.url} (${response.statusText})`);
         }
 
         const jsonDataArray = await Promise.all(responses.map(res => res.json()));
@@ -70,16 +72,16 @@ async function loadEpisodes() {
 
 // Main function to apply filters and sorting
 function applyFiltersAndSort() {
-    const filterText = state.filters.name.toLowerCase();
+    // Reset row focus whenever data changes
+    state.focusedRowIndex = -1;
 
+    const filterText = state.filters.name.toLowerCase();
     let processedData = state.episodes.filter(episode => {
-        // Handle null/missing values gracefully during filtering
         const title = episode.title?.toLowerCase() || '';
         const doctor = formatDoctor(episode.doctor, false).toLowerCase();
         const companion = formatCompanion(episode.companion, false).toLowerCase();
         const writer = episode.writer?.toLowerCase() || '';
         const director = episode.director?.toLowerCase() || '';
-
         return title.includes(filterText) || doctor.includes(filterText) ||
                companion.includes(filterText) || writer.includes(filterText) ||
                director.includes(filterText);
@@ -87,7 +89,6 @@ function applyFiltersAndSort() {
 
     const { field, ascending } = state.sort;
     const direction = ascending ? 1 : -1;
-
     processedData.sort((a, b) => {
         const valA = getSortValue(a, field);
         const valB = getSortValue(b, field);
@@ -98,21 +99,18 @@ function applyFiltersAndSort() {
     displayEpisodes(state.filtered);
 }
 
-// Display Functions - REWRITTEN FOR ROBUSTNESS AND SECURITY
+// Display Functions
 function displayEpisodes(episodes) {
     const tableBody = document.getElementById('episodes-body');
-    tableBody.innerHTML = ''; // Clear existing rows
+    tableBody.innerHTML = ''; 
 
     updateSortHeaders();
     document.getElementById('no-results').style.display = episodes.length === 0 ? 'block' : 'none';
 
-    episodes.forEach(episode => {
+    episodes.forEach((episode, index) => {
         const row = tableBody.insertRow();
-        
-        // Use textContent to safely render special characters and prevent XSS
-        const createCell = (text) => {
+        const createCell = text => {
             const cell = row.insertCell();
-            // Handle missing/null values gracefully for all fields
             cell.textContent = text ?? 'N/A';
             return cell;
         };
@@ -123,28 +121,58 @@ function displayEpisodes(episodes) {
         createCell(episode.era);
         createCell(getYear(episode.broadcast_date));
         createCell(episode.director);
-        createCell(episode.writer); // Displays multiple writers correctly as it's a single string
+        createCell(episode.writer);
         createCell(formatDoctor(episode.doctor));
-        createCell(formatCompanion(episode.companion)); // Handles null companion data
-        createCell(episode.cast?.length || 0); // Handles empty or null cast arrays
+        createCell(formatCompanion(episode.companion));
+        createCell(episode.cast?.length || 0);
+
+        // Add click listener for focus
+        row.addEventListener('click', () => {
+            state.focusedRowIndex = index;
+            updateRowFocus();
+        });
     });
+    // Ensure focus is visually cleared if it was reset
+    updateRowFocus();
+}
+
+// KEYBOARD NAVIGATION HANDLER
+function handleKeyboardNavigation(e) {
+    const tableBody = document.getElementById('episodes-body');
+    const isTableFocused = tableBody.contains(document.activeElement) || document.activeElement.tagName === 'TH';
+
+    // Handle Enter to sort focused column
+    if (e.key === 'Enter' && document.activeElement.tagName === 'TH') {
+        e.preventDefault();
+        document.activeElement.click();
+    }
+
+    // Handle Arrow keys to navigate table rows
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        const direction = e.key === 'ArrowDown' ? 1 : -1;
+        const numRows = state.filtered.length;
+        if (numRows === 0) return;
+
+        // Move focus index
+        state.focusedRowIndex += direction;
+
+        // Clamp the index within bounds
+        if (state.focusedRowIndex >= numRows) state.focusedRowIndex = numRows - 1;
+        if (state.focusedRowIndex < 0) state.focusedRowIndex = 0;
+
+        updateRowFocus();
+    }
 }
 
 // UTILITY FUNCTIONS
-
 function getSortValue(episode, field) {
     switch (field) {
-        case 'doctor':
-            return formatDoctor(episode.doctor, false).toLowerCase();
-        case 'companion':
-            return formatCompanion(episode.companion, false).toLowerCase();
-        case 'cast_count':
-            return episode.cast?.length || 0; // Sorts empty/null cast as 0
-        case 'broadcast_date':
-            // Sort dates with mixed formats by normalizing them first
-            return normalizeDate(episode.broadcast_date)?.getTime() || 0;
-        default:
-            return (episode[field] || '').toString().toLowerCase();
+        case 'doctor': return formatDoctor(episode.doctor, false).toLowerCase();
+        case 'companion': return formatCompanion(episode.companion, false).toLowerCase();
+        case 'cast_count': return episode.cast?.length || 0;
+        case 'broadcast_date': return normalizeDate(episode.broadcast_date)?.getTime() || 0;
+        default: return (episode[field] || '').toString().toLowerCase();
     }
 }
 
@@ -157,7 +185,20 @@ function updateSortHeaders() {
     });
 }
 
-// Handles various date formats for reliable parsing
+// Visually update which row has focus
+function updateRowFocus() {
+    const rows = document.getElementById('episodes-body').rows;
+    for (let i = 0; i < rows.length; i++) {
+        if (i === state.focusedRowIndex) {
+            rows[i].classList.add('focused');
+            // Scroll the focused row into view if it's not visible
+            rows[i].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        } else {
+            rows[i].classList.remove('focused');
+        }
+    }
+}
+
 function normalizeDate(dateString) {
     if (!dateString) return null;
     if (/^\d{4}$/.test(dateString)) return new Date(dateString, 0, 1);
@@ -169,14 +210,13 @@ function normalizeDate(dateString) {
     return isNaN(date.getTime()) ? null : date;
 }
 
-// Formatters for display
 function formatDoctor(doctor, includeIncarnation = true) {
     if (!doctor?.actor) return 'N/A';
     return includeIncarnation ? `${doctor.actor} (${doctor.incarnation || 'N/A'})` : doctor.actor;
 }
 
 function formatCompanion(companion, includeCharacter = true) {
-    if (!companion?.actor) return 'N/A'; // Handles null/missing companion
+    if (!companion?.actor) return 'N/A';
     return includeCharacter ? `${companion.actor} (${companion.character || 'N/A'})` : companion.actor;
 }
 
@@ -194,7 +234,6 @@ function showLoading(isLoading) {
 
 function showError(details) {
     const errorElement = document.getElementById('error');
-    // Format error messages clearly with user-friendly text and technical details
     const userMessage = "Error: Could not load Doctor Who episodes. Please check your network connection and try again.";
     errorElement.textContent = `${userMessage}\nDetails: ${details}`;
     errorElement.style.display = 'block';

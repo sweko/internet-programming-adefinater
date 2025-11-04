@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor Who Episodes Explorer</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Add some basic styling for sort indicators -->
+    <!-- Add styling for keyboard navigation and focus -->
     <style>
         #episodes-table th {
             cursor: pointer;
             user-select: none;
+            outline: none; /* Remove default outline */
+        }
+        /* Visual feedback for focused header */
+        #episodes-table th:focus {
+            box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.5);
+            border-radius: 4px;
+        }
+        /* Visual feedback for current row */
+        #episodes-body tr.focused {
+            background-color: #e8f0fe;
         }
         #episodes-table th.sort-asc::after {
             content: ' ▲';
@@ -26,7 +36,6 @@
             <p>Explore episodes through time and space</p>
         </header>
 
-        <!-- Filter Section -->
         <section class="filters">
             <div class="filter-group">
                 <label for="name-filter">Search:</label>
@@ -34,41 +43,29 @@
             </div>
         </section>
 
-        <!-- Main Content -->
         <main>
-            <!-- Loading State -->
-            <div id="loading" class="loading">
-                Loading episodes...
-            </div>
+            <div id="loading" class="loading">Loading episodes...</div>
+            <div id="error" class="error" style="display: none;"></div>
 
-            <!-- Error Display -->
-            <div id="error" class="error" style="display: none;">
-                <!-- Error messages will be inserted here -->
-            </div>
-
-            <!-- Episodes Table -->
             <table id="episodes-table" style="display: none;">
                 <thead>
                     <tr>
-                        <!-- Updated table headers with data-sort attributes -->
-                        <th data-sort="rank">Rank</th>
-                        <th data-sort="title">Title</th>
-                        <th data-sort="series">Series</th>
-                        <th data-sort="era">Era</th>
-                        <th data-sort="broadcast_date">Year</th>
-                        <th data-sort="director">Director</th>
-                        <th data-sort="writer">Writer</th>
-                        <th data-sort="doctor">Doctor</th>
-                        <th data-sort="companion">Companion</th>
-                        <th data-sort="cast_count">Cast Count</th>
+                        <!-- Added tabindex="0" to make headers focusable -->
+                        <th data-sort="rank" tabindex="0">Rank</th>
+                        <th data-sort="title" tabindex="0">Title</th>
+                        <th data-sort="series" tabindex="0">Series</th>
+                        <th data-sort="era" tabindex="0">Era</th>
+                        <th data-sort="broadcast_date" tabindex="0">Year</th>
+                        <th data-sort="director" tabindex="0">Director</th>
+                        <th data-sort="writer" tabindex="0">Writer</th>
+                        <th data-sort="doctor" tabindex="0">Doctor</th>
+                        <th data-sort="companion" tabindex="0">Companion</th>
+                        <th data-sort="cast_count" tabindex="0">Cast Count</th>
                     </tr>
                 </thead>
-                <tbody id="episodes-body">
-                    <!-- Episodes will be inserted here -->
-                </tbody>
+                <tbody id="episodes-body"></tbody>
             </table>
 
-            <!-- No Results Message -->
             <div id="no-results" class="no-results" style="display: none;">
                 No episodes match your search criteria.
             </div>
