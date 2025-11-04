@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor Who Episodes Explorer</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Add some basic styling for sort indicators -->
+    <style>
+        #episodes-table th {
+            cursor: pointer;
+            user-select: none;
+        }
+        #episodes-table th.sort-asc::after {
+            content: ' ▲';
+        }
+        #episodes-table th.sort-desc::after {
+            content: ' ▼';
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -16,10 +29,9 @@
         <!-- Filter Section -->
         <section class="filters">
             <div class="filter-group">
-                <label for="name-filter">Episode Name:</label>
-                <input type="text" id="name-filter" placeholder="Search episodes...">
+                <label for="name-filter">Search:</label>
+                <input type="text" id="name-filter" placeholder="Filter by Title, Doctor, Writer...">
             </div>
-            <!-- Add more filters as needed -->
         </section>
 
         <!-- Main Content -->
@@ -38,6 +50,7 @@
             <table id="episodes-table" style="display: none;">
                 <thead>
                     <tr>
+                        <!-- Updated table headers with data-sort attributes -->
                         <th data-sort="rank">Rank</th>
                         <th data-sort="title">Title</th>
                         <th data-sort="series">Series</th>
@@ -47,7 +60,7 @@
                         <th data-sort="writer">Writer</th>
                         <th data-sort="doctor">Doctor</th>
                         <th data-sort="companion">Companion</th>
-                        <th data-sort="cast">Cast</th>
+                        <th data-sort="cast_count">Cast Count</th>
                     </tr>
                 </thead>
                 <tbody id="episodes-body">
