@@ -8,7 +8,7 @@ const CONFIG = {
         'https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-41-50.json',
         'https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-51-65.json'
     ],
-    FALLBACK_URL: './doctor-who-episodes-full.json',
+    FALLBACK_URL: '../data/doctor-who-episodes-full.json',
     DATE_FORMATS: {
         ISO: 'YYYY-MM-DD',
         UK: 'DD/MM/YYYY',
@@ -343,10 +343,13 @@ async function loadEpisodes() {
     // Populate filter dropdowns (era, etc.)
     try { populateFilterOptions(); } catch (err) { console.warn('populateFilterOptions failed', err); }
 
+    // Run developer-only validation and log warnings to console (no UI changes)
+    try { validateData(state.episodes); } catch (err) { console.warn('validateData failed', err); }
+
     // Display the episodes and reset keyboard navigation
     displayEpisodes(state.filtered);
-        state.keyboard.selectedRowIndex = -1;
-        state.keyboard.selectedColumn = null;
+    state.keyboard.selectedRowIndex = -1;
+    state.keyboard.selectedColumn = null;
         
     } catch (error) {
         showError(`Failed to load episodes: ${error.message}`);
@@ -532,6 +535,114 @@ function formatDate(date) {
     }
 
     return year || 'Unknown';
+}
+
+// Developer-only data validation helpers (console warnings only)
+function parseBroadcastDate(dateStr) {
+    if (!dateStr) return null;
+
+    // Year-only: YYYY
+    if (/^\d{4}$/.test(dateStr)) {
+        return new Date(Number(dateStr), 0, 1);
+    }
+
+    // ISO YYYY-MM-DD
+    if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+        const d = new Date(dateStr);
+        if (!isNaN(d.getTime())) return d;
+    }
+
+    // UK format DD/MM/YYYY
+    if (/^\d{2}\/\d{2}\/\d{4}$/.test(dateStr)) {
+        const parts = dateStr.split('/');
+        const day = Number(parts[0]);
+        const month = Number(parts[1]) - 1;
+        const year = Number(parts[2]);
+        const d = new Date(year, month, day);
+        if (!isNaN(d.getTime())) return d;
+    }
+
+    // Try Date.parse fallback (e.g., "Month DD, YYYY")
+    const fallback = new Date(dateStr);
+    if (!isNaN(fallback.getTime())) return fallback;
+
+    return null;
+}
+
+function validateData(episodes) {
+    if (!Array.isArray(episodes)) return;
+
+    const now = new Date();
+    const rankMap = new Map();
+    const duplicateRanks = new Set();
+
+    episodes.forEach((ep, idx) => {
+        const id = `#${idx + 1}${ep && ep.title ? ' - ' + ep.title : ''}`;
+
+        // Check for missing required fields (developer-only warnings)
+        const requiredFields = ['rank', 'title', 'series', 'broadcast_date', 'director', 'writer', 'doctor'];
+        requiredFields.forEach(field => {
+            const val = ep ? ep[field] : undefined;
+            if (val === undefined || val === null || (typeof val === 'string' && val.trim() === '')) {
+                console.warn(`Validation warning ${id}: Missing required field '${field}'.`, ep);
+            }
+        });
+
+        // Rank validations: must be a positive integer
+        const rawRank = ep && ep.rank;
+        const rank = Number(rawRank);
+        if (rawRank === undefined || rawRank === null || rawRank === '') {
+            console.warn(`Validation warning ${id}: Rank is missing.`, ep);
+        } else if (!Number.isFinite(rank) || !Number.isInteger(rank)) {
+            console.warn(`Validation warning ${id}: Rank is invalid (${rawRank}). Expected an integer.`, ep);
+        } else {
+            if (rank <= 0) {
+                console.warn(`Validation warning ${id}: Rank should be a positive integer (>0). Found: ${rank}`, ep);
+            }
+
+            // Detect duplicates
+            if (rankMap.has(rank)) {
+                duplicateRanks.add(rank);
+            } else {
+                rankMap.set(rank, ep);
+            }
+        }
+
+        // Series number: detect negative values (some entries may use 'Special' or non-numeric series)
+        const seriesRaw = ep && ep.series;
+        const seriesNum = Number(seriesRaw);
+        if (!isNaN(seriesNum) && seriesNum < 0) {
+            console.warn(`Validation warning ${id}: Negative series number detected (${seriesRaw}).`, ep);
+        }
+
+        // Future broadcast dates
+        const parsedDate = parseBroadcastDate(ep && ep.broadcast_date);
+        if (parsedDate) {
+            if (parsedDate.getTime() > now.getTime()) {
+                console.warn(`Validation warning ${id}: Broadcast date is in the future (${ep.broadcast_date}).`, ep);
+            }
+        } else {
+            // Unparseable dates are noted at debug level to avoid noisy warnings but are still helpful
+            console.debug(`Validation info ${id}: Unparseable broadcast date (${ep && ep.broadcast_date}).`);
+        }
+
+        // Doctor object shape
+        if (ep && ep.doctor) {
+            if (!ep.doctor.actor || !ep.doctor.incarnation) {
+                console.warn(`Validation warning ${id}: Doctor object missing 'actor' or 'incarnation'.`, ep);
+            }
+        }
+    });
+
+    // Report duplicates (summary)
+    if (duplicateRanks.size > 0) {
+        console.warn(`Validation warning: Duplicate ranks detected: ${Array.from(duplicateRanks).join(', ')}.`);
+        // Optionally print an example for each duplicate rank
+        duplicateRanks.forEach(r => {
+            const example = rankMap.get(r);
+            console.warn(` - Example for rank ${r}:`, example);
+        });
+    }
 }
 
 // Sorting Functions
