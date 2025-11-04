@@ -230,7 +230,7 @@ th[data-sort] {
 }
 
 th[data-sort]:hover::after {
-    content: "Click to sort • Shift+Click for multi-sort";
+    content: "Click to sort / Shift+Click for multi-sort";
     position: absolute;
     bottom: -30px;
     left: 50%;
