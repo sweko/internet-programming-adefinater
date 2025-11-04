@@ -114,7 +114,7 @@ function createEpisodeRow(ep) {
         ep.writer,
         `${ep.doctor.actor} (${ep.doctor.incarnation})`,
         ep.companion ? `${ep.companion.actor} (${ep.companion.character})` : 'No companion',
-        (ep.cast === null) ? 'No cast' : ep.cast.length,
+        (ep.cast === null) ? 0 : ep.cast.length,
     ];
 
     columns.forEach(value => {
@@ -165,8 +165,10 @@ function sortEpisodes(field) {
                 bValue = b.writer.toLowerCase();
                 break;
             case 'doctor':
-                aValue = a.doctor.actor.toLowerCase();
-                bValue = b.doctor.actor.toLowerCase();
+                if(a.doctor.actor === undefined) aValue = '';
+                else aValue = a.doctor.actor.toLowerCase();
+                if(b.doctor.actor === undefined) bValue = '';
+                else bValue = b.doctor.actor.toLowerCase();
                 break;
             case 'companion':
                 aValue = a.companion ? a.companion.actor.toLowerCase() : '';
@@ -177,8 +179,8 @@ function sortEpisodes(field) {
                 bValue = new Date(b.broadcast_date).getTime();
                 break;
             case 'cast':
-                aValue = (a.cast) ? 0 : a.cast.length;
-                bValue = (b.cast) ? 0 : b.cast.length;
+                aValue = (a.cast === null) ? 0 : a.cast.length;
+                bValue = (b.cast === null) ? 0 : b.cast.length;
                 break;
             default:
                 return 0;
