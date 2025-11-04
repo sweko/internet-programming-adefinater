@@ -7,7 +7,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container">function displayEpisodes(episodes) {
+    const tbody = document.getElementById('episodes-body');
+    const table = document.getElementById('episodes-table');
+    const noResults = document.getElementById('no-results');
+
+    tbody.innerHTML = ''; // Clear old data
+
+    if (!episodes.length) {
+        table.style.display = 'none';
+        noResults.style.display = 'block';
+        return;
+    }
+
+    noResults.style.display = 'none';
+    table.style.display = 'table';
+
+    for (const ep of episodes) {
+        const tr = document.createElement('tr');
+
+        tr.innerHTML = `
+            <td>${ep.rank}</td>
+            <td>${ep.title}</td>
+            <td>${ep.series}</td>
+            <td>${ep.era}</td>
+            <td>${new Date(ep.broadcast_date).getFullYear()}</td>
+            <td>${ep.director}</td>
+            <td>${ep.writer}</td>
+            <td>${ep.doctor}</td>
+            <td>${ep.companion}</td>
+            <td><span class="cast-count">${ep.cast.length}</span></td>
+        `;
+
+        tbody.appendChild(tr);
+    }
+}
+
         <header>
             <h1>Doctor Who Episodes Explorer</h1>
             <p>Explore episodes through time and space</p>
@@ -19,7 +54,23 @@
                 <label for="name-filter">Episode Name:</label>
                 <input type="text" id="name-filter" placeholder="Search episodes...">
             </div>
-            <!-- Add more filters as needed -->
+           function setupEventListeners() {
+    const nameInput = document.getElementById('name-filter');
+    nameInput.addEventListener('input', filterEpisodes);
+}
+
+function filterEpisodes() {
+    const query = document.getElementById('name-filter').value.toLowerCase();
+    state.filters.name = query;
+
+    state.filtered = state.episodes.filter(ep =>
+        ep.title.toLowerCase().includes(query)
+    );
+
+    displayEpisodes(state.filtered);
+}
+
+
         </section>
 
         <!-- Main Content -->
@@ -51,7 +102,42 @@
                     </tr>
                 </thead>
                 <tbody id="episodes-body">
-                    <!-- Episodes will be inserted here -->
+                  function displayEpisodes(episodes) {
+    const tbody = document.getElementById('episodes-body');
+    const table = document.getElementById('episodes-table');
+    const noResults = document.getElementById('no-results');
+
+    tbody.innerHTML = ''; // Clear old data
+
+    if (!episodes.length) {
+        table.style.display = 'none';
+        noResults.style.display = 'block';
+        return;
+    }
+
+    noResults.style.display = 'none';
+    table.style.display = 'table';
+
+    for (const ep of episodes) {
+        const tr = document.createElement('tr');
+
+        tr.innerHTML = `
+            <td>${ep.rank}</td>
+            <td>${ep.title}</td>
+            <td>${ep.series}</td>
+            <td>${ep.era}</td>
+            <td>${new Date(ep.broadcast_date).getFullYear()}</td>
+            <td>${ep.director}</td>
+            <td>${ep.writer}</td>
+            <td>${ep.doctor}</td>
+            <td>${ep.companion}</td>
+            <td><span class="cast-count">${ep.cast.length}</span></td>
+        `;
+
+        tbody.appendChild(tr);
+    }
+}
+
                 </tbody>
             </table>
 
