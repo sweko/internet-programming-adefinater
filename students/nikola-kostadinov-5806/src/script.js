@@ -332,9 +332,10 @@ async function loadEpisodes() {
             // Sort by rank regardless of source
             state.episodes.sort((a, b) => (a.rank || 0) - (b.rank || 0));
             
-            showError('Successfully loaded from local backup'); // Show success message
-            await new Promise(resolve => setTimeout(resolve, 1500)); // Show success message briefly
             showError(''); // Clear error message
+            showSuccess('Successfully loaded from local backup'); // Show success message
+            await new Promise(resolve => setTimeout(resolve, 1500)); // Show success message briefly
+            showSuccess('');
         }
 
         // Initialize filtered episodes with all episodes
@@ -840,6 +841,12 @@ function showLoading(show) {
 
 function showError(message) {
     const errorElement = document.getElementById('error');
+    errorElement.textContent = message;
+    errorElement.style.display = message ? 'block' : 'none';
+}
+
+function showSuccess(message) {
+    const errorElement = document.getElementById('success');
     errorElement.textContent = message;
     errorElement.style.display = message ? 'block' : 'none';
 }
