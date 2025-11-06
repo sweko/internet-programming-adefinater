@@ -1,4 +1,5 @@
 // Configuration and constants
+let focusedRowIndex = -1;
 const DATA_URL = '../hugo-books-exam.json'; // Path to the exam data file
 let books = [];
 let filteredBooks = [];
@@ -32,11 +33,26 @@ function initializeElements() {
 }
 
 /**
+ * Debounce helper - delays a function call until user stops typing
+ */
+function debounce(func, delay = 300) {
+  let timeoutId;
+  return (...args) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => func(...args), delay);
+  };
+}
+
+
+/**
  * Set up event listeners for user interactions
  */
 function setupEventListeners() {
-  // 🔍 Filter input (live search)
-  nameFilter.addEventListener("input", handleFilterChange);
+
+    // 🔍 Filter input (debounced for performance)
+    const debouncedFilter = debounce(handleFilterChange, 300);
+    nameFilter.addEventListener("input", debouncedFilter);
+
 
   // 🏆 Winner dropdown (we’ll fill options next)
   winnerFilter.innerHTML = `
@@ -54,12 +70,54 @@ function setupEventListeners() {
     header.addEventListener("click", () => handleSort(header.dataset.column));
   });
 
-    // TODO: Add event listeners for:
-    // - Filter inputs (text input, dropdowns)
-    // - Sort buttons (table headers)
-    // - Clear filters button
+    // 🎹 Keyboard navigation (improved)
+document.addEventListener("keydown", (event) => {
+  const rows = Array.from(tableBody.querySelectorAll("tr"));
+  const headers = Array.from(document.querySelectorAll(".sortable"));
 
-    // TODO: Add sort listeners to table headers
+  if (rows.length === 0) return;
+
+  switch (event.key) {
+    case "ArrowDown":
+      event.preventDefault();
+      focusRow(focusedRowIndex + 1);
+      break;
+
+    case "ArrowUp":
+      event.preventDefault();
+      focusRow(focusedRowIndex - 1);
+      break;
+
+    case "Enter":
+      event.preventDefault();
+      // If a row is focused → open its link (if any)
+      if (focusedRowIndex >= 0 && focusedRowIndex < rows.length) {
+        const cells = rows[focusedRowIndex].querySelectorAll("td");
+        // For extra polish: if the book has a URL, open it in a new tab
+        const book = filteredBooks[focusedRowIndex];
+        if (book?.url) {
+          window.open(book.url, "_blank");
+        } else {
+          console.log("Selected:", book?.title || "No title");
+        }
+      } else {
+        // If no row is focused → default to sorting by Title
+        const titleHeader = headers.find((h) => h.dataset.column === "title");
+        if (titleHeader) handleSort(titleHeader.dataset.column);
+      }
+      break;
+
+    case "Escape":
+      event.preventDefault();
+      clearFocus();
+      break;
+
+    default:
+      break;
+  }
+});
+
+
 }
 
 function formatAward(award) {
@@ -142,6 +200,7 @@ async function loadData() {
 
     filteredBooks = [...books];
     displayBooks();
+    validateData();
   } catch (error) {
     console.error("Error loading data:", error);
     showError(true);
@@ -149,6 +208,55 @@ async function loadData() {
     showLoading(false);
   }
 }
+
+function validateData() {
+  const warnings = [];
+  const seenIds = new Set();
+  const currentYear = new Date().getFullYear();
+
+  books.forEach((book, index) => {
+    // Missing required fields
+    if (!book.title || !book.author || !book.award) {
+      warnings.push(`Book #${index + 1}: missing required fields`);
+    }
+
+    // Duplicate IDs
+    if (book.id) {
+      if (seenIds.has(String(book.id))) {
+        warnings.push(`Duplicate ID found: ${book.id}`);
+      } else {
+        seenIds.add(String(book.id));
+      }
+    }
+
+    // Future award year
+    if (book.award?.year > currentYear) {
+      warnings.push(
+        `${book.title || "Unknown title"} has future award year: ${book.award.year}`
+      );
+    }
+
+    // Invalid winner status
+    if (
+      book.award &&
+      typeof book.award.is_winner !== "boolean" &&
+      book.award.is_winner !== undefined
+    ) {
+      warnings.push(`${book.title || "Unknown title"}: invalid winner status`);
+    }
+  });
+
+  // Show count in UI
+  const warningElement = document.getElementById("warningCount");
+  if (warnings.length > 0) {
+    warningElement.textContent = `⚠ ${warnings.length} data issues found (see console)`;
+    console.warn("⚠ Data Validation Warnings:", warnings);
+  } else {
+    warningElement.textContent = "✅ No data validation issues found";
+    console.log("✅ Data validated successfully – no issues detected");
+  }
+}
+
 
 /**
  * Display books in the table
@@ -204,6 +312,28 @@ function displayBooks() {
     tableBody.appendChild(tr);
   });
 }
+
+/**
+ * Keyboard navigation helpers (Tier 3)
+ */
+function focusRow(index) {
+  const rows = tableBody.querySelectorAll("tr");
+  if (rows.length === 0) return;
+  rows.forEach((row) => row.classList.remove("focused-row"));
+
+  if (index < 0) index = 0;
+  if (index >= rows.length) index = rows.length - 1;
+
+  rows[index].classList.add("focused-row");
+  rows[index].scrollIntoView({ behavior: "smooth", block: "nearest" });
+  focusedRowIndex = index;
+}
+
+function clearFocus() {
+  tableBody.querySelectorAll("tr").forEach((row) => row.classList.remove("focused-row"));
+  focusedRowIndex = -1;
+}
+
 
 /**
  * Handle sorting by column
