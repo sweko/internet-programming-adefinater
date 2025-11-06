@@ -42,9 +42,35 @@
                         </select>
                     </div>
 
+                    <!-- Decade Filter -->
+                    <div class="filter-group">
+                        <label for="decadeFilter">Decade:</label>
+                        <select id="decadeFilter">
+                            <option value="all">All decades</option>
+                        </select>
+                    </div>
+
+                    <!-- Author Filter -->
+                    <div class="filter-group">
+                        <label for="authorFilter">Author:</label>
+                        <select id="authorFilter">
+                            <option value="all">All authors</option>
+                        </select>
+                    </div>
+
                     <!-- Clear Filters -->
                     <div class="filter-group">
                         <button id="clearFilters">Clear Filters</button>
+                    </div>
+
+                    <!-- Export Button -->
+                    <div class="filter-group">
+                        <button id="exportBtn">Export to CSV</button>
+                    </div>
+
+                    <!-- Genre Grouping Toggle -->
+                    <div class="filter-group">
+                        <button id="toggleGrouping">Group by Genre</button>
                     </div>
                 </div>
             </section>
@@ -54,8 +80,13 @@
                 <p id="resultsCount">Showing 0 of 0 books</p>
             </section>
 
+            <!-- Genre Grouping Container (hidden by default) -->
+            <div id="genreGrouping" class="genre-grouping hidden">
+                <!-- Genre groups will be populated here by JavaScript -->
+            </div>
+
             <!-- Books Table -->
-            <section class="table-container">
+            <section class="table-container" id="tableContainer">
                 <table id="booksTable" class="books-table">
                     <thead>
                         <tr>
@@ -103,7 +134,10 @@
         </main>
 
         <footer>
-            <p>&copy; 2025 Hugo Award Books Explorer</p>
+            <p>&copy; 2025 Hugo Award Books Explorer
+
+                made by Dushko Sofronievski ID:5343
+            </p>
         </footer>
     </div>
 
