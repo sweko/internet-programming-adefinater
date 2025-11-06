@@ -325,3 +325,22 @@ footer {
         padding-right: 20px;
     }
 }
+#clearFilters {
+    background-color: #2ecc71; /* Green */
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#clearFilters:hover {
+    background-color: #27ae60; /* Darker green */
+    transform: scale(1.05);
+}
+
+#clearFilters:active {
+    transform: scale(0.97);
+}
