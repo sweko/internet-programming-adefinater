@@ -151,6 +151,16 @@ select:focus {
     box-shadow: 0 0 0 2px rgba(42,82,152,0.2);
 }
 
+td:focus, th:focus, input:focus {
+    outline: 2px solid #007BFF; /* blue outline */
+    background-color: #e0f0ff;
+}
+
+th:focus, tr:focus {
+    outline: 2px solid #007BFF;
+    background-color: #e6f0ff;
+}
+
 /* Table Row Hover */
 tbody tr:hover {
     background: #f8f9fa;
