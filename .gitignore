@@ -4,3 +4,5 @@ node_modules/
 code/*/
 !code/_template/
 temp-pr-tests/
+.idea/
+.vscode/
