@@ -39,24 +39,35 @@ header h1 {
     padding: 15px;
     background: #f8f9fa;
     border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
 }
 
 .filter-group {
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .filter-group label {
-    display: inline-block;
-    margin-right: 10px;
+    display: block;
+    margin-bottom: 5px;
     font-weight: 500;
+    color: #2a5298;
 }
 
 .filter-group input,
 .filter-group select {
+    width: 100%;
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-group input:hover,
+.filter-group select:hover {
+    border-color: #2a5298;
 }
 
 /* Table Styles */
@@ -113,6 +124,16 @@ th.sort-desc::after {
     color: #721c24;
 }
 
+/* Success Display */
+.success {
+    padding: 15px;
+    margin: 20px 0;
+    background: #42ba96;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+}
+
 /* Empty State */
 .no-results {
     text-align: center;
@@ -151,9 +172,23 @@ select:focus {
     box-shadow: 0 0 0 2px rgba(42,82,152,0.2);
 }
 
-/* Table Row Hover */
+/* Table Row Hover and Focus */
 tbody tr:hover {
     background: #f8f9fa;
+}
+
+tbody tr:focus,
+tbody tr.keyboard-selected {
+    background: #e8f0fe;
+    outline: 2px solid #2a5298;
+    outline-offset: -2px;
+}
+
+/* Table Header Focus */
+th:focus {
+    outline: 2px solid #ffffff;
+    outline-offset: -2px;
+    background: #1e3c72;
 }
 
 /* Cell Formatting */
@@ -170,4 +205,43 @@ td:first-child {
 
 .loading {
     animation: pulse 1.5s infinite;
+}
+
+/* Pagination Controls */
+#pagination-controls {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination-controls button {
+    background: linear-gradient(180deg, #2a5298 0%, #1e3c72 100%);
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    margin: 0 6px;
+    border-radius: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(30,60,114,0.15);
+    transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+}
+
+#pagination-controls button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(30,60,114,0.18);
+}
+
+#pagination-controls button:disabled {
+    background: #e6eefc;
+    color: #8aa0d6;
+    cursor: default;
+    box-shadow: none;
+    opacity: 0.8;
+}
+
+#pagination-controls span {
+    color: #444;
+    font-size: 0.95em;
 }
