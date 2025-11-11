@@ -19,6 +19,39 @@
                 <label for="name-filter">Episode Name:</label>
                 <input type="text" id="name-filter" placeholder="Search episodes...">
             </div>
+            <div class="filter-group">
+                <label for="data-source">Data source:</label>
+                <select id="data-source">
+                    <option value="remote">Remote (GitHub)</option>
+                    <option value="local">Local (doctor-who-episodes-exam.json)</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="era-filter">Era:</label>
+                <select id="era-filter">
+                    <option value="">All</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="doctor-filter">Doctor:</label>
+                <select id="doctor-filter">
+                    <option value="">All</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="companion-filter">Companion:</label>
+                <select id="companion-filter">
+                    <option value="">All</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <!-- Export filtered results to CSV -->
+                <button id="export-csv" class="export-btn" type="button">Export CSV</button>
+            </div>
+            <div class="filter-group">
+                <!-- Collapse/Expand all decade groups -->
+                <button id="toggle-decades" class="group-toggle" type="button">Collapse all</button>
+            </div>
             <!-- Add more filters as needed -->
         </section>
 
@@ -54,6 +87,11 @@
                     <!-- Episodes will be inserted here -->
                 </tbody>
             </table>
+
+            <!-- Pagination Controls -->
+            <div id="pagination" class="pagination" style="display: none;">
+                <!-- Pagination UI will be rendered here -->
+            </div>
 
             <!-- No Results Message -->
             <div id="no-results" class="no-results" style="display: none;">
