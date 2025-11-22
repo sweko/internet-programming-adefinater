@@ -8445,16 +8445,16 @@
     "studentId": "5735",
     "github": "niko78900",
     "scores": {
-      "tier1": 30,
-      "tier1Percentage": 50,
+      "tier1": 42,
+      "tier1Percentage": 70,
       "tier2": 22,
       "tier2Percentage": 88,
       "tier3": 0,
       "tier3Percentage": 0,
       "bonus": 0,
       "deductions": 0,
-      "total": 52,
-      "finalGrade": 52
+      "total": 64,
+      "finalGrade": 64
     },
     "tests": {
       "Data Loads Successfully": {
@@ -8482,16 +8482,16 @@
         "earned": 4
       },
       "Clicking Headers Sorts Table": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 8,
-        "earned": 0
+        "earned": 8
       },
       "Toggle Ascending/Descending": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 4,
-        "earned": 0
+        "earned": 4
       },
       "Sort Direction Indicator": {
         "status": "pass",
@@ -8506,10 +8506,10 @@
         "earned": 5
       },
       "Filter Actually Works": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 5,
-        "earned": 0
+        "earned": 5
       },
       "No \"undefined\" or \"null\" Text": {
         "status": "pass",
@@ -9265,23 +9265,23 @@
     "studentId": "5737",
     "github": "TeonaNikoloska",
     "scores": {
-      "tier1": 30,
-      "tier1Percentage": 50,
+      "tier1": 60,
+      "tier1Percentage": 92,
       "tier2": 22,
       "tier2Percentage": 88,
       "tier3": 0,
       "tier3Percentage": 0,
       "bonus": 0,
-      "deductions": 0,
-      "total": 52,
-      "finalGrade": 52
+      "deductions": 5,
+      "total": 77,
+      "finalGrade": 77
     },
     "tests": {
       "Data Loads Successfully": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 10,
-        "earned": 0
+        "earned": 10
       },
       "Loading Indicator Shown": {
         "status": "pass",
@@ -9302,16 +9302,16 @@
         "earned": 4
       },
       "Clicking Headers Sorts Table": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 8,
-        "earned": 0
+        "earned": 8
       },
       "Toggle Ascending/Descending": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 4,
-        "earned": 0
+        "earned": 4
       },
       "Sort Direction Indicator": {
         "status": "pass",
@@ -9593,16 +9593,16 @@
     "studentId": "5891",
     "github": "Fatlind101",
     "scores": {
-      "tier1": 30,
-      "tier1Percentage": 50,
-      "tier2": 22,
-      "tier2Percentage": 88,
+      "tier1": 27,
+      "tier1Percentage": 45,
+      "tier2": 5,
+      "tier2Percentage": 20,
       "tier3": 5,
       "tier3Percentage": 33,
       "bonus": 0,
       "deductions": 0,
-      "total": 57,
-      "finalGrade": 57
+      "total": 37,
+      "finalGrade": 37
     },
     "tests": {
       "Data Loads Successfully": {
@@ -9642,10 +9642,10 @@
         "earned": 0
       },
       "Sort Direction Indicator": {
-        "status": "pass",
+        "status": "fail",
         "tier": 1,
         "maxPoints": 3,
-        "earned": 3
+        "earned": 0
       },
       "Filter Input Field Exists": {
         "status": "pass",
@@ -9666,22 +9666,22 @@
         "earned": 5
       },
       "Empty Arrays Handled Gracefully": {
-        "status": "pass",
+        "status": "fail",
         "tier": 2,
         "maxPoints": 3,
-        "earned": 3
+        "earned": 0
       },
       "Special Characters Render Correctly": {
-        "status": "pass",
+        "status": "fail",
         "tier": 2,
         "maxPoints": 4,
-        "earned": 4
+        "earned": 0
       },
       "Error Messages User-Friendly": {
-        "status": "pass",
+        "status": "fail",
         "tier": 2,
         "maxPoints": 3,
-        "earned": 3
+        "earned": 0
       },
       "Missing Data Fields Handled": {
         "status": "pass",
@@ -9923,14 +9923,14 @@
     "scores": {
       "tier1": 57,
       "tier1Percentage": 95,
-      "tier2": 22,
-      "tier2Percentage": 88,
-      "tier3": 5,
-      "tier3Percentage": 33,
+      "tier2": 25,
+      "tier2Percentage": 100,
+      "tier3": 0,
+      "tier3Percentage": 0,
       "bonus": 0,
-      "deductions": 5,
-      "total": 79,
-      "finalGrade": 79
+      "deductions": 0,
+      "total": 82,
+      "finalGrade": 82
     },
     "tests": {
       "Data Loads Successfully": {
@@ -10024,10 +10024,10 @@
         "earned": 4
       },
       "Multiple Date Formats Sorted": {
-        "status": "fail",
+        "status": "pass",
         "tier": 2,
         "maxPoints": 3,
-        "earned": 0
+        "earned": 3
       },
       "Performance Optimization": {
         "status": "fail",
@@ -10042,10 +10042,10 @@
         "earned": 0
       },
       "Smart Relevance Sorting": {
-        "status": "pass",
+        "status": "fail",
         "tier": 3,
         "maxPoints": 5,
-        "earned": 5
+        "earned": 0
       },
       "Data Validation & Warnings": {
         "status": "fail",
@@ -10085,16 +10085,16 @@
     "studentId": "4865",
     "github": "smyiclek",
     "scores": {
-      "tier1": 57,
-      "tier1Percentage": 95,
+      "tier1": 63,
+      "tier1Percentage": 97,
       "tier2": 22,
       "tier2Percentage": 88,
-      "tier3": 5,
-      "tier3Percentage": 33,
-      "bonus": 5,
+      "tier3": 0,
+      "tier3Percentage": 0,
+      "bonus": 0,
       "deductions": 5,
-      "total": 84,
-      "finalGrade": 84
+      "total": 80,
+      "finalGrade": 80
     },
     "tests": {
       "Data Loads Successfully": {
@@ -10206,10 +10206,10 @@
         "earned": 0
       },
       "Smart Relevance Sorting": {
-        "status": "pass",
+        "status": "fail",
         "tier": 3,
         "maxPoints": 5,
-        "earned": 5
+        "earned": 0
       },
       "Data Validation & Warnings": {
         "status": "fail",
@@ -10249,16 +10249,16 @@
     "studentId": "5898",
     "github": "MarijaChank",
     "scores": {
-      "tier1": 57,
-      "tier1Percentage": 95,
+      "tier1": 63,
+      "tier1Percentage": 97,
       "tier2": 22,
       "tier2Percentage": 88,
-      "tier3": 5,
-      "tier3Percentage": 33,
+      "tier3": 0,
+      "tier3Percentage": 0,
       "bonus": 0,
-      "deductions": 0,
-      "total": 84,
-      "finalGrade": 84
+      "deductions": 5,
+      "total": 80,
+      "finalGrade": 80
     },
     "tests": {
       "Data Loads Successfully": {
@@ -10370,10 +10370,10 @@
         "earned": 0
       },
       "Smart Relevance Sorting": {
-        "status": "pass",
+        "status": "fail",
         "tier": 3,
         "maxPoints": 5,
-        "earned": 5
+        "earned": 0
       },
       "Data Validation & Warnings": {
         "status": "fail",
@@ -10577,16 +10577,16 @@
     "studentId": "5903",
     "github": "Aljban-ramuka",
     "scores": {
-      "tier1": 57,
-      "tier1Percentage": 95,
+      "tier1": 63,
+      "tier1Percentage": 97,
       "tier2": 22,
       "tier2Percentage": 88,
-      "tier3": 5,
-      "tier3Percentage": 33,
-      "bonus": 5,
+      "tier3": 0,
+      "tier3Percentage": 0,
+      "bonus": 0,
       "deductions": 0,
-      "total": 89,
-      "finalGrade": 89
+      "total": 85,
+      "finalGrade": 85
     },
     "tests": {
       "Data Loads Successfully": {
@@ -10698,10 +10698,10 @@
         "earned": 0
       },
       "Smart Relevance Sorting": {
-        "status": "pass",
+        "status": "fail",
         "tier": 3,
         "maxPoints": 5,
-        "earned": 5
+        "earned": 0
       },
       "Data Validation & Warnings": {
         "status": "fail",

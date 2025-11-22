@@ -575,7 +575,7 @@
                 `;
                 
                 // First, fetch closed PRs from GitHub
-                await fetchClosedPRs();
+                // await fetchClosedPRs();
                 
                 const response = await fetch('student-points.json');
                 studentsData = await response.json();

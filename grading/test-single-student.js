@@ -55,13 +55,39 @@ async function startServer(folderPath) {
 }
 
 async function runTests(folderPath) {
-  const config = {
-    name: 'Doctor Who Episodes',
-    columns: ['rank', 'title', 'series', 'era', 'broadcast', 'director', 'writer', 'doctor', 'companion', 'cast'],
-    minColumnCount: 9,
-    filterTestQuery: 'Doctor',
-    expectedRows: 100,
-  };
+  // Auto-detect alternative by checking index.html content
+  let config;
+  try {
+    const indexPath = path.join(folderPath, 'index.html');
+    const indexContent = fs.readFileSync(indexPath, 'utf8');
+    
+    if (indexContent.includes('Hugo') || indexContent.includes('hugo')) {
+      config = {
+        name: 'Hugo Award Books',
+        columns: ['title', 'author', 'type', 'award', 'publisher', 'series', 'genres'],
+        minColumnCount: 6,
+        filterTestQuery: 'Foundation',
+        expectedRows: 50,
+      };
+    } else {
+      config = {
+        name: 'Doctor Who Episodes',
+        columns: ['rank', 'title', 'series', 'era', 'broadcast', 'director', 'writer', 'doctor', 'companion', 'cast'],
+        minColumnCount: 9,
+        filterTestQuery: 'Doctor',
+        expectedRows: 100,
+      };
+    }
+  } catch (e) {
+    // Default to Doctor Who
+    config = {
+      name: 'Doctor Who Episodes',
+      columns: ['rank', 'title', 'series', 'era', 'broadcast', 'director', 'writer', 'doctor', 'companion', 'cast'],
+      minColumnCount: 9,
+      filterTestQuery: 'Doctor',
+      expectedRows: 100,
+    };
+  }
 
   const server = await startServer(folderPath);
   const browser = await chromium.launch({ headless: true });

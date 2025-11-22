@@ -107,12 +107,22 @@ const TESTS = {
     points: 15,
     tier: 1,
     test: async (page, config) => {
-      const headers = await page.locator('table thead th').allTextContents();
-      const headerText = headers.join(' ').toLowerCase();
-      
-      const requiredColumns = config.columns;
-      const foundColumns = requiredColumns.filter(col => headerText.includes(col.toLowerCase()));
-      return foundColumns.length >= config.minColumnCount;
+      try {
+        // Get text content from th elements (includes nested spans)
+        const headers = await page.locator('table thead th').all();
+        const headerTexts = [];
+        for (const header of headers) {
+          const text = await header.textContent();
+          headerTexts.push(text.trim());
+        }
+        const headerText = headerTexts.join(' ').toLowerCase();
+        
+        const requiredColumns = config.columns;
+        const foundColumns = requiredColumns.filter(col => headerText.includes(col.toLowerCase()));
+        return foundColumns.length >= config.minColumnCount;
+      } catch (e) {
+        return false;
+      }
     }
   },
 
@@ -121,15 +131,22 @@ const TESTS = {
     points: 6,
     tier: 1,
     test: async (page, config) => {
-      const firstRow = await page.locator('table tbody tr').first();
-      const cells = await firstRow.locator('td').allTextContents();
-      
-      // Check that cells have content (not empty or "undefined")
-      const validCells = cells.filter(cell => 
-        cell && cell.trim() && cell !== 'undefined' && cell !== 'null'
-      );
-      
-      return validCells.length >= 8; // At least 8 columns with valid data
+      try {
+        const firstRow = await page.locator('table tbody tr').first();
+        const cells = await firstRow.locator('td').allTextContents();
+        
+        // Check that cells have content (not empty or "undefined")
+        const validCells = cells.filter(cell => 
+          cell && cell.trim() && cell !== 'undefined' && cell !== 'null'
+        );
+        
+        console.log(`Cells: ${cells.length} total, ${validCells.length} valid | Need: ${config.minColumnCount}`);
+        // Use minColumnCount from config (Doctor Who: 9, Hugo: 6)
+        return validCells.length >= config.minColumnCount;
+      } catch (e) {
+        console.log(`DATA_FORMATTING error: ${e.message}`);
+        return false;
+      }
     }
   },
 
@@ -414,12 +431,12 @@ const TESTS = {
         const rowsBefore = await page.locator('table tbody tr').count();
         
         // Apply filter
-        await filterInput.fill('the');
+        await filterInput.fill('way');
         await page.waitForTimeout(1000);
         
-        // Check if first result makes sense (likely has "the" in title)
+        // Check if first result has "Wayfarers" in series field (indicates relevance sorting)
         const firstRowText = await page.locator('table tbody tr:first-child').textContent();
-        const hasRelevance = firstRowText.toLowerCase().includes('the');
+        const hasRelevance = firstRowText.toLowerCase().includes('wayfarers');
         
         // Clear filter
         await filterInput.fill('');

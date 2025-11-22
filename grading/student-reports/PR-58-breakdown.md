@@ -1,8 +1,8 @@
 # Grading Breakdown - PR #58
 
-**Student:** Fatlind Xhila 5891
-**Student ID:** 
-**GitHub:** @username
+**Student:** Xhila Fatlind
+**Student ID:** 5891
+**GitHub:** @Fatlind101
 **Alternative:** Hugo Award Books
 
 ---
@@ -11,14 +11,14 @@
 
 | Category | Score | Percentage |
 |----------|-------|------------|
-| **Tier 1** (Basic Functionality) | 30 / 60 | 50% |
-| **Tier 2** (Edge Case Handling) | 11 / 25 | 44% |
+| **Tier 1** (Basic Functionality) | 27 / 60 | 45% |
+| **Tier 2** (Edge Case Handling) | 5 / 25 | 20% |
 | **Tier 3** (Advanced Features) | 5 / 15 | 33% |
-| **Subtotal** | 46 / 100 | |
+| **Subtotal** | 37 / 100 | |
 | **Bonus Points** | +0 | |
-| **Deductions** | - | |
-| **Total Points** | 46 / 100 | |
-| **FINAL GRADE** | **46%** | |
+| **Deductions** | -0 | |
+| **Total Points** | 37 / 100 | |
+| **FINAL GRADE** | **37%** | |
 
 ---
 
@@ -28,41 +28,44 @@
 |--------|------|------|---------|--------|
 | ❌ | Data Loads Successfully | 1 | 10 | 0 |
 | ✅ | Loading Indicator Shown | 1 | 3 | 3 |
+| ❌ | Error Handling for Data Fetch | 1 | 2 | 0 |
 | ✅ | All Required Columns Present | 1 | 15 | 15 |
+| ❌ | Data Properly Formatted in Cells | 1 | 6 | 0 |
 | ✅ | Semantic HTML Structure | 1 | 4 | 4 |
 | ❌ | Clicking Headers Sorts Table | 1 | 8 | 0 |
 | ❌ | Toggle Ascending/Descending | 1 | 4 | 0 |
-| ✅ | Sort Direction Indicator | 1 | 3 | 3 |
+| ❌ | Sort Direction Indicator | 1 | 3 | 0 |
 | ✅ | Filter Input Field Exists | 1 | 5 | 5 |
-| ❌ | Filter Actually Works | 1 | 5 | 0 |
-|  | **─── TIER 1 SUBTOTAL ───** |  | 60 | 30 |
+| ❌ | Filter Reduces Displayed Rows | 1 | 5 | 0 |
+|  | **─── TIER 1 SUBTOTAL ───** |  | 60 | 27 |
 | ✅ | No "undefined" or "null" Text | 2 | 5 | 5 |
-| ✅ | Empty/Multiple Genres Handled | 2 | 3 | 3 |
-| ✅ | Special Characters and Long Titles | 2 | 4 | 4 |
-| ✅ | Error Messages User-Friendly | 2 | 3 | 3 |
-| ✅ | Missing Data Fields Handled | 2 | 3 | 3 |
-| ✅ | Award Extraction & Formatting | 2 | 5 | 4 |
-| ❌ | Series Format Handling | 2 | 4 | 0 |
-|  | **─── TIER 2 SUBTOTAL ───** |  | 25 | 11 |
+| ❌ | Empty Arrays Handled Gracefully | 2 | 3 | 0 |
+| ❌ | Special Characters Render Correctly | 2 | 4 | 0 |
+| ❌ | Error Messages User-Friendly | 2 | 3 | 0 |
+| ❌ | Missing/Null Values Display Placeholders | 2 | 3 | 0 |
+| ❌ | Nested Data (Award/Series) Formatted Properly | 2 | 4 | 0 |
+| ❌ | Multiple Date Formats Handled | 2 | 3 | 0 |
+|  | **─── TIER 2 SUBTOTAL ───** |  | 25 | 5 |
 | ❌ | Performance Optimization | 3 | 5 | 0 |
 | ✅ | Keyboard Navigation | 3 | 5 | 5 |
 | ❌ | Smart Relevance Sorting | 3 | 5 | 0 |
 | ❌ | Data Validation & Warnings | 3 | 5 | 0 |
-| ❌ | Enhanced Filters (Winner/Nominee, Decade, Author) | 3 | 5 | 0 |
-| ❌ | Multi-Column Sorting | 3 | 5 | 0 |
-| ❌ | Export to CSV | 3 | 5 | 0 |
-| ❌ | Genre Grouping with Collapse | 3 | 5 | 0 |
+| ❌ | Additional Filter Dropdowns | 3 | 5 | 0 |
+| ❌ | Multi-Column Sorting (Shift+Click) | 3 | 5 | 0 |
+| ❌ | Export to CSV Functionality | 3 | 5 | 0 |
+| ❌ | Decade/Genre Grouping with Collapse | 3 | 5 | 0 |
 |  | **─── TIER 3 SUBTOTAL ───** |  | 15 | 5 |
 | | | | | |
-|  | **BASE SCORE** |  | 100 | 46 |
+|  | **BASE SCORE** |  | 100 | 37 |
 | | | | | |
-| **═══** | **FINAL TOTAL** | ═══ | 100 | 46 |
+| **═══** | **FINAL TOTAL** | ═══ | 100 | 37 |
 
 ---
 
 ## Instructor Notes
 
-AutoTest: 46% | T1=30/60 (50%) | T2=11/25 (44%) | T3=5/40 (13%)
+**MANUAL REVIEW (Nov 22, 2025):** 37% | T1=27/60 (45%) | T2=5/25 (20%) | T3=5/15 (33%)
 
-Hugo Award Books assignment tested with alternative-specific edge cases (award extraction, series formats, genre handling).
+**Critical Issue:** Data loading fails - table never populates. Cannot verify sorting/filtering without data.
 
+**Positive:** Keyboard navigation implemented successfully (+5 Tier 3).
