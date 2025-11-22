@@ -3,3 +3,6 @@ node_modules/
 *.log
 code/*/
 !code/_template/
+temp-pr-tests/
+.idea/
+.vscode/

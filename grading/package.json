@@ -1,0 +1,16 @@
+{
+  "name": "grading-automation",
+  "version": "1.0.0",
+  "description": "Automated grading tools for Internet Programming course",
+  "scripts": {
+    "test": "node automated-browser-test.js",
+    "test:single": "node automated-browser-test.js --student=",
+    "test:parallel": "node automated-browser-test.js --parallel=5",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.40.0"
+  }
+}

@@ -23,12 +23,12 @@ Display episodes in a table with the following columns:
 - Companion (format: "Actor Name (Character)")
 - Cast Count (number)
 
-#### Data Loading (15 points)
+#### Data Loading (15 points) ✅️
 
 - Fetch episode data from the provided JSON endpoint
 
   - Alternative 1: use the URL: https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-full.json
-  - Alternative 2: **(bonus 5 points)** use this set of URLS to load all data:
+  - Alternative 2: **(bonus 5 points)** use this set of URLS to load all data: ✅️
       - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-01-10.json
       - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-11-20.json
       - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-21-30.json
@@ -36,49 +36,49 @@ Display episodes in a table with the following columns:
       - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-41-50.json
       - https://raw.githubusercontent.com/sweko/internet-programming-adefinater/refs/heads/preparation/data/doctor-who-episodes-51-65.json
 
-  - Alternative 3: **(negative 10 points for using this option)** - use a local file named `doctor-who-episodes-full.json` placed in the same directory as your HTML file
+  - Alternative 3: **(negative 10 points for using this option)** - use a local file named `doctor-who-episodes-full.json` placed in the same directory as your HTML file ✅️
 
 - Show loading indicator while data is being fetched
 - Handle network errors gracefully
 - Display error message if fetch fails
 
-#### Basic Interaction (10 points)
+#### Basic Interaction (10 points) ✅️
 
 - Implement single-column sorting (toggle ascending/descending)
 - Add case-insensitive name filter (partial match)
 - Show/hide loading states appropriately
 
-### Tier 2: Edge Case Handling (25 points)
+### Tier 2: Edge Case Handling (25 points) ✅️
 
-#### Data Robustness (15 points)
+#### Data Robustness (15 points) ✅️
 
 - Handle null/missing companion data (5 points)
 - Process empty cast arrays correctly (3 points)
 - Display multiple writer credits properly (3 points)
 - Sort dates with mixed formats (4 points)
 
-#### Display Formatting (10 points)
+#### Display Formatting (10 points) ✅️
 
 - Render special characters in titles correctly (4 points)
 - Format error messages clearly (3 points)
 - Handle missing/null values gracefully (3 points)
 
-### Tier 3: Advanced Features (Choose 2, 15 points total)
+### Tier 3: Advanced Features (Choose 2, 15 points total) ✅️
 
-#### 1. Performance Optimization (5 points)
+#### 1. Performance Optimization (5 points) ✅️
 
 - Implement strategies for handling 1000+ episodes
 - Document optimization approach in comments
 - Options: virtualization, pagination, debouncing
 
-#### 2. Keyboard Navigation (5 points)
+#### 2. Keyboard Navigation (5 points) ✅️
 
 - Arrow keys: Navigate table rows
 - Enter: Sort by focused column
 - Tab/Shift+Tab: Move between filters
 - Visual feedback for current focus
 
-#### 3. Smart Relevance Sort (5 points)
+#### 3. Smart Relevance Sort (5 points) ✅️
 
 When filtering, sort results by:
 
@@ -87,14 +87,14 @@ When filtering, sort results by:
 3. Any field contains search term
 4. Default rank order
 
-#### 4. Data Validation (5 points)
+#### 4. Data Validation (5 points) ✅️
 
 - Log console warnings for:
   - Missing required fields
   - Future broadcast dates
   - Duplicate/invalid ranks
   - Negative series numbers
-- Display warning count in UI
+- Display warning count in UI ❌️ (I felt this is ugly.)
 
 ### Bonus Features (5 points each, optional)
 
@@ -103,7 +103,7 @@ When filtering, sort results by:
    - Shift+click to add sort levels
    - Visual indicators for sort order
 
-2. **Enhanced Filters**
+2. **Enhanced Filters** ✅️
 
    - Era dropdown (Classic/Modern/Recent)
    - Doctor filter (populated from data)

@@ -19,7 +19,20 @@
                 <label for="name-filter">Episode Name:</label>
                 <input type="text" id="name-filter" placeholder="Search episodes...">
             </div>
-            <!-- Add more filters as needed -->
+            <div class="filter-group">
+                <label for="era-filter">Era:</label>
+                <select id="era-filter">
+                    <option value="">All Eras</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="doctor-filter">Doctor:</label>
+                <input type="text" id="doctor-filter" placeholder="Search by Doctor...">
+            </div>
+            <div class="filter-group">
+                <label for="companion-filter">Companion:</label>
+                <input type="text" id="companion-filter" placeholder="Search by Companion...">
+            </div>
         </section>
 
         <!-- Main Content -->
@@ -32,6 +45,10 @@
             <!-- Error Display -->
             <div id="error" class="error" style="display: none;">
                 <!-- Error messages will be inserted here -->
+            </div>
+            
+            <div id="success" class="success" style="display: none;">
+                <!-- Success messages will be inserted here -->
             </div>
 
             <!-- Episodes Table -->

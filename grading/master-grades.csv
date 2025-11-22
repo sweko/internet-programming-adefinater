@@ -1,0 +1,65 @@
+PR_Number,Student_Name,Student_ID,Submission_Date,GitHub_Username,Total_Points,Final_Grade,Files_Changed,Tier1_Score,Tier2_Score,Tier3_Score,Bonus_Points,Deductions,Design_Analysis,Notes
+64,Alban Ramuka,5903,2025-11-06,Aljban-ramuka,89,89%,0,57,22,5,5,,,AutoTest: 89% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Bonus: +5 | Multiple HTTP sources (4 sources) - BONUS!
+63,Bojan Janev,5744,2025-11-06,Bojaniss,89,89%,0,57,22,10,0,,,AutoTest: 89% | T1=57/60 (95%) | T2=22/25 (88%) | T3=10/40 (25%) | Single HTTP source (expected)
+62,Marija Chankulovska,5898,2025-11-06,MarijaChank,84,84%,0,57,22,5,0,,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected)
+61,Sümeyye İçlek,4865,2025-11-06,smyiclek,84,84%,0,57,22,5,5,5,,AutoTest: 89% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Bonus: +5 | Multiple HTTP sources (3 sources) - BONUS! | Adjustment: -5 (Manual deduction)
+60,Lidra Idrizi,5918,2025-11-06,lydraidrizi,79,79%,0,57,22,5,0,5,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected) | Adjustment: -5 (Manual deduction)
+59,Nikola Atanasov,5490,2025-11-06,nikku3gp,84,84%,0,57,22,5,0,,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected)
+58,Xhila Fatlind,5891,2025-11-06,Fatlind101,57,57%,0,30,22,5,0,,,AutoTest: 57% | T1=30/60 (50%) | T2=22/25 (88%) | T3=5/40 (13%) | No data source detected in code (may be dynamic or missing)
+57,Mario Andonov,5498,2025-11-06,MarioA203,76,76%,0,57,14,5,0,,,AutoTest: 76% | T1=57/60 (95%) | T2=14/25 (56%) | T3=5/40 (13%) | Single HTTP source (expected)
+56,Teona Nikoloska,5737,2025-11-06,TeonaNikoloska,52,52%,0,30,22,0,0,,,AutoTest: 52% | T1=30/60 (50%) | T2=22/25 (88%) | T3=0/40 (0%) | Single HTTP source (expected)
+55,Ali Jusufi,5897,2025-11-06,AliJusufi,89,89%,0,57,22,10,0,,,AutoTest: 89% | T1=57/60 (95%) | T2=22/25 (88%) | T3=10/40 (25%) | Single HTTP source (expected)
+54,Maksim Spasevski,5938,2025-11-06,Macko810,84,84%,0,57,22,5,0,,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected)
+53,Vlatko Angelov,5747,2025-11-06,ItzVaci,94,94%,0,57,22,15,0,,,AutoTest: 94% | T1=57/60 (95%) | T2=22/25 (88%) | T3=15/40 (38%) | Single HTTP source (expected)
+52,Andrej Stojovski,5690,2025-11-06,AndrejStojovski,94,94%,0,57,22,15,0,,,AutoTest: 94% | T1=57/60 (95%) | T2=22/25 (88%) | T3=15/40 (38%) | Single HTTP source (expected)
+51,Nikola Shikole,5735,2025-11-06,niko78900,52,52%,0,30,22,0,0,,,AutoTest: 52% | T1=30/60 (50%) | T2=22/25 (88%) | T3=0/40 (0%) | No data source detected in code (may be dynamic or missing)
+50,Gorazd Malinovski,5706,2025-11-06,GorazdMalinovski,84,84%,0,57,22,5,0,,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected)
+49,Danijel Gjorgjievski,5781,2025-11-06,DanielGorgievski,84,84%,0,57,22,5,0,,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected)
+48,Jovan Ivanov,5701,2025-11-06,Jovica33,84,84%,0,57,22,5,0,,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected)
+47,Dushko Sofronievski,5343,2025-11-06,Sofre,89,89%,0,57,22,10,0,,,AutoTest: 89% | T1=57/60 (95%) | T2=22/25 (88%) | T3=10/40 (25%) | Single HTTP source (expected)
+46,Petar Bogoevski,5928,2025-11-06,Pecee6,89,89%,0,57,22,10,0,,,AutoTest: 89% | T1=57/60 (95%) | T2=22/25 (88%) | T3=10/40 (25%) | Single HTTP source (expected)
+45,Dimitar Manchev,5750,2025-11-06,dimitarcapcarap,84,84%,0,57,22,5,0,,,AutoTest: 84% | T1=57/60 (95%) | T2=22/25 (88%) | T3=5/40 (13%) | Single HTTP source (expected)
+44,Vojdan Velkov,5709,2025-11-04,vojdanvelkov,98,98%,0,63,25,10,0,,,AutoTest: 98% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Single HTTP source (expected)
+43,Matej Tasevski,5940,2025-11-04,matejtasevski,49,49%,0,27,22,0,0,,,AutoTest: 49% | T1=27/60 (45%) | T2=22/25 (88%) | T3=0/40 (0%) | No data source detected in code (may be dynamic or missing)
+42,Marija Kararistova,5821,2025-11-04,Marija1403,90,90%,0,63,22,5,0,,,AutoTest: 90% | T1=63/60 (105%) | T2=22/25 (88%) | T3=5/40 (13%) | No data source detected in code (may be dynamic or missing)
+41,Andrej Vuchkovikj,5837,2025-11-04,DemonKaneki,103,100%,0,63,25,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+40,Damjan Velkov,5708,2025-11-04,DamjanVelkov,98,98%,0,63,25,10,0,,,AutoTest: 98% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Single HTTP source (expected)
+39,Nikola Kostadinov,5806,2025-11-04,ninja2004123,52,52%,0,30,22,0,0,,,AutoTest: 52% | T1=30/60 (50%) | T2=22/25 (88%) | T3=0/40 (0%) | No data source detected in code (may be dynamic or missing)
+38,Dushan Lazarovski,5866,2025-11-04,dulaki,103,100%,0,63,25,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+37,Aleksandar Smilanovski,5902,2025-11-04,AcoSmil,82,82%,0,52,20,5,5,,,AutoTest: 82% | T1=52/60 (87%) | T2=20/25 (80%) | T3=5/40 (13%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+36,Borjan Angelkovski,5839,2025-11-04,BorjanAngelkovski,51,51%,0,40,6,5,0,,,AutoTest: 51% | T1=40/60 (67%) | T2=6/25 (24%) | T3=5/40 (13%) | Single HTTP source (expected)
+35,Andrej Popovski,5700,2025-11-04,APopovski05,98,98%,0,58,25,15,0,,,AutoTest: 98% | T1=58/60 (97%) | T2=25/25 (100%) | T3=15/40 (38%) | Single HTTP source (expected)
+34,Asim Zulbearoski,5848,2025-11-04,AsimZuu,98,98%,0,63,25,5,5,,,AutoTest: 98% | T1=63/60 (105%) | T2=25/25 (100%) | T3=5/40 (13%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+33,Angela Zorchec,6402,2025-11-04,angela-zorchec,103,100%,0,63,25,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+32,Mihaela Trencheska,5913,2025-11-04,mihaelatrencheska,85,85%,0,48,22,10,5,,,AutoTest: 85% | T1=48/60 (80%) | T2=22/25 (88%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+31,Filip Joveski,5934,2025-11-04,JoFil24,98,98%,0,63,25,10,0,,,AutoTest: 98% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Single HTTP source (expected)
+30,Petar Ivanovski,5877,2025-11-04,Petar404,93,93%,0,63,25,5,0,,,AutoTest: 93% | T1=63/60 (105%) | T2=25/25 (100%) | T3=5/40 (13%) | Single HTTP source (expected)
+29,Gorazd Filipovski,5796,2025-11-04,Flipero23,103,100%,0,58,25,15,5,,,AutoTest: 100% | T1=58/60 (97%) | T2=25/25 (100%) | T3=15/40 (38%) | Bonus: +5 | Multiple HTTP sources (2 sources) - BONUS!
+28,Eva Karamanovska,5780,2025-11-04,ekaramanovska,103,100%,0,63,25,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+27,Marko Todorovski,5719,2025-11-04,marko-todorovski,98,98%,0,63,25,10,0,,,AutoTest: 98% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | No data source detected in code (may be dynamic or missing)
+26,Valentino Morarcaliev,5949,2025-11-04,valentino-77,93,93%,0,58,25,5,5,,,AutoTest: 93% | T1=58/60 (97%) | T2=25/25 (100%) | T3=5/40 (13%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+25,Marin Stojanovski,5889,2025-11-04,marinstojanovski,98,98%,0,58,25,10,5,,,AutoTest: 98% | T1=58/60 (97%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+24,Leon Lazarov,5819,2025-11-04,LeonLazarov,100,100%,0,60,25,10,5,,,AutoTest: 100% | T1=60/60 (100%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+23,Borjan Ladinski,5885,2025-11-04,Ladinski,98,98%,0,58,25,15,0,,,AutoTest: 98% | T1=58/60 (97%) | T2=25/25 (100%) | T3=15/40 (38%) | Single HTTP source (expected)
+22,Mario Stankovski,5873,2025-11-04,Stankovskii,108,100%,0,63,25,15,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=15/40 (38%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+21,Ivan Pinevski,5714,2025-11-04,ivanpine,72,72%,0,51,6,10,5,,,AutoTest: 72% | T1=51/60 (85%) | T2=6/25 (24%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+20,Matej Popovski,5773,2025-11-04,popovskimatej,103,100%,0,63,25,15,0,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=15/40 (38%) | Single HTTP source (expected)
+19,Nikola Gonchev,5847,2025-11-04,nqxik,88,88%,0,58,25,5,0,,,AutoTest: 88% | T1=58/60 (97%) | T2=25/25 (100%) | T3=5/40 (13%) | Single HTTP source (expected)
+18,Andrej Stojkovski,5935,2025-11-04,Stojkovski12,93,93%,0,58,25,10,0,,,AutoTest: 93% | T1=58/60 (97%) | T2=25/25 (100%) | T3=10/40 (25%) | Single HTTP source (expected)
+17,Marta Manasievska,5699,2025-11-04,MartaManasievska,98,98%,0,63,25,5,5,,,AutoTest: 98% | T1=63/60 (105%) | T2=25/25 (100%) | T3=5/40 (13%) | Bonus: +5 | Multiple HTTP sources (8 sources) - BONUS!
+16,Tina Slamkova,5813,2025-11-04,TinaS06,52,52%,0,30,22,0,0,,,AutoTest: 52% | T1=30/60 (50%) | T2=22/25 (88%) | T3=0/40 (0%) | Single HTTP source (expected)
+15,Anja Ivanovska,5760,2025-11-04,anjaiv,100,100%,0,63,22,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=22/25 (88%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (8 sources) - BONUS!
+14,Danilo Mishevski,5828,2025-11-04,danilomishevski,103,100%,0,63,25,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (8 sources) - BONUS!
+13,Andrej Najdovski,5904,2025-11-04,NajdovskiAndrej,93,93%,0,63,25,5,0,,,AutoTest: 93% | T1=63/60 (105%) | T2=25/25 (100%) | T3=5/40 (13%) | Single HTTP source (expected)
+12,Matej Mitevski,5827,2025-11-04,matejmitevski,98,98%,0,63,25,10,0,,,AutoTest: 98% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Single HTTP source (expected)
+11,Petar Zdraveski,5761,2025-11-04,PetarZdraveski,100,100%,0,63,22,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=22/25 (88%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+10,David Stojchev,5945,2025-11-04,DavidSt123,52,52%,0,30,22,0,0,,,AutoTest: 52% | T1=30/60 (50%) | T2=22/25 (88%) | T3=0/40 (0%) | No data source detected in code (may be dynamic or missing)
+9,Teona Antova,5768,2025-11-04,teonaantova,62,62%,0,30,22,5,5,,,AutoTest: 62% | T1=30/60 (50%) | T2=22/25 (88%) | T3=5/40 (13%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+8,Ivan Petkovski,5879,2025-11-04,petkovskiivan,88,88%,0,58,20,10,0,,,AutoTest: 88% | T1=58/60 (97%) | T2=20/25 (80%) | T3=10/40 (25%) | Single HTTP source (expected)
+7,Aleksandar Atanasovski,5784,2025-11-04,alekalekalek,93,93%,0,58,20,10,5,,,AutoTest: 93% | T1=58/60 (97%) | T2=20/25 (80%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+6,Lejla Tafai,5671,2025-11-04,Lejlatt,57,57%,0,30,22,5,0,,,AutoTest: 57% | T1=30/60 (50%) | T2=22/25 (88%) | T3=5/40 (13%) | No data source detected in code (may be dynamic or missing)
+5,Veronika Nikolova,5900,2025-11-04,nikolovaveronika,97,97%,0,60,22,10,5,,,AutoTest: 97% | T1=60/60 (100%) | T2=22/25 (88%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (9 sources) - BONUS!
+4,Barbara Veljkova,5941,2025-11-04,barbaraveljkovaa,90,90%,0,55,20,10,5,,,AutoTest: 90% | T1=55/60 (92%) | T2=20/25 (80%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (7 sources) - BONUS!
+3,Filip Gjorgjevski,5349,2025-11-04,FilipGjorgjevski,103,100%,0,63,25,10,5,,,AutoTest: 100% | T1=63/60 (105%) | T2=25/25 (100%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+2,Hristijan Naumoski,5689,2025-11-04,naumoskikiko,108,100%,0,58,20,15,15,0,,AutoTest: 93% | T1=58/60 (97%) | T2=20/25 (80%) | T3=15/40 (38%) | Single HTTP source (expected) | Adjustment: +5 (Data Valudation and warnings implemented) | Adjustment: +5 (Export CSV works correctly) | Adjustment: +5 (Multi column sorting implemented)
+1,Narcis Nacev,5824,2025-11-04,NarcisNacev1,103,100%,0,58,20,15,10,0,,AutoTest: 98% | T1=58/60 (97%) | T2=20/25 (80%) | T3=15/40 (38%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS! | Adjustment: +5 (Export CSV works correctly)

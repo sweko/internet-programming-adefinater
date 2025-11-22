@@ -1,0 +1,107 @@
+PR-Based Automated Browser Testing
+===================================
+
+Testing specific PR: #43
+
+Found 1 PRs to test
+Parallel tests: 1
+
+Launching browser...
+HTTP server started on port 8765
+
+[PR #43: matej tasevsk-5940] Starting tests...
+  Fetching files for PR #43...
+  Found: students/matej-tasevski-5940/index.html, students/matej-tasevski-5940/script.js, students/matej-tasevski-5940/styles.css
+  Following redirect to: https://raw.githubusercontent.com/sweko/internet-programming-adefinater/009680d6442b2f6e5bf6fa11fbacea133fd8b11e/students/matej-tasevski-5940/index.html
+  Following redirect to: https://raw.githubusercontent.com/sweko/internet-programming-adefinater/009680d6442b2f6e5bf6fa11fbacea133fd8b11e/students/matej-tasevski-5940/script.js
+  Following redirect to: https://raw.githubusercontent.com/sweko/internet-programming-adefinater/009680d6442b2f6e5bf6fa11fbacea133fd8b11e/students/matej-tasevski-5940/styles.css
+  Created temp files in: C:\Source\UACS\internet-programming-adefinater\grading\temp-pr-tests\pr-43
+  ΓÜá Data loads successfully - Error: page.waitForSelector: Timeout 20000ms exceeded. Call log: - waiting for locator('table tbody tr') to be visible [T1]
+  Γ£ô Shows loading indicator (3 pts) [T1]
+  Γ£ù Has error handling for data fetch (0/2 pts) [T1]
+  Γ£ô All required columns present (15 pts) [T1]
+  Γ£ù Data properly formatted in cells (0/6 pts) [T1]
+  Γ£ô Uses semantic table structure (4 pts) [T1]
+  ΓÜá Clicking headers sorts table - Error: Test timeout [T1]
+  ΓÜá Toggle ascending/descending - Error: Test timeout [T1]
+  Γ£ù Visual sort indicator present (0/3 pts) [T1]
+  Γ£ô Filter input present (5 pts) [T1]
+  Γ£ù Filter reduces displayed rows (0/5 pts) [T1]
+  Γ£ô No "undefined" or "null" text visible (5 pts) [T2]
+  Γ£ô Empty arrays handled gracefully (3 pts) [T2]
+  Γ£ô Special characters render correctly (4 pts) [T2]
+  Γ£ô Error messages are user-friendly (3 pts) [T2]
+  Γ£ô Missing/null values display placeholders (3 pts) [T2]
+  Γ£ô Nested data (award/series) formatted properly (4 pts) [T2]
+  Γ£ù Multiple date formats handled (0/3 pts) [T2]
+  Γ£ù Performance optimization implemented (0/5 pts) [T3]
+  Γ£ù Keyboard navigation implemented (0/5 pts) [T3]
+  ΓÜá Smart relevance sorting implemented - Error: Test timeout [T3]
+  Γ£ù Data validation with warnings (0/5 pts) [T3]
+  Γ£ù Additional filter dropdowns (0/5 pts) [T3]
+  Γ£ù Multi-column sort (Shift+click) (0/5 pts) [T3]
+  Γ£ù Export to CSV functionality (0/5 pts) [T3]
+  Γ£ù Decade/genre grouping with collapse (0/5 pts) [T3]
+  Total Score: 49/125 pts
+  Breakdown: Tier1=27/60, Tier2=22/25, Tier3=0/40
+  Final Grade: 49% (capped at 100%)
+HTTP server stopped
+
+
+Generating CSV report...
+Γ£ô Report saved to: C:\Source\UACS\internet-programming-adefinater\grading\pr-test-results.csv
+
+
+Summary:
+--------
+Total PRs tested: 1
+Average final grade: 49.0% (capped at 100)
+Average Tier 1: 27.0/60 pts (45.0%)
+Average Tier 2: 22.0/25 pts (88.0%)
+Average Tier 3: 0.0/40 pts (0.0%)
+Excellent (ΓëÑ90%): 0/1 (0%)
+Passing (ΓëÑ60%): 0/1 (0%)
+Failed (<60%): 1/1
+
+
+Tier Completion Rates:
+---------------------
+Tier 1 Strong (ΓëÑ50/60): 0/1 (0%)
+Tier 2 Strong (ΓëÑ20/25): 1/1 (100%)
+Tier 3 (ΓëÑ2 features): 0/1 (0%)
+
+
+Test Pass Rates by Tier:
+------------------------
+
+Tier 1 - Basic Functionality (60 pts):
+  Data loads successfully: 0/1 (0%)
+  Shows loading indicator: 1/1 (100%)
+  Has error handling for data fetch: 0/1 (0%)
+  All required columns present: 1/1 (100%)
+  Data properly formatted in cells: 0/1 (0%)
+  Uses semantic table structure: 1/1 (100%)
+  Clicking headers sorts table: 0/1 (0%)
+  Toggle ascending/descending: 0/1 (0%)
+  Visual sort indicator present: 0/1 (0%)
+  Filter input present: 1/1 (100%)
+  Filter reduces displayed rows: 0/1 (0%)
+
+Tier 2 - Edge Case Handling (25 pts):
+  No "undefined" or "null" text visible: 1/1 (100%)
+  Empty arrays handled gracefully: 1/1 (100%)
+  Special characters render correctly: 1/1 (100%)
+  Error messages are user-friendly: 1/1 (100%)
+  Missing/null values display placeholders: 1/1 (100%)
+  Nested data (award/series) formatted properly: 1/1 (100%)
+  Multiple date formats handled: 0/1 (0%)
+
+Tier 3 - Advanced Features (5 pts each):
+  Performance optimization implemented: 0/1 (0%)
+  Keyboard navigation implemented: 0/1 (0%)
+  Smart relevance sorting implemented: 0/1 (0%)
+  Data validation with warnings: 0/1 (0%)
+  Additional filter dropdowns: 0/1 (0%)
+  Multi-column sort (Shift+click): 0/1 (0%)
+  Export to CSV functionality: 0/1 (0%)
+  Decade/genre grouping with collapse: 0/1 (0%)

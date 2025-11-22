@@ -1,0 +1,964 @@
+{
+  "prs": [
+    {
+      "id": 2985791637,
+      "number": 64,
+      "state": "open",
+      "locked": false,
+      "title": "Aljban Ramuka 5903",
+      "body": "",
+      "created_at": "2025-11-06T18:39:54Z",
+      "updated_at": "2025-11-06T18:39:54Z",
+      "user": {
+        "login": "Aljban-ramuka",
+        "id": 183841236
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/64"
+    },
+    {
+      "id": 2985691533,
+      "number": 63,
+      "state": "open",
+      "locked": false,
+      "title": "Bojan Janev 5744",
+      "body": "",
+      "created_at": "2025-11-06T18:11:39Z",
+      "updated_at": "2025-11-06T18:11:39Z",
+      "user": {
+        "login": "Bojaniss",
+        "id": 133237301
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/63"
+    },
+    {
+      "id": 2985666807,
+      "number": 62,
+      "state": "open",
+      "locked": false,
+      "title": "Marija Chankulovska",
+      "body": "",
+      "created_at": "2025-11-06T18:04:12Z",
+      "updated_at": "2025-11-06T18:04:12Z",
+      "user": {
+        "login": "MarijaChank",
+        "id": 182963550
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/62"
+    },
+    {
+      "id": 2985663708,
+      "number": 61,
+      "state": "open",
+      "locked": false,
+      "title": "Sumeyye Iclek 4865",
+      "body": "",
+      "created_at": "2025-11-06T18:03:17Z",
+      "updated_at": "2025-11-06T18:03:17Z",
+      "user": {
+        "login": "smyiclek",
+        "id": 182963274
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/61"
+    },
+    {
+      "id": 2985655957,
+      "number": 60,
+      "state": "open",
+      "locked": false,
+      "title": "<midterm-exam-5918>",
+      "body": "Lidra Idrizi 5918 MidTerm Exam Internet Programming ",
+      "created_at": "2025-11-06T18:01:02Z",
+      "updated_at": "2025-11-06T18:01:02Z",
+      "user": {
+        "login": "lydraidrizi",
+        "id": 182946729
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/60"
+    },
+    {
+      "id": 2985651651,
+      "number": 59,
+      "state": "open",
+      "locked": false,
+      "title": "Mid-Term Pull Request 5490",
+      "body": "Nikola Atanasov 5490",
+      "created_at": "2025-11-06T17:59:44Z",
+      "updated_at": "2025-11-06T17:59:44Z",
+      "user": {
+        "login": "nikku3gp",
+        "id": 36698959
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/59"
+    },
+    {
+      "id": 2985650619,
+      "number": 58,
+      "state": "open",
+      "locked": false,
+      "title": "Fatlind Xhila 5891",
+      "body": "",
+      "created_at": "2025-11-06T17:59:24Z",
+      "updated_at": "2025-11-06T17:59:24Z",
+      "user": {
+        "login": "Fatlind101",
+        "id": 183117368
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/58"
+    },
+    {
+      "id": 2985649485,
+      "number": 57,
+      "state": "open",
+      "locked": false,
+      "title": "<mid-term-5498>",
+      "body": "Mario Andonov 5498",
+      "created_at": "2025-11-06T17:59:10Z",
+      "updated_at": "2025-11-06T17:59:10Z",
+      "user": {
+        "login": "MarioA203",
+        "id": 166401196
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/57"
+    },
+    {
+      "id": 2985637150,
+      "number": 56,
+      "state": "open",
+      "locked": false,
+      "title": "Teona Nikoloska5737",
+      "body": "",
+      "created_at": "2025-11-06T17:55:30Z",
+      "updated_at": "2025-11-06T17:55:30Z",
+      "user": {
+        "login": "TeonaNikoloska",
+        "id": 182963589
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/56"
+    },
+    {
+      "id": 2985635697,
+      "number": 55,
+      "state": "open",
+      "locked": false,
+      "title": "Ali Jusufi 5897",
+      "body": "Ali",
+      "created_at": "2025-11-06T17:54:59Z",
+      "updated_at": "2025-11-06T17:55:35Z",
+      "user": {
+        "login": "AliJusufi",
+        "id": 185514435
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/55"
+    },
+    {
+      "id": 2985631154,
+      "number": 54,
+      "state": "open",
+      "locked": false,
+      "title": "Comleted",
+      "body": "Maksim Spasevski\r\nID: 5938\r\n",
+      "created_at": "2025-11-06T17:53:41Z",
+      "updated_at": "2025-11-06T17:53:41Z",
+      "user": {
+        "login": "Macko810",
+        "id": 183117442
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/54"
+    },
+    {
+      "id": 2985629187,
+      "number": 53,
+      "state": "open",
+      "locked": false,
+      "title": "Completed Exam Vlatko Angelov 5747",
+      "body": "Completed Yeah",
+      "created_at": "2025-11-06T17:53:06Z",
+      "updated_at": "2025-11-06T17:53:06Z",
+      "user": {
+        "login": "ItzVaci",
+        "id": 183846020
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/53"
+    },
+    {
+      "id": 2985613168,
+      "number": 52,
+      "state": "open",
+      "locked": false,
+      "title": "Andrej Stojovski - ID5690",
+      "body": "commited by ID5690 Andrej Stojovski",
+      "created_at": "2025-11-06T17:48:50Z",
+      "updated_at": "2025-11-06T17:48:50Z",
+      "user": {
+        "login": "AndrejStojovski",
+        "id": 183833384
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/52"
+    },
+    {
+      "id": 2985612121,
+      "number": 51,
+      "state": "open",
+      "locked": false,
+      "title": "Nikola Shikole ID 5735",
+      "body": "Internet programming exam done on 11.6.2025\r\nNikola Shikole ID 5735",
+      "created_at": "2025-11-06T17:48:30Z",
+      "updated_at": "2025-11-06T17:48:30Z",
+      "user": {
+        "login": "niko78900",
+        "id": 185529019
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/51"
+    },
+    {
+      "id": 2985596654,
+      "number": 50,
+      "state": "open",
+      "locked": false,
+      "title": "First and final commit",
+      "body": "Midterm Exam Gorazd ID 5706",
+      "created_at": "2025-11-06T17:43:49Z",
+      "updated_at": "2025-11-06T17:43:49Z",
+      "user": {
+        "login": "GorazdMalinovski",
+        "id": 183117405
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/50"
+    },
+    {
+      "id": 2985594130,
+      "number": 49,
+      "state": "open",
+      "locked": false,
+      "title": "Mid Term",
+      "body": "This is my Mid Term, Danijel Gjorgjievski ID:5781",
+      "created_at": "2025-11-06T17:42:58Z",
+      "updated_at": "2025-11-06T17:42:58Z",
+      "user": {
+        "login": "DanielGorgievski",
+        "id": 134344835
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/49"
+    },
+    {
+      "id": 2985593140,
+      "number": 48,
+      "state": "open",
+      "locked": false,
+      "title": "mid term zadaca",
+      "body": "ova e mojata zadaca za mid term, Jovan Ivanov 5701",
+      "created_at": "2025-11-06T17:42:41Z",
+      "updated_at": "2025-11-06T17:47:45Z",
+      "user": {
+        "login": "Jovica33",
+        "id": 183117502
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/48"
+    },
+    {
+      "id": 2985560160,
+      "number": 47,
+      "state": "open",
+      "locked": false,
+      "title": "ID:5343 Dusko Sofronievski ",
+      "body": "",
+      "created_at": "2025-11-06T17:32:36Z",
+      "updated_at": "2025-11-06T17:32:36Z",
+      "user": {
+        "login": "Sofre",
+        "id": 142673399
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/47"
+    },
+    {
+      "id": 2985554509,
+      "number": 46,
+      "state": "open",
+      "locked": false,
+      "title": "Petar Bogoevski 5928",
+      "body": "Mid Term",
+      "created_at": "2025-11-06T17:30:47Z",
+      "updated_at": "2025-11-06T18:06:22Z",
+      "user": {
+        "login": "Pecee6",
+        "id": 118298467
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/46"
+    },
+    {
+      "id": 2985497752,
+      "number": 45,
+      "state": "open",
+      "locked": false,
+      "title": "5750 dimitar machev",
+      "body": "Dimitar Manchev 5750",
+      "created_at": "2025-11-06T17:12:43Z",
+      "updated_at": "2025-11-06T17:12:43Z",
+      "user": {
+        "login": "dimitarcapcarap",
+        "id": 183117365
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/45"
+    },
+    {
+      "id": 2977653731,
+      "number": 44,
+      "state": "open",
+      "locked": false,
+      "title": "Vojdan_Velkov_5709",
+      "body": "",
+      "created_at": "2025-11-04T18:22:59Z",
+      "updated_at": "2025-11-04T18:22:59Z",
+      "user": {
+        "login": "vojdanvelkov",
+        "id": 183117279
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/44"
+    },
+    {
+      "id": 2977650575,
+      "number": 43,
+      "state": "open",
+      "locked": false,
+      "title": "matej tasevsk-5940",
+      "body": "",
+      "created_at": "2025-11-04T18:21:43Z",
+      "updated_at": "2025-11-04T18:21:43Z",
+      "user": {
+        "login": "matejtasevski",
+        "id": 185528558
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/43"
+    },
+    {
+      "id": 2977646703,
+      "number": 42,
+      "state": "open",
+      "locked": false,
+      "title": "Marija Kararistova 5821",
+      "body": "",
+      "created_at": "2025-11-04T18:20:19Z",
+      "updated_at": "2025-11-04T18:20:19Z",
+      "user": {
+        "login": "Marija1403",
+        "id": 212921684
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/42"
+    },
+    {
+      "id": 2977644836,
+      "number": 41,
+      "state": "open",
+      "locked": false,
+      "title": "Mid_Term_Exam_Andrej_Vuchkovikj",
+      "body": "",
+      "created_at": "2025-11-04T18:19:38Z",
+      "updated_at": "2025-11-04T18:19:38Z",
+      "user": {
+        "login": "DemonKaneki",
+        "id": 119973462
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/41"
+    },
+    {
+      "id": 2977642124,
+      "number": 40,
+      "state": "open",
+      "locked": false,
+      "title": "Damjan Velkov 5708",
+      "body": "",
+      "created_at": "2025-11-04T18:18:35Z",
+      "updated_at": "2025-11-04T18:18:35Z",
+      "user": {
+        "login": "DamjanVelkov",
+        "id": 183117335
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/40"
+    },
+    {
+      "id": 2977634771,
+      "number": 39,
+      "state": "open",
+      "locked": false,
+      "title": "Midterm Exam Doctor Who Episodes Explorer",
+      "body": "Nikola Kostadinov 5806",
+      "created_at": "2025-11-04T18:15:47Z",
+      "updated_at": "2025-11-04T18:15:47Z",
+      "user": {
+        "login": "ninja2004123",
+        "id": 59392541
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/39"
+    },
+    {
+      "id": 2977633172,
+      "number": 38,
+      "state": "open",
+      "locked": false,
+      "title": "Dushan_Lazarovski_5866",
+      "body": "",
+      "created_at": "2025-11-04T18:15:14Z",
+      "updated_at": "2025-11-04T18:15:14Z",
+      "user": {
+        "login": "dulaki",
+        "id": 183117264
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/38"
+    },
+    {
+      "id": 2977619925,
+      "number": 37,
+      "state": "open",
+      "locked": false,
+      "title": "5902_Aleksandar_Smilanovski",
+      "body": "",
+      "created_at": "2025-11-04T18:10:39Z",
+      "updated_at": "2025-11-04T18:10:39Z",
+      "user": {
+        "login": "AcoSmil",
+        "id": 182948453
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/37"
+    },
+    {
+      "id": 2977617962,
+      "number": 36,
+      "state": "open",
+      "locked": false,
+      "title": "BorjanAngelkovski_5839",
+      "body": "BorjanAngelkovski_5839",
+      "created_at": "2025-11-04T18:09:52Z",
+      "updated_at": "2025-11-04T18:09:52Z",
+      "user": {
+        "login": "BorjanAngelkovski",
+        "id": 183741007
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/36"
+    },
+    {
+      "id": 2977617480,
+      "number": 35,
+      "state": "open",
+      "locked": false,
+      "title": "Andrej Popovski 5700",
+      "body": "",
+      "created_at": "2025-11-04T18:09:41Z",
+      "updated_at": "2025-11-04T18:09:41Z",
+      "user": {
+        "login": "APopovski05",
+        "id": 182948757
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/35"
+    },
+    {
+      "id": 2977615657,
+      "number": 34,
+      "state": "open",
+      "locked": false,
+      "title": "I tried so hard and got so far",
+      "body": "but in the end it didn't even matter",
+      "created_at": "2025-11-04T18:08:56Z",
+      "updated_at": "2025-11-04T18:25:06Z",
+      "user": {
+        "login": "AsimZuu",
+        "id": 152777926
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/34"
+    },
+    {
+      "id": 2977613537,
+      "number": 33,
+      "state": "open",
+      "locked": false,
+      "title": "Exam commit 6402",
+      "body": "",
+      "created_at": "2025-11-04T18:08:13Z",
+      "updated_at": "2025-11-04T18:08:13Z",
+      "user": {
+        "login": "angela-zorchec",
+        "id": 183741150
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/33"
+    },
+    {
+      "id": 2977611359,
+      "number": 32,
+      "state": "open",
+      "locked": false,
+      "title": "ID5913",
+      "body": "id5913",
+      "created_at": "2025-11-04T18:07:16Z",
+      "updated_at": "2025-11-04T18:07:16Z",
+      "user": {
+        "login": "mihaelatrencheska",
+        "id": 108231967
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/32"
+    },
+    {
+      "id": 2977605742,
+      "number": 31,
+      "state": "open",
+      "locked": false,
+      "title": "FilipJoveski5934",
+      "body": "",
+      "created_at": "2025-11-04T18:05:21Z",
+      "updated_at": "2025-11-04T18:05:21Z",
+      "user": {
+        "login": "JoFil24",
+        "id": 134329679
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/31"
+    },
+    {
+      "id": 2977594729,
+      "number": 30,
+      "state": "open",
+      "locked": false,
+      "title": "PetarIvanovski5877",
+      "body": "another user was logged before me thats why the pull requests is made with another username",
+      "created_at": "2025-11-04T18:01:33Z",
+      "updated_at": "2025-11-04T18:03:07Z",
+      "user": {
+        "login": "Petar404",
+        "id": 183117290
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/30"
+    },
+    {
+      "id": 2977592993,
+      "number": 29,
+      "state": "open",
+      "locked": false,
+      "title": "commit midterm",
+      "body": "Gorazd Filipovski - 5796\r\nThis is my final website for the midterm exam. I developed a doctor who episode list with advanced searching and sorting.",
+      "created_at": "2025-11-04T18:01:00Z",
+      "updated_at": "2025-11-04T18:01:00Z",
+      "user": {
+        "login": "Flipero23",
+        "id": 179398256
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/29"
+    },
+    {
+      "id": 2977590819,
+      "number": 28,
+      "state": "open",
+      "locked": false,
+      "title": "EvaKaramanovska_5780_Midterm",
+      "body": "",
+      "created_at": "2025-11-04T18:00:13Z",
+      "updated_at": "2025-11-04T18:00:13Z",
+      "user": {
+        "login": "ekaramanovska",
+        "id": 182963259
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/28"
+    },
+    {
+      "id": 2977590404,
+      "number": 27,
+      "state": "open",
+      "locked": false,
+      "title": "Marko-Todorovski-5719",
+      "body": "",
+      "created_at": "2025-11-04T18:00:02Z",
+      "updated_at": "2025-11-04T18:00:02Z",
+      "user": {
+        "login": "marko-todorovski",
+        "id": 183117614
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/27"
+    },
+    {
+      "id": 2977588368,
+      "number": 26,
+      "state": "open",
+      "locked": false,
+      "title": "ValentinoMorarcaliev5949",
+      "body": "",
+      "created_at": "2025-11-04T17:59:20Z",
+      "updated_at": "2025-11-04T17:59:20Z",
+      "user": {
+        "login": "valentino-77",
+        "id": 183117307
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/26"
+    },
+    {
+      "id": 2977565096,
+      "number": 25,
+      "state": "open",
+      "locked": false,
+      "title": "Finished Doctor Who Episodes Explorer exam - Marin Stojanovski #5889",
+      "body": "Marin Stojanovski 5889 Midterm",
+      "created_at": "2025-11-04T17:52:11Z",
+      "updated_at": "2025-11-04T17:52:11Z",
+      "user": {
+        "login": "marinstojanovski",
+        "id": 182963245
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/25"
+    },
+    {
+      "id": 2977561646,
+      "number": 24,
+      "state": "open",
+      "locked": false,
+      "title": "Leon Lazarov 5819",
+      "body": "The commit is with different credentials, but it's verified by @sweko ",
+      "created_at": "2025-11-04T17:50:55Z",
+      "updated_at": "2025-11-04T17:50:55Z",
+      "user": {
+        "login": "LeonLazarov",
+        "id": 154448638
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/24"
+    },
+    {
+      "id": 2977551728,
+      "number": 23,
+      "state": "open",
+      "locked": false,
+      "title": "Borjan Ladinski ID:5885",
+      "body": "",
+      "created_at": "2025-11-04T17:48:03Z",
+      "updated_at": "2025-11-04T17:48:03Z",
+      "user": {
+        "login": "Ladinski",
+        "id": 183117263
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/23"
+    },
+    {
+      "id": 2977545650,
+      "number": 22,
+      "state": "open",
+      "locked": false,
+      "title": "Mario Stankovski 5873",
+      "body": "",
+      "created_at": "2025-11-04T17:46:21Z",
+      "updated_at": "2025-11-04T17:46:21Z",
+      "user": {
+        "login": "Stankovskii",
+        "id": 153131795
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/22"
+    },
+    {
+      "id": 2977545441,
+      "number": 21,
+      "state": "open",
+      "locked": false,
+      "title": "main",
+      "body": "Ivan Pinevski 5714",
+      "created_at": "2025-11-04T17:46:14Z",
+      "updated_at": "2025-11-04T17:46:14Z",
+      "user": {
+        "login": "ivanpine",
+        "id": 68792361
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/21"
+    },
+    {
+      "id": 2977535758,
+      "number": 20,
+      "state": "open",
+      "locked": false,
+      "title": "Pull req for Mid Term Exam 5773",
+      "body": "Matej Popovski 5773",
+      "created_at": "2025-11-04T17:43:16Z",
+      "updated_at": "2025-11-04T17:43:16Z",
+      "user": {
+        "login": "popovskimatej",
+        "id": 182946491
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/20"
+    },
+    {
+      "id": 2977533970,
+      "number": 19,
+      "state": "open",
+      "locked": false,
+      "title": "NikolaGonchev5847",
+      "body": "Sum zaboravil da go odlogiram covekot sto sedel na ovoj kompjuter pred mene, zatoa git pushot e na drugo ime. Toa sto mi kazavte vie, samo da ve potsetam za da ne zaboravite.",
+      "created_at": "2025-11-04T17:42:44Z",
+      "updated_at": "2025-11-04T17:42:44Z",
+      "user": {
+        "login": "nqxik",
+        "id": 162885422
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/19"
+    },
+    {
+      "id": 2977533280,
+      "number": 18,
+      "state": "open",
+      "locked": false,
+      "title": "Andrej Stojkovski5935",
+      "body": "",
+      "created_at": "2025-11-04T17:42:29Z",
+      "updated_at": "2025-11-04T17:42:29Z",
+      "user": {
+        "login": "Stojkovski12",
+        "id": 183117191
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/18"
+    },
+    {
+      "id": 2977525732,
+      "number": 17,
+      "state": "open",
+      "locked": false,
+      "title": "MartaManasievska(5699)",
+      "body": "",
+      "created_at": "2025-11-04T17:40:12Z",
+      "updated_at": "2025-11-04T17:40:12Z",
+      "user": {
+        "login": "MartaManasievska",
+        "id": 182963410
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/17"
+    },
+    {
+      "id": 2977525632,
+      "number": 16,
+      "state": "open",
+      "locked": false,
+      "title": "Tina_Slamkova_5813",
+      "body": "",
+      "created_at": "2025-11-04T17:40:09Z",
+      "updated_at": "2025-11-04T17:40:09Z",
+      "user": {
+        "login": "TinaS06",
+        "id": 182963623
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/16"
+    },
+    {
+      "id": 2977522051,
+      "number": 15,
+      "state": "open",
+      "locked": false,
+      "title": "Mid-Term Exam: Doctor Who Episodes Explorer – full solution with all …",
+      "body": "…bonuses",
+      "created_at": "2025-11-04T17:39:03Z",
+      "updated_at": "2025-11-04T17:39:03Z",
+      "user": {
+        "login": "anjaiv",
+        "id": 108002770
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/15"
+    },
+    {
+      "id": 2977513692,
+      "number": 14,
+      "state": "open",
+      "locked": false,
+      "title": "Danilo_Mishevski_5828",
+      "body": "",
+      "created_at": "2025-11-04T17:36:33Z",
+      "updated_at": "2025-11-04T17:36:33Z",
+      "user": {
+        "login": "danilomishevski",
+        "id": 182963697
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/14"
+    },
+    {
+      "id": 2977512903,
+      "number": 13,
+      "state": "open",
+      "locked": false,
+      "title": "5904",
+      "body": "Andrej_Najdovski_id5904\r\nThe commit is from a different user because we have problems with the credentials.",
+      "created_at": "2025-11-04T17:36:14Z",
+      "updated_at": "2025-11-04T17:36:14Z",
+      "user": {
+        "login": "NajdovskiAndrej",
+        "id": 183833686
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/13"
+    },
+    {
+      "id": 2977512837,
+      "number": 12,
+      "state": "open",
+      "locked": false,
+      "title": "Matej Mitevski 5827",
+      "body": "",
+      "created_at": "2025-11-04T17:36:14Z",
+      "updated_at": "2025-11-04T17:36:14Z",
+      "user": {
+        "login": "matejmitevski",
+        "id": 182963738
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/12"
+    },
+    {
+      "id": 2977509560,
+      "number": 11,
+      "state": "open",
+      "locked": false,
+      "title": "5761",
+      "body": "Commit is from student. You've checked it. I am Petar Zdraveski, ID5761.",
+      "created_at": "2025-11-04T17:35:22Z",
+      "updated_at": "2025-11-04T17:35:22Z",
+      "user": {
+        "login": "PetarZdraveski",
+        "id": 182963219
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/11"
+    },
+    {
+      "id": 2977508780,
+      "number": 10,
+      "state": "open",
+      "locked": false,
+      "title": "Midterm Exam David Stojchev 5945",
+      "body": "",
+      "created_at": "2025-11-04T17:35:10Z",
+      "updated_at": "2025-11-04T18:11:38Z",
+      "user": {
+        "login": "DavidSt123",
+        "id": 234228204
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/10"
+    },
+    {
+      "id": 2977492659,
+      "number": 9,
+      "state": "open",
+      "locked": false,
+      "title": "ID5768",
+      "body": "",
+      "created_at": "2025-11-04T17:31:03Z",
+      "updated_at": "2025-11-04T17:31:03Z",
+      "user": {
+        "login": "teonaantova",
+        "id": 182963426
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/9"
+    },
+    {
+      "id": 2977481803,
+      "number": 8,
+      "state": "open",
+      "locked": false,
+      "title": "Ivan Petkovski 5879",
+      "body": "",
+      "created_at": "2025-11-04T17:28:06Z",
+      "updated_at": "2025-11-04T17:33:53Z",
+      "user": {
+        "login": "petkovskiivan",
+        "id": 182963226
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/8"
+    },
+    {
+      "id": 2977481226,
+      "number": 7,
+      "state": "open",
+      "locked": false,
+      "title": "this is my pull request",
+      "body": "description of the pull request including my name and ID\r\nAleksandar Atanasovski\r\nID - 5784",
+      "created_at": "2025-11-04T17:27:56Z",
+      "updated_at": "2025-11-04T17:27:56Z",
+      "user": {
+        "login": "alekalekalek",
+        "id": 182963258
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/7"
+    },
+    {
+      "id": 2977480935,
+      "number": 6,
+      "state": "open",
+      "locked": false,
+      "title": "5671",
+      "body": "",
+      "created_at": "2025-11-04T17:27:52Z",
+      "updated_at": "2025-11-04T17:27:52Z",
+      "user": {
+        "login": "Lejlatt",
+        "id": 122736660
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/6"
+    },
+    {
+      "id": 2977468490,
+      "number": 5,
+      "state": "open",
+      "locked": false,
+      "title": "midterm5900",
+      "body": "",
+      "created_at": "2025-11-04T17:23:58Z",
+      "updated_at": "2025-11-04T17:25:17Z",
+      "user": {
+        "login": "nikolovaveronika",
+        "id": 182963246
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/5"
+    },
+    {
+      "id": 2977455327,
+      "number": 4,
+      "state": "open",
+      "locked": false,
+      "title": "MidTerm5941",
+      "body": "",
+      "created_at": "2025-11-04T17:20:04Z",
+      "updated_at": "2025-11-04T17:25:12Z",
+      "user": {
+        "login": "barbaraveljkovaa",
+        "id": 182964032
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/4"
+    },
+    {
+      "id": 2977438692,
+      "number": 3,
+      "state": "open",
+      "locked": false,
+      "title": "Mid-Term Exam Filip Gjorgjevski 5349 Doctor-Who-Episodes",
+      "body": "Mid-Term Exam Filip Gjorgjevski 5349 Doctor-Who-Episodes\r\n\r\n",
+      "created_at": "2025-11-04T17:14:51Z",
+      "updated_at": "2025-11-04T17:14:51Z",
+      "user": {
+        "login": "FilipGjorgjevski",
+        "id": 139113241
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/3"
+    },
+    {
+      "id": 2977419262,
+      "number": 2,
+      "state": "open",
+      "locked": false,
+      "title": "mid term exam Hristijan Naumoski5689",
+      "body": "",
+      "created_at": "2025-11-04T17:08:38Z",
+      "updated_at": "2025-11-04T17:08:38Z",
+      "user": {
+        "login": "naumoskikiko",
+        "id": 182963593
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/2"
+    },
+    {
+      "id": 2977405913,
+      "number": 1,
+      "state": "open",
+      "locked": false,
+      "title": "[Midterm-Exam] Narcis Nacev 5824",
+      "body": "",
+      "created_at": "2025-11-04T17:04:19Z",
+      "updated_at": "2025-11-04T17:30:19Z",
+      "user": {
+        "login": "NarcisNacev1",
+        "id": 147559575
+      },
+      "html_url": "https://github.com/sweko/internet-programming-adefinater/pull/1"
+    }
+  ]
+}
