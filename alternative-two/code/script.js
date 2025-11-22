@@ -1,5 +1,5 @@
 // Configuration and constants
-const DATA_URL = '../hugo-books-exam.json'; // Path to the exam data file abg
+const DATA_URL = '../hugo-books-exam.json'; // Path to the exam data file
 let books = [];
 let filteredBooks = [];
 let currentSort = { column: 'year', ascending: false }; // Default sort by year, newest first

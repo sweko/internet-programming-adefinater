@@ -6429,23 +6429,23 @@
     "studentId": "5806",
     "github": "ninja2004123",
     "scores": {
-      "tier1": 30,
-      "tier1Percentage": 50,
-      "tier2": 22,
-      "tier2Percentage": 88,
-      "tier3": 0,
-      "tier3Percentage": 0,
-      "bonus": 0,
+      "tier1": 63,
+      "tier1Percentage": 105,
+      "tier2": 25,
+      "tier2Percentage": 100,
+      "tier3": 5,
+      "tier3Percentage": 33,
+      "bonus": 5,
       "deductions": 0,
-      "total": 52,
-      "finalGrade": 52
+      "total": 98,
+      "finalGrade": 98
     },
     "tests": {
       "Data Loads Successfully": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 10,
-        "earned": 0
+        "earned": 10
       },
       "Loading Indicator Shown": {
         "status": "pass",
@@ -6453,11 +6453,23 @@
         "maxPoints": 3,
         "earned": 3
       },
+      "Error Handling for Data Fetch": {
+        "status": "fail",
+        "tier": 1,
+        "maxPoints": 2,
+        "earned": 0
+      },
       "All Required Columns Present": {
         "status": "pass",
         "tier": 1,
         "maxPoints": 15,
         "earned": 15
+      },
+      "Data Properly Formatted": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 6,
+        "earned": 6
       },
       "Semantic HTML Structure": {
         "status": "pass",
@@ -6466,16 +6478,16 @@
         "earned": 4
       },
       "Clicking Headers Sorts Table": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 8,
-        "earned": 0
+        "earned": 8
       },
       "Toggle Ascending/Descending": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 4,
-        "earned": 0
+        "earned": 4
       },
       "Sort Direction Indicator": {
         "status": "pass",
@@ -6490,10 +6502,10 @@
         "earned": 5
       },
       "Filter Actually Works": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 5,
-        "earned": 0
+        "earned": 5
       },
       "No \"undefined\" or \"null\" Text": {
         "status": "pass",
@@ -6532,10 +6544,10 @@
         "earned": 4
       },
       "Multiple Date Formats Sorted": {
-        "status": "fail",
+        "status": "pass",
         "tier": 2,
         "maxPoints": 3,
-        "earned": 0
+        "earned": 3
       },
       "Performance Optimization": {
         "status": "fail",
@@ -6550,10 +6562,10 @@
         "earned": 0
       },
       "Smart Relevance Sorting": {
-        "status": "fail",
+        "status": "pass",
         "tier": 3,
         "maxPoints": 5,
-        "earned": 0
+        "earned": 5
       },
       "Data Validation & Warnings": {
         "status": "fail",
@@ -7103,23 +7115,23 @@
     "studentId": "5940",
     "github": "matejtasevski",
     "scores": {
-      "tier1": 27,
-      "tier1Percentage": 45,
+      "tier1": 60,
+      "tier1Percentage": 92,
       "tier2": 22,
       "tier2Percentage": 88,
-      "tier3": 0,
-      "tier3Percentage": 0,
+      "tier3": 5,
+      "tier3Percentage": 13,
       "bonus": 0,
-      "deductions": 0,
-      "total": 49,
-      "finalGrade": 49
+      "deductions": 5,
+      "total": 82,
+      "finalGrade": 82
     },
     "tests": {
       "Data Loads Successfully": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 10,
-        "earned": 0
+        "earned": 10
       },
       "Loading Indicator Shown": {
         "status": "pass",
@@ -7127,11 +7139,23 @@
         "maxPoints": 3,
         "earned": 3
       },
+      "Error Handling for Data Fetch": {
+        "status": "fail",
+        "tier": 1,
+        "maxPoints": 2,
+        "earned": 0
+      },
       "All Required Columns Present": {
         "status": "pass",
         "tier": 1,
         "maxPoints": 15,
         "earned": 15
+      },
+      "Data Properly Formatted": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 6,
+        "earned": 6
       },
       "Semantic HTML Structure": {
         "status": "pass",
@@ -7140,16 +7164,16 @@
         "earned": 4
       },
       "Clicking Headers Sorts Table": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 8,
-        "earned": 0
+        "earned": 8
       },
       "Toggle Ascending/Descending": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 4,
-        "earned": 0
+        "earned": 4
       },
       "Sort Direction Indicator": {
         "status": "fail",
@@ -7164,10 +7188,10 @@
         "earned": 5
       },
       "Filter Actually Works": {
-        "status": "fail",
+        "status": "pass",
         "tier": 1,
         "maxPoints": 5,
-        "earned": 0
+        "earned": 5
       },
       "No \"undefined\" or \"null\" Text": {
         "status": "pass",
@@ -7188,10 +7212,10 @@
         "earned": 4
       },
       "Error Messages User-Friendly": {
-        "status": "pass",
+        "status": "fail",
         "tier": 2,
         "maxPoints": 3,
-        "earned": 3
+        "earned": 0
       },
       "Missing Data Fields Handled": {
         "status": "pass",
@@ -7206,10 +7230,10 @@
         "earned": 4
       },
       "Multiple Date Formats Sorted": {
-        "status": "fail",
+        "status": "pass",
         "tier": 2,
         "maxPoints": 3,
-        "earned": 0
+        "earned": 3
       },
       "Performance Optimization": {
         "status": "fail",
@@ -7224,10 +7248,10 @@
         "earned": 0
       },
       "Smart Relevance Sorting": {
-        "status": "fail",
+        "status": "pass",
         "tier": 3,
         "maxPoints": 5,
-        "earned": 0
+        "earned": 5
       },
       "Data Validation & Warnings": {
         "status": "fail",
@@ -7767,11 +7791,339 @@
     "scores": {
       "tier1": 57,
       "tier1Percentage": 95,
-      "tier2": 22,
-      "tier2Percentage": 88,
-      "tier3": 10,
-      "tier3Percentage": 67,
+      "tier2": 25,
+      "tier2Percentage": 100,
+      "tier3": 30,
+      "tier3Percentage": 200,
       "bonus": 0,
+      "deductions": 0,
+      "total": 112,
+      "finalGrade": 100
+    },
+    "tests": {
+      "Data Loads Successfully": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 10,
+        "earned": 10
+      },
+      "Loading Indicator Shown": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "All Required Columns Present": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 15,
+        "earned": 15
+      },
+      "Semantic HTML Structure": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 4,
+        "earned": 4
+      },
+      "Clicking Headers Sorts Table": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 8,
+        "earned": 8
+      },
+      "Toggle Ascending/Descending": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 4,
+        "earned": 4
+      },
+      "Sort Direction Indicator": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "Filter Input Field Exists": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Filter Actually Works": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "No \"undefined\" or \"null\" Text": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Empty Arrays Handled Gracefully": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "Special Characters Render Correctly": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 4,
+        "earned": 4
+      },
+      "Error Messages User-Friendly": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "Missing Data Fields Handled": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "Nested Data Properly Formatted": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 4,
+        "earned": 5
+      },
+      "Multiple Date Formats Sorted": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 2,
+        "earned": 2
+      },
+      "Performance Optimization": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Keyboard Navigation": {
+        "status": "pass",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Smart Relevance Sorting": {
+        "status": "pass",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Data Validation & Warnings": {
+        "status": "pass",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Additional Filters": {
+        "status": "pass",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Multi-Column Sorting": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Export to CSV": {
+        "status": "pass",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Grouping/Decade Display": {
+        "status": "pass",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 10
+      }
+    }
+  },
+  {
+    "pr": 48,
+    "name": "Jovan Ivanov",
+    "studentId": "5701",
+    "github": "Jovica33",
+    "scores": {
+      "tier1": 46,
+      "tier1Percentage": 77,
+      "tier2": 25,
+      "tier2Percentage": 100,
+      "tier3": 5,
+      "tier3Percentage": 33,
+      "bonus": 6,
+      "deductions": 0,
+      "total": 82,
+      "finalGrade": 82
+    },
+    "tests": {
+      "Data Loads Successfully": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 10,
+        "earned": 10
+      },
+      "Loading Indicator Shown": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "All Required Columns Present": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 15,
+        "earned": 15
+      },
+      "Semantic HTML Structure": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 4,
+        "earned": 4
+      },
+      "Clicking Headers Sorts Table": {
+        "status": "fail",
+        "tier": 1,
+        "maxPoints": 8,
+        "earned": 0
+      },
+      "Toggle Ascending/Descending": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 4,
+        "earned": 4
+      },
+      "Sort Direction Indicator": {
+        "status": "fail",
+        "tier": 1,
+        "maxPoints": 3,
+        "earned": 0
+      },
+      "Filter Input Field Exists": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Filter Actually Works": {
+        "status": "pass",
+        "tier": 1,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "No \"undefined\" or \"null\" Text": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Empty Arrays Handled Gracefully": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "Special Characters Render Correctly": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 4,
+        "earned": 4
+      },
+      "Error Messages User-Friendly": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "Missing Data Fields Handled": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 3,
+        "earned": 3
+      },
+      "Nested Data Properly Formatted": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 4,
+        "earned": 5
+      },
+      "Multiple Date Formats Sorted": {
+        "status": "pass",
+        "tier": 2,
+        "maxPoints": 2,
+        "earned": 2
+      },
+      "Performance Optimization": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Keyboard Navigation": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Smart Relevance Sorting": {
+        "status": "pass",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 5
+      },
+      "Data Validation & Warnings": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Additional Filters": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Multi-Column Sorting": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Export to CSV": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      },
+      "Grouping/Decade Display": {
+        "status": "fail",
+        "tier": 3,
+        "maxPoints": 5,
+        "earned": 0
+      }
+    }
+  },
+  {
+    "pr": 49,
+    "name": "Danijel Gjorgjievski",
+    "studentId": "5781",
+    "github": "DanielGorgievski",
+    "scores": {
+      "tier1": 57,
+      "tier1Percentage": 95,
+      "tier2": 25,
+      "tier2Percentage": 100,
+      "tier3": 5,
+      "tier3Percentage": 33,
+      "bonus": 2,
       "deductions": 0,
       "total": 89,
       "finalGrade": 89
@@ -7865,341 +8217,13 @@
         "status": "pass",
         "tier": 2,
         "maxPoints": 4,
-        "earned": 4
+        "earned": 5
       },
       "Multiple Date Formats Sorted": {
-        "status": "fail",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 0
-      },
-      "Performance Optimization": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Keyboard Navigation": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Smart Relevance Sorting": {
-        "status": "pass",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "Data Validation & Warnings": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Additional Filters": {
-        "status": "pass",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "Multi-Column Sorting": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Export to CSV": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Grouping/Decade Display": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      }
-    }
-  },
-  {
-    "pr": 48,
-    "name": "Jovan Ivanov",
-    "studentId": "5701",
-    "github": "Jovica33",
-    "scores": {
-      "tier1": 57,
-      "tier1Percentage": 95,
-      "tier2": 22,
-      "tier2Percentage": 88,
-      "tier3": 5,
-      "tier3Percentage": 33,
-      "bonus": 0,
-      "deductions": 0,
-      "total": 84,
-      "finalGrade": 84
-    },
-    "tests": {
-      "Data Loads Successfully": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 10,
-        "earned": 10
-      },
-      "Loading Indicator Shown": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "All Required Columns Present": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 15,
-        "earned": 15
-      },
-      "Semantic HTML Structure": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Clicking Headers Sorts Table": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 8,
-        "earned": 8
-      },
-      "Toggle Ascending/Descending": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Sort Direction Indicator": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Filter Input Field Exists": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "Filter Actually Works": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "No \"undefined\" or \"null\" Text": {
         "status": "pass",
         "tier": 2,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "Empty Arrays Handled Gracefully": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Special Characters Render Correctly": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Error Messages User-Friendly": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Missing Data Fields Handled": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Nested Data Properly Formatted": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Multiple Date Formats Sorted": {
-        "status": "fail",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 0
-      },
-      "Performance Optimization": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Keyboard Navigation": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Smart Relevance Sorting": {
-        "status": "pass",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "Data Validation & Warnings": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Additional Filters": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Multi-Column Sorting": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Export to CSV": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      },
-      "Grouping/Decade Display": {
-        "status": "fail",
-        "tier": 3,
-        "maxPoints": 5,
-        "earned": 0
-      }
-    }
-  },
-  {
-    "pr": 49,
-    "name": "Danijel Gjorgjievski",
-    "studentId": "5781",
-    "github": "DanielGorgievski",
-    "scores": {
-      "tier1": 57,
-      "tier1Percentage": 95,
-      "tier2": 22,
-      "tier2Percentage": 88,
-      "tier3": 5,
-      "tier3Percentage": 33,
-      "bonus": 0,
-      "deductions": 0,
-      "total": 84,
-      "finalGrade": 84
-    },
-    "tests": {
-      "Data Loads Successfully": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 10,
-        "earned": 10
-      },
-      "Loading Indicator Shown": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "All Required Columns Present": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 15,
-        "earned": 15
-      },
-      "Semantic HTML Structure": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Clicking Headers Sorts Table": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 8,
-        "earned": 8
-      },
-      "Toggle Ascending/Descending": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Sort Direction Indicator": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Filter Input Field Exists": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "Filter Actually Works": {
-        "status": "pass",
-        "tier": 1,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "No \"undefined\" or \"null\" Text": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 5,
-        "earned": 5
-      },
-      "Empty Arrays Handled Gracefully": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Special Characters Render Correctly": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Error Messages User-Friendly": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Missing Data Fields Handled": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 3
-      },
-      "Nested Data Properly Formatted": {
-        "status": "pass",
-        "tier": 2,
-        "maxPoints": 4,
-        "earned": 4
-      },
-      "Multiple Date Formats Sorted": {
-        "status": "fail",
-        "tier": 2,
-        "maxPoints": 3,
-        "earned": 0
+        "maxPoints": 2,
+        "earned": 2
       },
       "Performance Optimization": {
         "status": "fail",

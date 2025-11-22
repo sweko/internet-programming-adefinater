@@ -1,8 +1,8 @@
 # Grading Breakdown - PR #57
 
-**Student:** <mid-term-5498>
-**Student ID:** 
-**GitHub:** @username
+**Student:** Mario Andonov
+**Student ID:** 5498
+**GitHub:** @MarioA203
 **Alternative:** Hugo Award Books
 
 ---
@@ -12,13 +12,13 @@
 | Category | Score | Percentage |
 |----------|-------|------------|
 | **Tier 1** (Basic Functionality) | 57 / 60 | 95% |
-| **Tier 2** (Edge Case Handling) | 11 / 25 | 44% |
-| **Tier 3** (Advanced Features) | 5 / 15 | 33% |
+| **Tier 2** (Edge Case Handling) | 16 / 25 | 64% |
+| **Tier 3** (Advanced Features) | 0 / 15 | 0% |
 | **Subtotal** | 73 / 100 | |
-| **Bonus Points** | +0 | |
-| **Deductions** | - | |
-| **Total Points** | 73 / 100 | |
-| **FINAL GRADE** | **73%** | |
+| **Bonus Points** | +2 | |
+| **Deductions** | -0 | |
+| **Total Points** | 75 / 100 | |
+| **FINAL GRADE** | **75%** | |
 
 ---
 
@@ -38,31 +38,32 @@
 |  | **─── TIER 1 SUBTOTAL ───** |  | 60 | 57 |
 | ❌ | No "undefined" or "null" Text | 2 | 5 | 0 |
 | ✅ | Empty/Multiple Genres Handled | 2 | 3 | 3 |
-| ✅ | Special Characters and Long Titles | 2 | 4 | 4 |
+| ❌ | Special Characters and Long Titles | 2 | 4 | 0 |
 | ✅ | Error Messages User-Friendly | 2 | 3 | 3 |
-| ❌ | Missing Data Fields Handled | 2 | 3 | 0 |
-| ✅ | Award Extraction & Formatting | 2 | 5 | 4 |
-| ❌ | Series Format Handling | 2 | 4 | 0 |
-|  | **─── TIER 2 SUBTOTAL ───** |  | 25 | 11 |
+| ✅ | Missing Data Fields Handled | 2 | 3 | 3 |
+| ✅ | Award Extraction & Formatting | 2 | 5 | 5 |
+| ✅ | Multiple Date Formats Sorted | 2 | 2 | 2 |
+|  | **─── TIER 2 SUBTOTAL ───** |  | 25 | 16 |
 | ❌ | Performance Optimization | 3 | 5 | 0 |
 | ❌ | Keyboard Navigation | 3 | 5 | 0 |
-| ✅ | Smart Relevance Sorting | 3 | 5 | 5 |
+| ❌ | Smart Relevance Sorting | 3 | 5 | 0 |
 | ❌ | Data Validation & Warnings | 3 | 5 | 0 |
 | ❌ | Enhanced Filters (Winner/Nominee, Decade, Author) | 3 | 5 | 0 |
 | ❌ | Multi-Column Sorting | 3 | 5 | 0 |
 | ❌ | Export to CSV | 3 | 5 | 0 |
 | ❌ | Genre Grouping with Collapse | 3 | 5 | 0 |
-|  | **─── TIER 3 SUBTOTAL ───** |  | 15 | 5 |
+|  | **─── TIER 3 SUBTOTAL ───** |  | 15 | 0 |
 | | | | | |
 |  | **BASE SCORE** |  | 100 | 73 |
+| 🎁 | Winner Filter Implementation | Bonus | | +2 |
 | | | | | |
-| **═══** | **FINAL TOTAL** | ═══ | 100 | 73 |
+| **═══** | **FINAL TOTAL** | ═══ | 100 | 75 |
 
 ---
 
 ## Instructor Notes
 
-AutoTest: 73% | T1=57/60 (95%) | T2=11/25 (44%) | T3=5/40 (13%)
+Manual Review: 75% | T1=57/60 (95%) | T2=16/25 (64%) | T3=0/15 (0%) | Bonus=+2
 
-Hugo Award Books assignment tested with alternative-specific edge cases (award extraction, series formats, genre handling).
+Special characters not handled. Winner filter bonus awarded.
 
