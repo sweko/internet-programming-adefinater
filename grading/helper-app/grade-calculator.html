@@ -602,12 +602,10 @@
             const select = document.getElementById('studentSelect');
             const filterStatus = document.getElementById('filterStatus');
             
-            // Filter: PR > 10 AND not closed
-            const filteredStudents = studentsData.filter(student => 
-                student.pr > 10 && !closedPRs.has(student.pr)
-            );
+            // Filter: PR not closed
+            const filteredStudents = studentsData.filter(student => !closedPRs.has(student.pr));
             
-            const totalStudents = studentsData.filter(s => s.pr > 10).length;
+            const totalStudents = studentsData.length;
             const closedCount = totalStudents - filteredStudents.length;
             
             if (closedCount > 0) {

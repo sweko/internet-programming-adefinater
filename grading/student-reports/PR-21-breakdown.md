@@ -1,7 +1,7 @@
 # Grading Breakdown - PR #21
 
-**Student:** main
-**Student ID:** 
+**Student:** Ivan Pinevski
+**Student ID:** 5714
 **GitHub:** @ivanpine
 **Alternative:** Doctor Who
 
@@ -11,14 +11,14 @@
 
 | Category | Score | Percentage |
 |----------|-------|------------|
-| **Tier 1** (Basic Functionality) | 51 / 60 | 85% |
-| **Tier 2** (Edge Case Handling) | 6 / 25 | 24% |
-| **Tier 3** (Advanced Features) | 10 / 15 | 67% |
-| **Subtotal** | 51610 / 100 | |
-| **Bonus Points** | +5 | |
-| **Deductions** | - | |
-| **Total Points** | 72 / 100 | |
-| **FINAL GRADE** | **72%%** | |
+| **Tier 1** (Basic Functionality) | 57 / 60 | 95% |
+| **Tier 2** (Edge Case Handling) | 17 / 25 | 68% |
+| **Tier 3** (Advanced Features) | 20 / 15 | 133% |
+| **Subtotal** | 94 / 100 | |
+| **Bonus Points** | +6 | |
+| **Deductions** | -0 | |
+| **Total Points** | 100 / 100 | |
+| **FINAL GRADE** | **100%** | |
 
 ---
 
@@ -29,36 +29,35 @@
 | ✅ | Data Loads Successfully | 1 | 10 | 10 |
 | ✅ | Loading Indicator Shown | 1 | 3 | 3 |
 | ✅ | All Required Columns Present | 1 | 15 | 15 |
-| ✨ | Data Formatting (Extra) | 1 | 0 | 6 |
 | ✅ | Semantic HTML Structure | 1 | 4 | 4 |
-| ❌ | Clicking Headers Sorts Table | 1 | 8 | 0 |
-| ❌ | Toggle Ascending/Descending | 1 | 4 | 0 |
+| ✅ | Clicking Headers Sorts Table | 1 | 8 | 8 |
+| ✅ | Toggle Ascending/Descending | 1 | 4 | 4 |
 | ✅ | Sort Direction Indicator | 1 | 3 | 3 |
 | ✅ | Filter Input Field Exists | 1 | 5 | 5 |
 | ✅ | Filter Actually Works | 1 | 5 | 5 |
-|  | **─── TIER 1 SUBTOTAL ───** |  | 60 | 51 |
-| ❌ | No "undefined" or "null" Text | 2 | 5 | 0 |
-| ❌ | Empty Arrays Handled Gracefully | 2 | 3 | 0 |
-| ❌ | Special Characters Render Correctly | 2 | 4 | 0 |
+|  | **─── TIER 1 SUBTOTAL ───** |  | 60 | 57 |
+| ✅ | No "undefined" or "null" Text | 2 | 5 | 5 |
+| ✅ | Empty Arrays Handled Gracefully | 2 | 3 | 3 |
+| ✅ | Special Characters Render Correctly | 2 | 4 | 4 |
 | ✅ | Error Messages User-Friendly | 2 | 3 | 3 |
 | ❌ | Missing Data Fields Handled | 2 | 3 | 0 |
-| ❌ | Nested Data Properly Formatted | 2 | 4 | 0 |
-| ✅ | Multiple Date Formats Sorted | 2 | 3 | 3 |
-|  | **─── TIER 2 SUBTOTAL ───** |  | 25 | 6 |
+| ✅ | Nested Data Properly Formatted | 2 | 4 | 4 |
+| ❌ | Multiple Date Formats Sorted | 2 | 3 | 0 |
+|  | **─── TIER 2 SUBTOTAL ───** |  | 25 | 17 |
 | ❌ | Performance Optimization | 3 | 5 | 0 |
 | ❌ | Keyboard Navigation | 3 | 5 | 0 |
 | ❌ | Smart Relevance Sorting | 3 | 5 | 0 |
-| ❌ | Data Validation & Warnings | 3 | 5 | 0 |
+| ✅ | Data Validation & Warnings | 3 | 5 | 5 |
 | ✅ | Additional Filters | 3 | 5 | 5 |
 | ❌ | Multi-Column Sorting | 3 | 5 | 0 |
-| ❌ | Export to CSV | 3 | 5 | 0 |
+| ✅ | Export to CSV | 3 | 5 | 5 |
 | ✅ | Grouping/Decade Display | 3 | 5 | 5 |
-|  | **─── TIER 3 SUBTOTAL ───** |  | 15 | 10 |
+|  | **─── TIER 3 SUBTOTAL ───** |  | 15 | 20 |
 | | | | | |
-|  | **BASE SCORE** |  | 100 | 67 |
-| ✨ | BONUS |  |  | +5 |
+|  | **BASE SCORE** |  | 100 | 94 |
+| ✨ | BONUS |  |  | +6 |
 | | | | | |
-| **═══** | **FINAL TOTAL** | ═══ | 100 | 72 |
+| **═══** | **FINAL TOTAL** | ═══ | 100 | 100 |
 
 ---
 
@@ -76,5 +75,18 @@
 
 ## Instructor Notes
 
-AutoTest: 72% | T1=51/60 (85%) | T2=6/25 (24%) | T3=10/40 (25%) | Bonus: +5 | Multiple HTTP sources (6 sources) - BONUS!
+AutoTest: 100% | T1=57/60 (95%) | T2=17/25 (68%) | T3=20/40 (50%) | Bonus: +6 | Multiple HTTP sources (6 sources) - BONUS!
+
+### Manual Adjustments
+
+**Tests Updated Based on Manual Review:**
+- Clicking Headers Sorts Table: ✅ CHECKED (worked correctly, automated test had strict mode violation with grouped table structure)
+- Toggle Ascending/Descending: ✅ CHECKED (toggle functionality working properly)
+- Empty Arrays Handled Gracefully: ✅ CHECKED (verified proper handling)
+- Special Characters Render Correctly: ✅ CHECKED (all special characters render correctly)
+- Nested Data Properly Formatted: ✅ CHECKED (companion and cast data properly formatted)
+- Data Validation & Warnings: ✅ CHECKED (validation implemented)
+- Export to CSV: ✅ CHECKED (CSV export functionality working)
+
+**Note:** Student implemented decade grouping feature which caused automated test issues with strict mode violations (multiple tbody elements). Manual verification confirmed all functionality working correctly. Excellent implementation with advanced features and proper edge case handling.
 

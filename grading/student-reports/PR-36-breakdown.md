@@ -1,7 +1,7 @@
 # Grading Breakdown - PR #36
 
-**Student:** BorjanAngelkovski_5839
-**Student ID:** 
+**Student:** Borjan Angelkovski
+**Student ID:** 5839
 **GitHub:** @BorjanAngelkovski
 **Alternative:** Doctor Who
 
@@ -11,14 +11,14 @@
 
 | Category | Score | Percentage |
 |----------|-------|------------|
-| **Tier 1** (Basic Functionality) | 40 / 60 | 67% |
+| **Tier 1** (Basic Functionality) | 30 / 60 | 50% |
 | **Tier 2** (Edge Case Handling) | 6 / 25 | 24% |
-| **Tier 3** (Advanced Features) | 5 / 15 | 33% |
-| **Subtotal** | 4065 / 100 | |
-| **Bonus Points** | +0 | |
-| **Deductions** | - | |
-| **Total Points** | 51 / 100 | |
-| **FINAL GRADE** | **51%%** | |
+| **Tier 3** (Advanced Features) | 15 / 15 | 100% |
+| **Subtotal** | 51 / 100 | |
+| **Bonus Points** | +5 | |
+| **Deductions** | -0 | |
+| **Total Points** | 56 / 100 | |
+| **FINAL GRADE** | **56%** | |
 
 ---
 
@@ -26,7 +26,7 @@
 
 | Status | Test | Tier | Max Pts | Earned |
 |--------|------|------|---------|--------|
-| ✅ | Data Loads Successfully | 1 | 10 | 10 |
+| ❌ | Data Loads Successfully | 1 | 10 | 0 |
 | ✅ | Loading Indicator Shown | 1 | 3 | 3 |
 | ✅ | All Required Columns Present | 1 | 15 | 15 |
 | ✅ | Semantic HTML Structure | 1 | 4 | 4 |
@@ -35,7 +35,7 @@
 | ✅ | Sort Direction Indicator | 1 | 3 | 3 |
 | ✅ | Filter Input Field Exists | 1 | 5 | 5 |
 | ❌ | Filter Actually Works | 1 | 5 | 0 |
-|  | **─── TIER 1 SUBTOTAL ───** |  | 60 | 40 |
+|  | **─── TIER 1 SUBTOTAL ───** |  | 60 | 30 |
 | ❌ | No "undefined" or "null" Text | 2 | 5 | 0 |
 | ❌ | Empty Arrays Handled Gracefully | 2 | 3 | 0 |
 | ❌ | Special Characters Render Correctly | 2 | 4 | 0 |
@@ -47,16 +47,17 @@
 | ❌ | Performance Optimization | 3 | 5 | 0 |
 | ❌ | Keyboard Navigation | 3 | 5 | 0 |
 | ❌ | Smart Relevance Sorting | 3 | 5 | 0 |
-| ❌ | Data Validation & Warnings | 3 | 5 | 0 |
+| ✅ | Data Validation & Warnings | 3 | 5 | 5 |
 | ✅ | Additional Filters | 3 | 5 | 5 |
 | ❌ | Multi-Column Sorting | 3 | 5 | 0 |
 | ❌ | Export to CSV | 3 | 5 | 0 |
-| ❌ | Grouping/Decade Display | 3 | 5 | 0 |
-|  | **─── TIER 3 SUBTOTAL ───** |  | 15 | 5 |
+| ✅ | Grouping/Decade Display | 3 | 5 | 5 |
+|  | **─── TIER 3 SUBTOTAL ───** |  | 15 | 15 |
 | | | | | |
 |  | **BASE SCORE** |  | 100 | 51 |
+| ✨ | BONUS |  |  | +5 |
 | | | | | |
-| **═══** | **FINAL TOTAL** | ═══ | 100 | 51 |
+| **═══** | **FINAL TOTAL** | ═══ | 100 | 56 |
 
 ---
 
@@ -74,5 +75,17 @@
 
 ## Instructor Notes
 
-AutoTest: 51% | T1=40/60 (67%) | T2=6/25 (24%) | T3=5/40 (13%) | Single HTTP source (expected)
+AutoTest: 56% | T1=30/60 (50%) | T2=6/25 (24%) | T3=15/40 (38%) | Bonus: +5 | Single HTTP source (expected)
+
+### Manual Adjustments
+
+**Tests Updated Based on Manual Review:**
+- Data Loads Successfully: ❌ UNCHECKED (data loading failed or incomplete)
+- Data Validation & Warnings: ✅ CHECKED (validation and warnings implemented)
+- Grouping/Decade Display: ✅ CHECKED (decade grouping feature working)
+
+**Bonus Points Awarded (+5 total):**
+- +5 pts: Partial data loading (data loads but with issues/incompleteness)
+
+**Note:** Student implemented 3 advanced features (100% on Tier 3 core requirements) but has significant issues with basic functionality. Data loading is partial (bonus awarded for effort), and weak edge case handling (24% on Tier 2) indicates fundamental problems. Decade grouping implementation caused automated test failures (strict mode violations with multiple tbody elements), but feature verified working through manual review.
 
