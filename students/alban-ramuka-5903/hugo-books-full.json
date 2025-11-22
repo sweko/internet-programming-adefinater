@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "title": "The Time Traveler's Guide",
+    "author": "A. Author",
+    "publisher": "Chronicle Press",
+    "award": { "year": 1965, "is_winner": true, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Science Fiction", "Time Travel"]
+  },
+  {
+    "id": 2,
+    "title": "The Doctor's Wife",
+    "author": "Señor Doctor",
+    "publisher": "Gallifrey Books",
+    "award": { "year": "1970", "is_winner": false, "category": "Best Novel" },
+    "series": "Doctor Adventures",
+    "genres": "Drama, Sci-Fi"
+  },
+  {
+    "id": 3,
+    "title": "The \"Deadly\" Assassin",
+    "author": "Jane Roe",
+    "publisher": "TARDIS Publishing",
+    "award": { "year": 1980, "is_winner": true, "category": "Best Novel" },
+    "series": { "name": "Assassin Trilogy", "order": 1 },
+    "genres": ["Thriller"]
+  },
+  {
+    "id": 4,
+    "title": "Doctor Who - The Movie",
+    "author": "John Smith",
+    "publisher": "BBC Books",
+    "award": { "year": 1996, "is_winner": false, "category": "Best Novel" },
+    "series": { "name": "TV Specials", "order": 1 },
+    "genres": []
+  },
+  {
+    "id": 5,
+    "title": "Bad Wolf / The Parting of the Ways",
+    "author": "R. Tennant",
+    "publisher": "Bad Wolf Press",
+    "award": { "year": 2006, "is_winner": true, "category": "Best Novel" },
+    "series": "Modern Run",
+    "genres": ["Adventure", "Sci-Fi"]
+  },
+  {
+    "id": 6,
+    "title": "Time (Part 1)",
+    "author": "Amy Pond",
+    "publisher": "Rory Publishing",
+    "award": { "year": 2010, "is_winner": false, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Drama"]
+  },
+  {
+    "id": 7,
+    "title": "Echoes of Gallifrey",
+    "author": "Clara Oswald",
+    "publisher": "Companion Books",
+    "award": { "year": 2012, "is_winner": true, "category": "Best Novel" },
+    "series": { "name": "Gallifrey Stories", "order": 2 },
+    "genres": ["Science Fiction"]
+  },
+  {
+    "id": 8,
+    "title": "The Long Goodbye",
+    "author": "M. Moffat",
+    "publisher": "BBC Books",
+    "award": { "year": 2013, "is_winner": false, "category": "Best Novel" },
+    "series": "Standalone",
+    "genres": ["Drama", "Mystery"]
+  },
+  {
+    "id": 9,
+    "title": "Shadows of the Past",
+    "author": "Steven Moffat",
+    "publisher": "Hush Hush",
+    "award": { "year": 2014, "is_winner": true, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Horror", "Sci-Fi"]
+  },
+  {
+    "id": 10,
+    "title": "A Very Long Title That Tests Wrapping And Truncation In The Table Layout",
+    "author": "L. Longname",
+    "publisher": "Layout Press",
+    "award": { "year": 2015, "is_winner": false, "category": "Best Novel" },
+    "series": { "name": "Long Series Name", "order": 3 },
+    "genres": ["Experimental"]
+  },
+  {
+    "id": 11,
+    "title": "The Return",
+    "author": "River Song",
+    "publisher": "Silence Books",
+    "award": { "year": 2016, "is_winner": true, "category": "Best Novel" },
+    "series": null,
+    "genres": ["Adventure"]
+  },
+  {
+    "id": 12,
+    "title": "Fragments",
+    "author": "N. Ganesh",
+    "publisher": "Fragments Press",
+    "award": { "year": 2017, "is_winner": false, "category": "Best Novel" },
+    "series": "Fragments",
+    "genres": "Speculative Fiction"
+  },
+  {
+    "id": 13,
+    "title": "Under the Lake",
+    "author": "Polly Wright",
+    "publisher": "Oceanic",
+    "award": { "year": 2018, "is_winner": true, "category": "Best Novel" },
+    "series": { "name": "Lake Tales", "order": 1 },
+    "genres": ["Mystery", "Sci-Fi"]
+  },
+  {
+    "id": 14,
+    "title": "Heaven Sent",
+    "author": "Clara Oswald",
+    "publisher": "Prison Books",
+    "award": { "year": 2019, "is_winner": false, "category": "Best Novel" },
+    "series": false,
+    "genres": []
+  },
+  {
+    "id": 15,
+    "title": "The Girl Who Waited",
+    "author": "Amy Pond",
+    "publisher": "Companion Press",
+    "award": { "year": 2020, "is_winner": true, "category": "Best Novel" },
+    "series": "Companion Stories",
+    "genres": ["Romance", "Sci-Fi"]
+  },
+  {
+    "id": 16,
+    "title": "A Stitch in Time",
+    "author": "The Doctor",
+    "publisher": "Time Lords",
+    "award": { "year": 2021, "is_winner": false, "category": "Best Novel" },
+    "series": { "name": "Time Trilogy", "order": 2 },
+    "genres": ["Sci-Fi"]
+  },
+  {
+    "id": 17,
+    "title": "The Empty Child",
+    "author": "C. Pond",
+    "publisher": "Sky Publishing",
+    "award": { "year": 2022, "is_winner": true, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Horror"]
+  },
+  {
+    "id": 18,
+    "title": "The Waters of Mars",
+    "author": "Adrian S",
+    "publisher": "Mars House",
+    "award": { "year": 2023, "is_winner": false, "category": "Best Novel" },
+    "series": "Mars Stories",
+    "genres": ["Sci-Fi", "Thriller"]
+  },
+  {
+    "id": 19,
+    "title": "Nightmare in Silver",
+    "author": "Neil Gaiman",
+    "publisher": "Dream Press",
+    "award": { "year": 2024, "is_winner": true, "category": "Best Novel" },
+    "series": { "name": "Silver Saga", "order": 1 },
+    "genres": ["Fantasy"]
+  },
+  {
+    "id": 20,
+    "title": "Doctor Who: A Brief History",
+    "author": "S. Who",
+    "publisher": "History House",
+    "award": { "year": 2025, "is_winner": false, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Non-Fiction"]
+  },
+  {
+    "id": 21,
+    "title": "Future Tale",
+    "author": "F. Future",
+    "publisher": "Tomorrow Press",
+    "award": { "year": 2030, "is_winner": false, "category": "Best Novel" },
+    "series": "Future Series",
+    "genres": ["Sci-Fi"]
+  },
+  {
+    "id": 22,
+    "title": "Zero Rank",
+    "author": "Null Author",
+    "publisher": "Void",
+    "award": { "year": 2000, "is_winner": true, "category": "Best Novel" },
+    "series": false,
+    "genres": []
+  },
+  {
+    "id": -1,
+    "title": "Negative Rank",
+    "author": "Strange One",
+    "publisher": "Oddities",
+    "award": { "year": 1999, "is_winner": false, "category": "Best Novel" },
+    "series": { "name": "Odd Series", "order": 0 },
+    "genres": ["Weird"]
+  },
+  {
+    "id": 23,
+    "title": "",
+    "author": "Missing Title",
+    "publisher": "Nowhere",
+    "award": { "year": 1988, "is_winner": false, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Unknown"]
+  },
+  {
+    "id": 24,
+    "title": "Accentué: L'étoile",
+    "author": "François",
+    "publisher": "Éditions Galaxie",
+    "award": { "year": 1995, "is_winner": true, "category": "Best Novel" },
+    "series": "French Tales",
+    "genres": ["Literary", "Sci-Fi"]
+  },
+  {
+    "id": 25,
+    "title": "Slash / Backslash",
+    "author": "S. Slash",
+    "publisher": "Punctuations",
+    "award": { "year": 1992, "is_winner": false, "category": "Best Novel" },
+    "series": false,
+    "genres": "Experimental"
+  },
+  {
+    "id": 26,
+    "title": "Compound-Title: The Return",
+    "author": "Hy-phen",
+    "publisher": "Hyphen House",
+    "award": { "year": 1985, "is_winner": true, "category": "Best Novel" },
+    "series": { "name": "Hyphen Saga", "order": 4 },
+    "genres": ["Adventure"]
+  },
+  {
+    "id": 27,
+    "title": "Multiple Writers",
+    "author": "Writer A & Writer B",
+    "publisher": "Collaborative",
+    "award": { "year": 1977, "is_winner": false, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Anthology"]
+  },
+  {
+    "id": 28,
+    "title": "The Silent Night",
+    "author": "Nocturne",
+    "publisher": "Night Press",
+    "award": { "year": 1969, "is_winner": true, "category": "Best Novel" },
+    "series": { "name": "Night Series", "order": 1 },
+    "genres": ["Horror"]
+  },
+  {
+    "id": 29,
+    "title": "Island",
+    "author": "Isla",
+    "publisher": "Sea Press",
+    "award": { "year": 1975, "is_winner": false, "category": "Best Novel" },
+    "series": false,
+    "genres": ["Drama"]
+  },
+  {
+    "id": 30,
+    "title": "Finale",
+    "author": "Ender",
+    "publisher": "Close Books",
+    "award": { "year": 1982, "is_winner": true, "category": "Best Novel" },
+    "series": { "name": "End Series", "order": 3 },
+    "genres": ["Sci-Fi"]
+  }
+]
