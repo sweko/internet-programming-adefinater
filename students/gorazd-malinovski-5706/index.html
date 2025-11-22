@@ -24,30 +24,34 @@
                 <p>Error loading data. Please try again.</p>
             </div>
 
-            <!-- Filters Section -->
-            <section class="filters">
-                <h2>Filters</h2>
-                <div class="filter-controls">
-                    <!-- Title/Author Filter -->
-                    <div class="filter-group">
-                        <label for="nameFilter">Search by title or author:</label>
-                        <input type="text" id="nameFilter" placeholder="Enter title or author name...">
-                    </div>
+        <!-- Filters Section -->
+        <section class="filters">
+            <h2>Filters</h2>
+            <div class="filter-controls">
+            <!-- Title/Author Filter -->
+            <div class="filter-group">
+                <label for="nameFilter">Search by title or author:</label>
+                <input type="text" id="nameFilter" placeholder="Enter title or author name...">
+            </div>
 
-                    <!-- Winner Status Filter -->
-                    <div class="filter-group">
-                        <label for="winnerFilter">Winner status:</label>
-                        <select id="winnerFilter">
-                            <option value="all">All books</option>
-                        </select>
-                    </div>
+        <!-- Winner Status Filter -->
+    <div class="filter-group">
+            <label for="winnerFilter">Winner status:</label>
+            <select id="winnerFilter">
+            <option value="all">All Books</option> <!-- Add this option for all books -->
+            <option value="winner">Winners Only</option>
+            <option value="nominee">Nominees Only</option>
+        </select>
+    </div>
 
-                    <!-- Clear Filters -->
-                    <div class="filter-group">
-                        <button id="clearFilters">Clear Filters</button>
-                    </div>
-                </div>
-            </section>
+
+        <!-- Clear Filters -->
+            <div class="filter-group">
+                <button id="clearFilters">Clear Filters</button>
+            </div>
+            </div>
+        </section>
+
 
             <!-- Results Info -->
             <section class="results-info">
